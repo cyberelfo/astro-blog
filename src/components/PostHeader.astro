@@ -1,0 +1,23 @@
+---
+// component imports
+import { slugify, formatDate } from "../js/utils.js";
+
+const { title, description, date, category, author, image } = Astro.props;
+---
+
+<header>
+    <div class="container">
+        <small>
+            <a href={`category/${slugify(category)}/`} class="badge"
+                >{category}</a
+            >
+        </small>
+        <hi class="h2">{title}</hi>
+        <p>
+            by <a href={`author/${slugify(author)}/`}>{author}</a> • {
+                formatDate(date)
+            }
+        </p>
+    </div>
+    <img src={image.src} width="800" alt={image.alt} />
+</header>

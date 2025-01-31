@@ -1,0 +1,30 @@
+---
+// Component Imports
+import Link from "../components/Link.astro";
+import MainLayout from "../layouts/MainLayout.astro";
+---
+
+<MainLayout title="My blog">
+	<section class="container about" aria-label="About Me">
+		<img
+			src="/images/headshot.jpg"
+			alt="My headshot"
+			width="200"
+			height="330"
+		/>
+		<div class="content">
+			<h1 class="h1">My Blog</h1>
+			<p>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
+				maxime soluta vitae, hic tenetur dicta aspernatur, dolorum quasi
+				perferendis deleniti est magni dignissimos temporibus dolores
+				iure corporis nesciunt impedit repellendus!
+			</p>
+			<Link
+				href="mailto:contato@cafeetv.com.br"
+				style="primary"
+				text="Entre em contato"
+			/>
+		</div>
+	</section>
+</MainLayout>

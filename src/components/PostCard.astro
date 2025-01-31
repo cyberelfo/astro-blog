@@ -1,0 +1,34 @@
+---
+// component imports
+import { slugify, formatDate } from "../js/utils.js";
+import Link from "./Link.astro";
+
+const { frontmatter, url, tagType } = Astro.props;
+
+const Tag = tagType;
+
+const { title, description, date, category, author, image } = frontmatter;
+---
+
+<article class="card">
+    <small>
+        <a href={`/category/${slugify(category)}/`} class="badge">{category}</a>
+    </small>
+    <a href={url} aria-hidden="true" tabindex="-1">
+        <img src={image.src} alt={image.alt} />
+    </a>
+    <div class="content">
+        <div>
+            <Tag class="h3">
+                <a href={url}>{title}</a>
+            </Tag>
+            <small>
+                by <a href={`/author/${slugify(author)}/`}>{author}</a> • {
+                    formatDate(date)
+                }
+            </small>
+        </div>
+        <p>{description}</p>
+        <Link href={url} text="Leia mais" style="secondary" />
+    </div>
+</article>
