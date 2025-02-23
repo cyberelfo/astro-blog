@@ -25,7 +25,13 @@ const relatedPosts = formattedPosts
     .slice(0, 3);
 ---
 
-<MainLayout {title} {description}>
+<MainLayout
+    {title}
+    {description}
+    image={frontmatter.image}
+    {frontmatter}
+    robots={frontmatter.robots}
+>
     <PostHeader {title} {description} {date} {category} {author} {image} />
     <div class="post-content">
         <div class="content">
