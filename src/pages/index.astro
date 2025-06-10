@@ -19,22 +19,22 @@ const formattedPosts = formatBlogPosts(allPosts, {
 <MainLayout title="My blog">
 	<section class="container about" aria-label="About Me">
 		<img
-			src="/images/headshot.jpg"
-			alt="My headshot"
+			src="/images/CAFE_E_TV_crop_transparent_400.png"
+			alt="CafeeTV Logo"
 			width="200"
 			height="330"
 		/>
 		<div class="content">
-			<h1 class="h1">My Blog</h1>
+			<h1 class="h1">Café & TV</h1>
 			<p>
-				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
-				maxime soluta vitae, hic tenetur dicta aspernatur, dolorum quasi
+				Assista as melhores animações do mundo e mergulhe em um mundo de
+				surpresas e aventuras!
 			</p>
-			<Link href="/about/" style="secondary" text="About me" />
+			<Link href="/blog/" style="secondary" text="Assista mais..." />
 		</div>
 	</section>
 	<section class="container" aria-label="New Blog Posts">
-		<h2 class="h1">New Blog Posts</h2>
+		<h2 class="h1">Vídeos novos</h2>
 		<div class="post-container">
 			{
 				formattedPosts.map((post: any) => (

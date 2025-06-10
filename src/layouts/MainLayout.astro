@@ -7,12 +7,17 @@ import Nav from "../components/Nav.astro";
 // style imports
 import "../styles/global.css";
 
-const { title = "My Astro Blog", description = "My first Astro blog" } =
-    Astro.props;
+const {
+    title = "My Astro Blog",
+    description = "My first Astro blog",
+    image,
+    frontmatter,
+    robots,
+} = Astro.props;
 ---
 
 <html lang="en">
-    <MainHead {title} {description} />
+    <MainHead {title} {description} {image} {frontmatter} {robots} />
     <body>
         <Nav />
         <main>

@@ -9,7 +9,8 @@ import RelatedPosts from "../components/RelatedPosts.astro";
 import { formatBlogPosts } from "../js/utils";
 
 const { frontmatter } = Astro.props;
-const { title, description, date, category, author, image } = frontmatter;
+const { title, description, date, category, author, image, youtube } =
+    frontmatter;
 
 const allPosts = Object.values(
     import.meta.glob("../pages/blog/*.md", { eager: true }),
@@ -18,7 +19,7 @@ const formattedPosts = formatBlogPosts(allPosts, { sortByDate: false });
 
 const relatedPosts = formattedPosts
     .filter(
-        (post) =>
+        (post: any) =>
             post.frontmatter.category.toLowerCase() ===
                 category.toLowerCase() && post.frontmatter.title !== title,
     )
@@ -32,7 +33,15 @@ const relatedPosts = formattedPosts
     {frontmatter}
     robots={frontmatter.robots}
 >
-    <PostHeader {title} {description} {date} {category} {author} {image} />
+    <PostHeader
+        {title}
+        {description}
+        {date}
+        {category}
+        {author}
+        {image}
+        {youtube}
+    />
     <div class="post-content">
         <div class="content">
             <slot />
