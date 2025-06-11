@@ -20,9 +20,9 @@ export async function getStaticPaths({ paginate }) {
 const { page } = Astro.props;
 ---
 
-<MainLayout title="My blog">
+<MainLayout title="Café & TV">
     <section class="container" aria-label="New Blog Posts">
-        <h1 class="h1">New Blog Posts</h1>
+        <h1 class="h1">Novos posts</h1>
         <div class="post-container">
             {
                 page.data.map((post: any) => (

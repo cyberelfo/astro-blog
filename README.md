@@ -1,47 +1,94 @@
-# Astro Starter Kit: Minimal
+# My Astro Blog
 
-```sh
-npm create astro@latest -- --template minimal
-```
+A minimal, modern blog built with [Astro](https://astro.build/). This project features posts with Markdown, author pages, categories, related posts, and YouTube video embeds.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+## ✨ Features
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- Blog posts written in Markdown (`src/pages/blog/*.md`)
+- Author and category pages
+- Responsive layout with custom CSS
+- Related posts and category cloud
+- YouTube video embeds in posts
+- SEO and RSS feed support
+- Sitemap generation
 
 ## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
+```
 /
 ├── public/
+│   └── images/           # Static images
 ├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+│   ├── components/       # Astro components (PostHeader, RelatedPosts, etc.)
+│   ├── layouts/          # Layouts for pages and posts
+│   ├── pages/            # Pages and blog posts (Markdown and Astro)
+│   │   ├── blog/         # Blog posts in Markdown
+│   │   ├── author/       # Author pages
+│   │   ├── category/     # Category pages
+│   │   └── ...           # Other pages (about, index, etc.)
+│   ├── styles/           # Global CSS
+│   ├── Data/             # Site metadata
+│   └── js/               # Utility JS functions
+├── package.json
+└── astro.config.mjs
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## 🧑‍💻 Usage
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Install dependencies:
 
-Any static assets, like images, can be placed in the `public/` directory.
+```sh
+npm install
+```
 
-## 🧞 Commands
+Start the development server:
 
-All commands are run from the root of the project, from a terminal:
+```sh
+npm run dev
+```
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Build for production:
 
-## 👀 Want to learn more?
+```sh
+npm run build
+```
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Preview the production build:
+
+```sh
+npm run preview
+```
+
+## 📝 Adding a Blog Post
+
+Add a new Markdown file to `src/pages/blog/` with frontmatter like:
+
+```markdown
+---
+title: My New Post
+date: 2025-06-11
+author: Franklin Amorim
+category: Astro
+youtube: If3wzG43PD8
+image: { src: "/images/my-image.jpg", alt: "Description" }
+description: Short summary of the post
+---
+
+Your post content here.
+```
+
+## 📦 Main Dependencies
+
+- [Astro](https://astro.build/)
+- [astro-embed](https://www.npmjs.com/package/astro-embed) (YouTube, etc.)
+- [@astrojs/rss](https://docs.astro.build/en/guides/rss/)
+- [@astrojs/sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/)
+- [astro-icon](https://www.npmjs.com/package/astro-icon)
+
+## 🌐 Site Metadata
+
+Edit `src/Data/siteData.json` to update the site title, description, and default image.
+
+## 📄 License
+
+MIT

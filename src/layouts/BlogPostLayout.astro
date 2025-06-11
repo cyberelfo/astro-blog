@@ -48,13 +48,13 @@ const relatedPosts = formattedPosts
         </div>
         <div class="sidebar">
             <aside class="container" aria-label="Blog categories">
-                <h2 class="h3">Blog Categories</h2>
+                <h2 class="h3">Categorias</h2>
                 <CategoryCloud />
             </aside>
             {
                 relatedPosts.length > 0 && (
                     <aside class="container" aria-label="Related posts">
-                        <h2 class="h3">Related Posts</h2>
+                        <h2 class="h3">Posts relacionados</h2>
                         <RelatedPosts {relatedPosts} />
                     </aside>
                 )

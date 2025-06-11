@@ -9,20 +9,12 @@ import { slugify, formatBlogPosts } from "../../js/utils";
 export async function getStaticPaths() {
     return [
         {
-            params: { category: slugify("Reference Docs") },
-            props: { name: "Reference Docs" },
+            params: { category: slugify("Animação 2D") },
+            props: { name: "Animação 2D" },
         },
         {
-            params: { category: slugify("General") },
-            props: { name: "General" },
-        },
-        {
-            params: { category: slugify("CSS") },
-            props: { name: "CSS" },
-        },
-        {
-            params: { category: slugify("Astro") },
-            props: { name: "Astro" },
+            params: { category: slugify("Animação 3D") },
+            props: { name: "Animação 3D" },
         },
     ];
 }
@@ -42,7 +34,7 @@ const catPosts = formattedPosts.filter(
 <MainLayout title={name}>
     <section class="container" aria-label={`Posts about ${name}`}>
         <h1 class="h1">
-            Posts about <span>{name}</span>
+            Posts sobre <span>{name}</span>
         </h1>
         <div class="post-container">
             {

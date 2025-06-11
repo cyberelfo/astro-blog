@@ -1,12 +1,20 @@
 export function slugify(text) {
-    return text
-        .toString()
-        .toLowerCase()
-        .replace(/\s+/g, "-") // Replace spaces with -
-        .replace(/[^\w-]+/g, "") // Remove all non-word chars
-        .replace(/--+/g, "-") // Replace multiple - with single -
-        .replace(/^-+/, "") // Trim - from start of text
-        .replace(/-+$/, ""); // Trim - from end of text}
+    if (!text)
+        return '';
+
+    // make lower case and trim
+    var slug = text.toLowerCase().trim();
+
+    // remove accents from charaters
+    slug = slug.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+
+    // replace invalid chars with spaces
+    slug = slug.replace(/[^a-z0-9\s-]/g, ' ').trim();
+
+    // replace multiple spaces or hyphens with a single hyphen
+    slug = slug.replace(/[\s-]+/g, '-');
+
+    return slug;
 }
 
 export function formatDate(date) {
