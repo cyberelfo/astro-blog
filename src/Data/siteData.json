@@ -1,8 +1,8 @@
 {
-    "title": "My Astro Blog",
-    "description": "My musings about the Astro framework",
+    "title": "Café & TV",
+    "description": "Assista as melhores animações do mundo!",
     "image": {
-        "src": "/images/image-default.jpg",
-        "alt": "My Astro Blog"
+        "src": "/images/CAFE_E_TV_crop_transparent_400.png",
+        "alt": "Café & TV"
     }
 }
