@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/BlogPostLayout.astro"
 title: Chop Chop por Birdbox Studio
-date: 2025-04-20
+date: 2012-04-20
 author: Franklin Amorim
 image: {
   src: "/images/chopchop.jpg",
