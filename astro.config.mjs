@@ -6,6 +6,6 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://astro-blog-cip.netlify.app',
+    site: 'https://cafeetv.com.br',
     integrations: [icon(), sitemap()],
 });

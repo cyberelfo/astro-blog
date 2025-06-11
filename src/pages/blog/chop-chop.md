@@ -1,11 +1,11 @@
 ---
 layout: "../../layouts/BlogPostLayout.astro"
-title: Chop Chop from Birdbox Studio
+title: Chop Chop por Birdbox Studio
 date: 2025-04-20
 author: Franklin Amorim
 image: {
   src: "/images/chopchop.jpg",
-  alt: "Chop Chop from Birdbox Studio",
+  alt: "Chop Chop por Birdbox Studio",
 }
 youtube: If3wzG43PD8
 description: Um resgate dramático está em andamento!
