@@ -2,14 +2,14 @@
 layout: "../../layouts/BlogPostLayout.astro"
 title: X-Story
 date: 2016-12-08
-author: Anderson Trindade
+author: Franklin Amorim
 image: {
   src: "/images/x-story.jpg",
   alt: "X-Story",
 }
-vimeo: 190513423
+youtube: 96ds226oA_U
 description: Um resgate dramático está em andamento!
-draft: false
+draft: true
 category: Animação 3D
 ---
 

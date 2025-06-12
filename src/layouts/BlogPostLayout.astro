@@ -9,7 +9,7 @@ import RelatedPosts from "../components/RelatedPosts.astro";
 import { formatBlogPosts } from "../js/utils";
 
 const { frontmatter } = Astro.props;
-const { title, description, date, category, author, image, youtube } =
+const { title, description, date, category, author, image, youtube, vimeo } =
     frontmatter;
 
 const allPosts = Object.values(
@@ -41,6 +41,7 @@ const relatedPosts = formattedPosts
         {author}
         {image}
         {youtube}
+        {vimeo}
     />
     <div class="post-content">
         <div class="content">

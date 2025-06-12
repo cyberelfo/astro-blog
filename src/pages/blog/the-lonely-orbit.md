@@ -7,7 +7,7 @@ image: {
   src: "/images/the-lonely-orbit.png",
   alt: "The Lonely Orbit",
 }
-youtube: XPXhsT0O8fU
+vimeo: 505567499
 description: Premiada animação curta-metragem de ficção científica
 draft: false
 category: Animação 2D
