@@ -8,7 +8,7 @@ image:
   src: /images/el_empleo.png
   alt: El Empleo - Melancolia e crítica social nessa excelente animação argentina
 youtube: cxUuU1jwMgM
-category: animação 2D
+category: Animação 2D
 categories:
 - anima mundi
 - anima mundi 2008

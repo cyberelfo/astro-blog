@@ -9,7 +9,7 @@ image:
   alt: Solidão e pixel art nesta linda animação coreana
 vimeo: 32364450
 tags: []
-category: animacao
+category: Animação 2D
 categories:
 - animacao
 - animacao 2D
