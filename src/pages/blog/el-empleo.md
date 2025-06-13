@@ -1,14 +1,13 @@
 ---
 layout: "../../layouts/BlogPostLayout.astro"
-title: El Empleo - Melancolia e crítica social nessa excelente animação argentina
-description: El Empleo - Melancolia e crítica social nessa excelente animação argentina
+title: El Empleo
+description: Melancolia e crítica social nessa excelente animação argentina
 date: 2011-10-02
 author: Franklin Amorim
 image:
   src: /images/el_empleo.png
   alt: El Empleo - Melancolia e crítica social nessa excelente animação argentina
 youtube: cxUuU1jwMgM
-tags: []
 category: animacao 2D
 categories:
 - anima mundi
@@ -17,8 +16,6 @@ categories:
 - curta
 - video
 - youtube
-okvideo: <iframe width="640" height="360" src="http://www.youtube.com/embed/cxUuU1jwMgM?&autohide=1&rel=0&showinfo=0"
-  frameborder="0" allowfullscreen></iframe>
 draft: false
 ---
 
