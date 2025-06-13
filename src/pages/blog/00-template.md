@@ -12,6 +12,11 @@ description: Um resgate dramático está em andamento!
 draft: true
 category: Animação 3D
 ---
+Imagem vindo de Public
+![xstory_21](/images/the-lonely-orbit.png)
+
+Imagem vinda de private
+![xstory_22](../../assets/images/post-3.jpg)
 
 X-Story, do russo Vitaliy Shushko, é um filme de aventura hi-tech, uma caça ao tesouro com belíssimos cenários e ação extremamente dinâmica, combinando com maestria elementos 3D e 2D.
 

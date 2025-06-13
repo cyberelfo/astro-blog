@@ -13,9 +13,12 @@ draft: false
 category: Animação 2D
 ---
 
-Saindo para o emprego dos seus sonhos, um técnico de satélite mantém a solidão sob controle constantemente enviando mensagens de texto para seus velhos amigos. Depois de negligenciar suas funções, um satélite sai de sua órbita, o que causa o colapso da rede mundial.</p>
+<!-- ![xstory_21](/images/the-lonely-orbit.png) -->
+<!-- ![xstory_22](../../assets/images/post-3.jpg) -->
 
-Belo curta de Frederic Siegel e Benjamin Morard.</p>
+Saindo para o emprego dos seus sonhos, um técnico de satélite mantém a solidão sob controle constantemente enviando mensagens de texto para seus velhos amigos. Depois de negligenciar suas funções, um satélite sai de sua órbita, o que causa o colapso da rede mundial.
+
+Belo curta de Frederic Siegel e Benjamin Morard.
 
 - Direção: Frederic Siegel e Benjamin Morard
 - Música: Luc Gut
