@@ -9,7 +9,7 @@ image:
   alt: Uma divertida homenagem aos desenhos dos anos 80
 youtube: 5Otaq2tmNMM
 tags: []
-category: Animação 2D
+category: Animação 3D
 categories:
 - animacao
 - animacao 2D
