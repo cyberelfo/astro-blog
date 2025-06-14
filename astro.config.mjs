@@ -8,4 +8,8 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
     site: 'https://cafeetv.com.br',
     integrations: [icon(), sitemap()],
+    i18n: {
+        locales: ["pt-br"],
+        defaultLocale: "pt-br",
+    }
 });
