@@ -7,7 +7,7 @@ author: Franklin Amorim
 image:
   src: /images/The-Pyramids-of-Egypt-1.jpg
   alt: Um arqueólogo e seu camelo descobrem o segredo das Pirâmides
-vimeo: 91973305
+youtube: j6PbonHsqW0
 tags: []
 category: Animação 3D
 categories:
