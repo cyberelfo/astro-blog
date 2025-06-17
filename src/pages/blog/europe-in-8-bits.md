@@ -17,10 +17,6 @@ categories:
 - video
 - vimeo
 - Espanha
-heroImage: http://www.cafeetv.com.br/wp-content/uploads/2014/04/Europe-In-8-Bits.png
-okvideo: <iframe src="http://player.vimeo.com/video/90556803?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff"
-  width="729" height="410" frameborder="0" webkitallowfullscreen mozallowfullscreen
-  allowfullscreen></iframe>
 draft: false
 ---
 

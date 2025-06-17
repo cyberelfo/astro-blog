@@ -1,6 +1,7 @@
 ---
 layout: "../../layouts/BlogPostLayout.astro"
 title: X-Story
+description: Um resgate dramático está em andamento!
 date: 2016-12-08
 author: Anderson Trindade
 image: {
@@ -8,9 +9,8 @@ image: {
   alt: "X-Story",
 }
 vimeo: 190513423
-description: Um resgate dramático está em andamento!
-draft: false
 category: Animação 3D
+draft: false
 ---
 
 X-Story, do russo Vitaliy Shushko, é um filme de aventura hi-tech, uma caça ao tesouro com belíssimos cenários e ação extremamente dinâmica, combinando com maestria elementos 3D e 2D.

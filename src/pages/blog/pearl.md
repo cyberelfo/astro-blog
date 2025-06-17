@@ -1,6 +1,7 @@
 ---
 layout: "../../layouts/BlogPostLayout.astro"
 title: Pearl
+description: Animação em Realidade Virtual do Google é Linda e Emocionante
 date: 2016-11-28
 author: Franklin Amorim
 image: {
@@ -8,9 +9,8 @@ image: {
   alt: "Pearl - Animação do Google",
 }
 youtube: WqCH4DNQBUA
-description: Animação em Realidade Virtual do Google é Linda e Emocionante
-draft: false
 category: Animação 3D
+draft: false
 ---
 
  Situado no interior de sua casa (um querido carro), a animação Pearl conta a história de uma menina e seu pai, que cruzam o país perseguindo seus sonhos. É uma história sobre os presentes que entregamos e seu poder de carregar o amor. E encontrar encantamento nos lugares mais improváveis.

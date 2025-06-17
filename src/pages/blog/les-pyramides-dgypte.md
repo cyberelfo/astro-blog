@@ -18,10 +18,6 @@ categories:
 - video
 - vimeo
 - França
-heroImage: http://www.cafeetv.com.br/wp-content/uploads/2014/05/The-Pyramids-of-Egypt-1.jpg
-okvideo: <iframe src="http://player.vimeo.com/video/91973305?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff"
-  width="729" height="410" frameborder="0" webkitallowfullscreen mozallowfullscreen
-  allowfullscreen></iframe>
 draft: false
 ---
 

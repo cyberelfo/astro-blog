@@ -19,9 +19,6 @@ categories:
 - video
 - youtube
 - China
-heroImage: http://www.cafeetv.com.br/wp-content/uploads/2012/09/shanghai-catwoman2.jpeg
-okvideo: <iframe width="640" height="360" src="https://www.youtube.com/embed/dA6KPuUGQz4?rel=0&amp;showinfo=0"
-  frameborder="0" allowfullscreen></iframe>
 draft: false
 ---
 

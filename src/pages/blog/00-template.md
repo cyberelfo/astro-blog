@@ -1,6 +1,7 @@
 ---
 layout: "../../layouts/BlogPostLayout.astro"
 title: X-Story
+description: Um resgate dramático está em andamento!
 date: 2016-12-08
 author: Franklin Amorim
 image: {
@@ -8,15 +9,25 @@ image: {
   alt: "X-Story",
 }
 youtube: 96ds226oA_U
-description: Um resgate dramático está em andamento!
-draft: true
+# vimeo: xxxxx
 category: Animação 3D
+draft: true
 ---
 Imagem vindo de Public
 ![xstory_21](/images/the-lonely-orbit.png)
 
 Imagem vinda de private
 ![xstory_22](../../assets/images/post-3.jpg)
+
+<div class="video-container">
+  <iframe
+      class="responsive-video"
+      src=https://www.youtube.com/embed/7UdPhqzFIRE
+      title="YouTube video player"
+      style="position:absolute;top:0;left:0;width:100%;height:100%;"
+      allowfullscreen
+  ></iframe>
+</div>
 
 X-Story, do russo Vitaliy Shushko, é um filme de aventura hi-tech, uma caça ao tesouro com belíssimos cenários e ação extremamente dinâmica, combinando com maestria elementos 3D e 2D.
 

@@ -17,9 +17,6 @@ categories:
 - video
 - youtube
 - Estados Unidos
-heroImage: http://www.cafeetv.com.br/wp-content/uploads/2014/04/Batman_Strange_Days_Still031.jpg
-okvideo: <iframe width="560" height="315" src="http://www.youtube.com/embed/IFwOS2R9o_8?rel=0"
-  frameborder="0" allowfullscreen></iframe>
 draft: false
 ---
 

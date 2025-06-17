@@ -16,10 +16,6 @@ categories:
 - curta
 - video
 - vimeo
-heroImage: http://ec2-107-22-145-204.compute-1.amazonaws.com/wordpress/wp-content/uploads/2011/11/The-Loner.jpg
-okvideo: <iframe src="http://player.vimeo.com/video/32364450?title=0&amp;byline=0&amp;portrait=0&amp;color=ff9933"
-  width="640" height="360" frameborder="0" webkitAllowFullScreen mozallowfullscreen
-  allowFullScreen></iframe>
 draft: false
 ---
 

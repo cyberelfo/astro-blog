@@ -21,9 +21,6 @@ categories:
 - youtube
 - Dinamarca
 - annecy 2012
-heroImage: http://ec2-107-22-145-204.compute-1.amazonaws.com/wordpress/wp-content/uploads/2012/02/SpaceStallions_660.jpg
-okvideo: <iframe width="640" height="360" src="http://www.youtube.com/embed/5Otaq2tmNMM?&autohide=1&rel=0&showinfo=0"
-  frameborder="0" allowfullscreen></iframe>
 draft: false
 ---
 

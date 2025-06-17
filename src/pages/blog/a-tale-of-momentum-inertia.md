@@ -17,10 +17,6 @@ categories:
 - video
 - vimeo
 - Estados Unidos
-heroImage: http://www.cafeetv.com.br/wp-content/uploads/2014/10/A-Tale-of-Momentum-Inertia-1200x520.jpg
-okvideo: <iframe src="http://player.vimeo.com/video/105788896?portrait=0&amp;color=ffffff"
-  width="729" height="410" frameborder="0" webkitallowfullscreen mozallowfullscreen
-  allowfullscreen></iframe>
 draft: false
 ---
 
