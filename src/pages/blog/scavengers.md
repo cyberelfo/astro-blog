@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/BlogPostLayout.astro"
 title: Scavengers
-description: 
+description: Animação sci-fi fantástica e surreal que mais tarde inspirou a série da HBO.
 date: 2025-06-17
 author: Franklin Amorim
 image: {
@@ -18,6 +18,8 @@ Dirigido por Joseph Bennett e Charles Huettner, Scavengers, de 2016, mergulha o 
 O curta confia inteiramente na animação estilizada, no som ambiental e na direção de arte psicodélica para construir uma atmosfera imersiva e desconcertante. O design das criaturas e paisagens desafia classificações simples, evocando uma biologia desconhecida, onde o corpo e o ambiente parecem se misturar. Há uma sensação constante de descoberta – e de ameaça velada.
 
 O curta foi commissionado pela Cartoon Network, onde foi exibido no bloco Toonami. Entre 2018 e 2019, os criadores expandiram o conceito em um episódio piloto para uma série que, embora não tenha avançado no Adult Swim, foi posteriormente adquirida pela HBO Max. A série, com doze episódios, foi produzida ao longo de dois anos pelos estúdios Titmouse, Inc. e Green Street Pictures, com uma equipe internacional de animadores trabalhando remotamente de países como México, Espanha, Portugal e França.
+
+O curta é realmente fascinante e me lembrou muito a animação francesa "La Planète Sauvage" (1973), de René Laloux, que também apresenta um mundo alienígena surreal e criaturas bizarras.
 
 Scavengers não oferece explicações fáceis. Em vez disso, convida o espectador a refletir sobre o papel do ser humano em mundos que não compreende, sobre adaptação e sobre a fina linha entre a curiosidade e a destruição.
 
