@@ -6,7 +6,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://cafeetv.com.br',
+    site: 'https://www.cafeetv.com.br',
     integrations: [icon(), sitemap()],
     i18n: {
         locales: ["pt-br"],
