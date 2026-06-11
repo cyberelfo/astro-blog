@@ -140,6 +140,28 @@ h6 {
     }
 }
 
+:root[data-theme="light"] {
+    --bkg: var(--bkg--light);
+    --txt: var(--txt--light);
+    --accent: var(--accent--light);
+    --muted: var(--muted--light);
+    color-scheme: light;
+    --_shadow-strength: .25;
+    --_shadow-saturation: 30%;
+    --_shadow-lightness: 62%;
+}
+
+:root[data-theme="dark"] {
+    --bkg: var(--bkg--dark);
+    --txt: var(--txt--dark);
+    --accent: var(--accent--dark);
+    --muted: var(--muted--dark);
+    color-scheme: dark;
+    --_shadow-strength: .75;
+    --_shadow-saturation: 75%;
+    --_shadow-lightness: 6%;
+}
+
 /* prefers reduced motion */
 @media (prefers-reduced-motion: reduce) {
 
@@ -333,14 +355,80 @@ button {
 /* nav */
 
 [aria-label="Primary"] {
+    position: sticky;
+    top: 0;
+    z-index: 100;
     width: 100%;
     padding-block: var(--space-xs);
-    background-color: hsl(var(--muted));
+    background-color: hsla(var(--muted) / 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid hsla(var(--txt) / 0.08);
     box-shadow: var(--shadow-sm);
 
     & ul {
         display: flex;
         gap: var(--space-sm);
+        align-items: center;
+    }
+}
+
+.nav-links-container {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+}
+
+.theme-toggle {
+    background: transparent;
+    box-shadow: none;
+    border: 1px solid transparent;
+    border-radius: var(--radius-full);
+    width: var(--space-lg);
+    height: var(--space-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-2xs);
+    transition: background-color var(--transition-ease-fast), border-color var(--transition-ease-fast);
+}
+
+.theme-toggle:hover {
+    background-color: hsla(var(--txt) / 0.08);
+    border-color: hsla(var(--txt) / 0.15);
+}
+
+.theme-toggle svg {
+    width: 20px;
+    height: 20px;
+    transition: transform var(--transition-squish-slow);
+}
+
+.theme-toggle:hover svg {
+    transform: rotate(15deg) scale(1.1);
+}
+
+/* Theme Toggle Icons Display logic */
+:root[data-theme="light"] .theme-toggle .sun-icon {
+    display: none;
+}
+:root[data-theme="light"] .theme-toggle .moon-icon {
+    display: block;
+}
+:root[data-theme="dark"] .theme-toggle .sun-icon {
+    display: block;
+}
+:root[data-theme="dark"] .theme-toggle .moon-icon {
+    display: none;
+}
+
+/* System dark fallback when JS hasn't run yet */
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .theme-toggle .sun-icon {
+        display: block;
+    }
+    :root:not([data-theme="light"]) .theme-toggle .moon-icon {
+        display: none;
     }
 }
 
@@ -476,6 +564,12 @@ button {
     padding: var(--space-md);
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-sm);
+    transition: transform var(--transition-squish-slow), box-shadow var(--transition-ease-slow);
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--shadow-md);
+    }
 
     & .badge {
         --accent: var(--txt);

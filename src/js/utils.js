@@ -30,7 +30,8 @@ export function formatBlogPosts(posts, {
     limit = 0,
 } = {}) {
     const filteredPosts = posts.reduce((acc, post) => {
-        const { date, draft } = post.frontmatter;
+        const data = post.data || post.frontmatter || {};
+        const { date, draft } = data;
         // filter out draft if true
         if (filterOutDrafts && draft) return acc;
 
@@ -46,7 +47,11 @@ export function formatBlogPosts(posts, {
 
     // sort by date or randomize
     if (sortByDate) {
-        filteredPosts.sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
+        filteredPosts.sort((a, b) => {
+            const dateA = a.data?.date || a.frontmatter?.date;
+            const dateB = b.data?.date || b.frontmatter?.date;
+            return new Date(dateB) - new Date(dateA);
+        });
     } else {
         filteredPosts.sort(() => Math.random() - 0.5);
     }

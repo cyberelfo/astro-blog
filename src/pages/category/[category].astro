@@ -4,30 +4,34 @@ import MainLayout from "../../layouts/MainLayout.astro";
 // Component Imports
 import PostCard from "../../components/PostCard.astro";
 
+// Astro content collections import
+import { getCollection } from "astro:content";
+
 import { slugify, formatBlogPosts } from "../../js/utils";
 
 export async function getStaticPaths() {
-    return [
-        {
-            params: { category: slugify("Animação 2D") },
-            props: { name: "Animação 2D" },
-        },
-        {
-            params: { category: slugify("Animação 3D") },
-            props: { name: "Animação 3D" },
-        },
+    const allPosts = await getCollection("blog");
+    const formattedPosts = formatBlogPosts(allPosts);
+    const allCategories = [
+        ...new Set(
+            formattedPosts.map((post: any) => post.data.category).flat(),
+        ),
     ];
+    return allCategories.map((category: any) => {
+        return {
+            params: { category: slugify(category) },
+            props: { name: category },
+        };
+    });
 }
 
 const { category } = Astro.params;
 const { name } = Astro.props;
 
-const allPosts = Object.values(
-    import.meta.glob("../blog/*.md", { eager: true }),
-);
+const allPosts = await getCollection("blog");
 const formattedPosts = formatBlogPosts(allPosts);
 const catPosts = formattedPosts.filter(
-    (post: any) => slugify(post.frontmatter.category) === category,
+    (post: any) => slugify(post.data.category) === category,
 );
 ---
 
@@ -40,8 +44,8 @@ const catPosts = formattedPosts.filter(
             {
                 catPosts.map((post: any) => (
                     <PostCard
-                        frontmatter={post.frontmatter}
-                        url={post.url}
+                        frontmatter={post.data}
+                        url={`/blog/${post.id}/`}
                         tagType="h2"
                     />
                 ))

@@ -14,22 +14,36 @@ import navData from "../Data/navData";
         <a href="/" class="logomark" aria-label="Go home">
             <img src="/images/logo_small.png" alt="Logo" width="60" />
         </a>
-        <ul>
-            {
-                navData.map((item) => (
-                    <Link
-                        text={item.name}
-                        href={item.path}
-                        style="primary"
-                        isFilled={false}
-                        data-navLink
-                    />
-                ))
-            }
-        </ul>
+        <div class="nav-links-container">
+            <ul>
+                {
+                    navData.map((item) => (
+                        <Link
+                            text={item.name}
+                            href={item.path}
+                            style="primary"
+                            isFilled={false}
+                            data-navLink
+                        />
+                    ))
+                }
+            </ul>
+            <button id="theme-toggle" aria-label="Alterar tema" class="theme-toggle">
+                <Icon name="tabler:sun" class="sun-icon" />
+                <Icon name="tabler:moon" class="moon-icon" />
+            </button>
+        </div>
     </div>
 </nav>
 
 <script>
     import "../js/nav.js";
+
+    const themeToggle = document.getElementById("theme-toggle");
+    themeToggle?.addEventListener("click", () => {
+        const currentTheme = document.documentElement.getAttribute("data-theme");
+        const newTheme = currentTheme === "dark" ? "light" : "dark";
+        document.documentElement.setAttribute("data-theme", newTheme);
+        localStorage.setItem("theme", newTheme);
+    });
 </script>

@@ -5,6 +5,9 @@ import PostHeader from "../components/PostHeader.astro";
 import MainLayout from "./MainLayout.astro";
 import RelatedPosts from "../components/RelatedPosts.astro";
 
+// Astro content collections import
+import { getCollection } from "astro:content";
+
 // Util imports
 import { formatBlogPosts } from "../js/utils";
 
@@ -12,16 +15,14 @@ const { frontmatter } = Astro.props;
 const { title, description, date, category, author, image, youtube, vimeo } =
     frontmatter;
 
-const allPosts = Object.values(
-    import.meta.glob("../pages/blog/*.md", { eager: true }),
-);
+const allPosts = await getCollection("blog");
 const formattedPosts = formatBlogPosts(allPosts, { sortByDate: false });
 
 const relatedPosts = formattedPosts
     .filter(
         (post: any) =>
-            post.frontmatter.category.toLowerCase() ===
-                category.toLowerCase() && post.frontmatter.title !== title,
+            post.data.category.toLowerCase() ===
+                category.toLowerCase() && post.data.title !== title,
     )
     .slice(0, 3);
 ---

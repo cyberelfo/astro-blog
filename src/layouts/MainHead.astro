@@ -5,6 +5,16 @@ const { title, description, image, frontmatter, robots } = Astro.props;
 ---
 
 <head>
+    <script is:inline>
+        const getTheme = () => {
+            if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
+                return localStorage.getItem("theme");
+            }
+            return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        };
+        const theme = getTheme();
+        document.documentElement.setAttribute("data-theme", theme);
+    </script>
     <meta charset="utf-8" />
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />

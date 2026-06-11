@@ -5,17 +5,21 @@ const { relatedPosts } = Astro.props;
 ---
 
 {
-    relatedPosts.map((post) => (
-        <div class="post">
-            <h3 class="h4">
-                <a href={post.url}>{post.frontmatter.title}</a>
-            </h3>
-            <small>
-                <a href={`/author/${slugify(post.frontmatter.author)}/`}>
-                    {post.frontmatter.author}
-                </a>{" "}
-                • {formatDate(post.frontmatter.date)}
-            </small>
-        </div>
-    ))
+    relatedPosts.map((post) => {
+        const data = post.data || post.frontmatter || {};
+        const url = post.url || `/blog/${post.id}/`;
+        return (
+            <div class="post">
+                <h3 class="h4">
+                    <a href={url}>{data.title}</a>
+                </h3>
+                <small>
+                    <a href={`/author/${slugify(data.author)}/`}>
+                        {data.author}
+                    </a>{" "}
+                    • {formatDate(data.date)}
+                </small>
+            </div>
+        );
+    })
 }

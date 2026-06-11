@@ -1,12 +1,11 @@
 ---
+import { getCollection } from "astro:content";
 import { formatBlogPosts, slugify } from "../js/utils";
 
-const allPosts = Object.values(
-    import.meta.glob("../pages/blog/*.md", { eager: true }),
-);
+const allPosts = await getCollection("blog");
 const formattedPosts = formatBlogPosts(allPosts);
 const allCategories = formattedPosts
-    .map((cat) => cat.frontmatter.category.toLowerCase())
+    .map((cat) => cat.data.category.toLowerCase())
     .flat();
 
 const processedCats = allCategories.reduce((acc, category) => {
@@ -18,8 +17,6 @@ const processedCats = allCategories.reduce((acc, category) => {
         [category]: value + 1,
     };
 }, {});
-
-// console.log(processedCats);
 
 const { showCount } = Astro.props;
 ---

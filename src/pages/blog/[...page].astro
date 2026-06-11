@@ -5,11 +5,14 @@ import MainLayout from "../../layouts/MainLayout.astro";
 import Pagination from "../../components/Pagination.astro";
 import CategoryCloud from "../../components/CategoryCloud.astro";
 
+// Astro content collections import
+import { getCollection } from "astro:content";
+
 // utils imports
 import { formatBlogPosts } from "../../js/utils";
 
 export async function getStaticPaths({ paginate }) {
-    const allPosts = Object.values(import.meta.glob("./*.md", { eager: true }));
+    const allPosts = await getCollection("blog");
     const formattedPosts = formatBlogPosts(allPosts);
 
     return paginate(formattedPosts, {
@@ -27,8 +30,8 @@ const { page } = Astro.props;
             {
                 page.data.map((post: any) => (
                     <PostCard
-                        frontmatter={post.frontmatter}
-                        url={post.url}
+                        frontmatter={post.data}
+                        url={`/blog/${post.id}/`}
                         tagType="h2"
                     />
                 ))
