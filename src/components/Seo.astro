@@ -16,6 +16,10 @@ const jsonLD = jsonLDGenerator({
     post: frontmatter,
     url,
 });
+
+const siteUrl = Astro.site || 'https://www.cafeetv.com.br';
+const relativeImageSrc = image?.src || siteData.image.src;
+const absoluteImageUrl = new URL(relativeImageSrc, siteUrl).toString();
 ---
 
 <!-- SEO -->
@@ -26,11 +30,11 @@ const jsonLD = jsonLDGenerator({
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:url" content={url} />
-<meta property="og:image" content={image?.src || siteData.image.src} />
-<meta property="og:image:url" content={image?.src || siteData.image.src} />
+<meta property="og:image" content={absoluteImageUrl} />
+<meta property="og:image:url" content={absoluteImageUrl} />
 <meta
     property="og:image:secure_url"
-    content={image?.src || siteData.image.src}
+    content={absoluteImageUrl}
 />
 <meta property="og:image:type" content="image/jpeg" />
 <meta property="og:image:width" content="1200" />
@@ -41,7 +45,7 @@ const jsonLD = jsonLDGenerator({
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content={description} />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content={image?.src || siteData.image.src} />
+<meta name="twitter:image" content={absoluteImageUrl} />
 <meta name="twitter:image:alt" content={title} />
 <meta name="twitter:domain" content={import.meta.env.SITE} />
 

@@ -1,6 +1,7 @@
 ---
 // component imports
 import { slugify, formatDate } from "../js/utils.js";
+import { YouTube } from "astro-embed";
 
 const { title, description, date, category, author, image, youtube, vimeo } =
     Astro.props;
@@ -24,12 +25,10 @@ const { title, description, date, category, author, image, youtube, vimeo } =
     <div class="video-container">
         {
             youtube && (
-                <iframe
+                <YouTube
+                    id={youtube}
                     class="responsive-video"
-                    src={`https://www.youtube.com/embed/${youtube}`}
-                    title="YouTube video player"
-                    style="position:absolute;top:0;left:0;width:100%;height:100%;"
-                    allowfullscreen
+                    posterQuality="maxresdefault"
                 />
             )
         }

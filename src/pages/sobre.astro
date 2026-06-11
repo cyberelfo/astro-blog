@@ -2,15 +2,19 @@
 // Component Imports
 import Link from "../components/Link.astro";
 import MainLayout from "../layouts/MainLayout.astro";
+
+// Astro assets import
+import { Image } from "astro:assets";
+import logoImage from "../assets/images/CAFE_E_TV_crop_transparent_400.png";
 ---
 
 <MainLayout title="Café e TV">
 	<section class="container about" aria-label="About Me">
-		<img
-			src="/images/CAFE_E_TV_crop_transparent_400.png"
+		<Image
+			src={logoImage}
 			alt="Café e TV Logo"
-			width="200"
-			height="330"
+			width={200}
+			height={330}
 		/>
 		<div class="content">
 			<h1 class="h1">Café e TV</h1>

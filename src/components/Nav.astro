@@ -1,6 +1,8 @@
 ---
 // library imports
 import { Icon } from "astro-icon/components";
+import { Image } from "astro:assets";
+import logoImg from "../assets/images/logo_small.png";
 
 // component imports
 import Link from "./Link.astro";
@@ -12,7 +14,7 @@ import navData from "../Data/navData";
 <nav aria-label="Primary">
     <div class="navbar">
         <a href="/" class="logomark" aria-label="Go home">
-            <img src="/images/logo_small.png" alt="Logo" width="60" />
+            <Image src={logoImg} alt="Logo" width={60} />
         </a>
         <div class="nav-links-container">
             <ul>

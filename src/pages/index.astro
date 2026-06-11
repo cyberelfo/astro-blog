@@ -5,8 +5,10 @@ import MainLayout from "../layouts/MainLayout.astro";
 import PostCard from "../components/PostCard.astro";
 import Link from "../components/Link.astro";
 
-// Astro content collections import
+// Astro assets and content collections import
+import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
+import logoImage from "../assets/images/CAFE_E_TV_crop_transparent_400.png";
 
 // utils imports
 import { formatBlogPosts } from "../js/utils";
@@ -19,11 +21,11 @@ const formattedPosts = formatBlogPosts(allPosts, {
 
 <MainLayout title="Café & TV">
 	<section class="container about" aria-label="About Me">
-		<img
-			src="/images/CAFE_E_TV_crop_transparent_400.png"
+		<Image
+			src={logoImage}
 			alt="CafeeTV Logo"
-			width="200"
-			height="330"
+			width={200}
+			height={330}
 		/>
 		<div class="content">
 			<h1 class="h1">Café & TV</h1>
