@@ -1,0 +1,67 @@
+---
+// Component Imports
+import PostCard from "../components/PostCard.astro";
+import MainLayout from "../layouts/MainLayout.astro";
+import Pagination from "../components/Pagination.astro";
+import CategoryCloud from "../components/CategoryCloud.astro";
+
+// Astro assets and content collections import
+import { Image } from "astro:assets";
+import { getCollection } from "astro:content";
+import logoImage from "../assets/images/CAFE_E_TV_crop_transparent_400.png";
+
+// utils imports
+import { formatBlogPosts } from "../js/utils";
+
+export async function getStaticPaths({ paginate }) {
+    const allPosts = await getCollection("blog");
+    const formattedPosts = formatBlogPosts(allPosts);
+
+    return paginate(formattedPosts, {
+        pageSize: 15,
+    });
+}
+
+const { page } = Astro.props;
+---
+
+<MainLayout title="Café & TV">
+    {
+        page.currentPage === 1 && (
+            <section class="container about" aria-label="About Me">
+                <Image
+                    src={logoImage}
+                    alt="CafeeTV Logo"
+                    width={200}
+                    height={330}
+                />
+                <div class="content">
+                    <h1 class="h1">Café & TV</h1>
+                    <p>
+                        Assista as melhores animações do mundo e mergulhe em um mundo de
+                        surpresas e aventuras!
+                    </p>
+                </div>
+            </section>
+        )
+    }
+    <section class="container" aria-label="New Blog Posts">
+        <h2 class="h1">{page.currentPage === 1 ? "Últimos posts" : "Posts anteriores"}</h2>
+        <div class="post-container">
+            {
+                page.data.map((post: any) => (
+                    <PostCard
+                        frontmatter={post.data}
+                        url={`/blog/${post.id}/`}
+                        tagType="h3"
+                    />
+                ))
+            }
+        </div>
+        <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
+    </section>
+    <aside class="container" aria-label="Blog categories">
+        <h2 class="h3">Categorias</h2>
+        <CategoryCloud showCount={true} />
+    </aside>
+</MainLayout>
