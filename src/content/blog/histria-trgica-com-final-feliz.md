@@ -17,7 +17,7 @@ categories:
 - curta
 - video
 - youtube
-draft: false
+draft: true
 ---
 
 Algumas pessoas são diferentes das outras, quando tudo que querem é ser iguais. Há pessoas que passam a vida toda escondendo suas diferenças enquanto outras pessoas assumem sua originalidade...

@@ -18,7 +18,7 @@ categories:
 - curta
 - video
 - youtube
-draft: false
+draft: true
 ---
 
 _Seleção oficial Anima Mundi 2011._ Um macaco, que passou a vida inteira exercendo uma profissão com a qual não se identifica, começa a se questionar sobre sua verdadeira vocação. Beleza e qualidade técnica no primeiro filme de Marco Túlio.

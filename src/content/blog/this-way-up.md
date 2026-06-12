@@ -17,7 +17,7 @@ categories:
 - animacao 3D
 - video
 - youtube
-draft: false
+draft: true
 ---
 
 Quando uma pedra desliza e esmaga o seu carro funerário, a A.T. Shank & Son sabe que vai ter um dia ruim... Tendo como única companhia um caixão, esta estranha dupla terá de enfrentar várias armadilhas emocionais e literais no seu caminho até a sepultura. Este ótimo filme, indicado ao Oscar 2009 de Melhor Animação Curta-metragem, traz de volta a diversão aos funerais!

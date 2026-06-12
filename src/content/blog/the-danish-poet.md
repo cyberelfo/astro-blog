@@ -19,7 +19,7 @@ categories:
 - video
 - youtube
 - National Film Board of Canada
-draft: false
+draft: true
 ---
 
 Podemos traçar a cadeia de eventos que leva ao nosso próprio nascimento? É a nossa existência apenas uma coincidência? Não importam as pequenas coisas? A narradora de **The Danish Poet** considera essas questões enquanto seguimos Kasper, um poeta cuja criatividade secou, em uma viagem para a Noruega para conhecer o famoso escritor Sigrid Undset. Enquanto a busca de Kasper pela inspiração se desenrola, parece que um período de mau tempo, um cão raivoso, um carteiro descuidado, cabras famintas e outros fatores aparentemente sem relação podem desempenhar um papel importante no grande esquema das coisas. Vencedor do Oscar 2007 de Melhor Curta de Animação.

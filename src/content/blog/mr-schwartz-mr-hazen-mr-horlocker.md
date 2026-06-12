@@ -18,7 +18,7 @@ categories:
 - curta
 - video
 - youtube
-draft: false
+draft: true
 ---
 
 Incomodado com a música alta que vem do vizinho, o Sr. Schwartz chama a polícia. Mas o oficial diz que não pode fazer nada. O filme recomeça, mostrando o que está acontecendo em cada apartamento.

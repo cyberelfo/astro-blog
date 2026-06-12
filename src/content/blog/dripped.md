@@ -17,7 +17,7 @@ categories:
 - curta
 - video
 - youtube
-draft: false
+draft: true
 ---
 
 _Seleção oficial Anima Mundi 2011._ Nova York 1950. Jack rouba pinturas dos museus e as esconde em casa... para comer! Ótima animação com uma bela trilha sonora de jazz.

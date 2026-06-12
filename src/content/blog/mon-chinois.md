@@ -17,7 +17,7 @@ categories:
 - curta
 - video
 - youtube
-draft: false
+draft: true
 ---
 
 Ganhador do prêmio de melhor curta-metragem pelo juri popular do festival Anima Mundi 2009, esta animação aborda todos os clichês e estereótipos em torno das pessoas asiáticas em geral e os chineses em particular. Para rir e refletir.

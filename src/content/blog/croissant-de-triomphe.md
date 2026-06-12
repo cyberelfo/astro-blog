@@ -17,7 +17,7 @@ categories:
 - Estados Unidos
 - dailymotion
 - Walt Disney Animation
-draft: false
+draft: true
 ---
 
 **Croissant de Triomphe** é o primeiro de uma leva de 19 novos curtas do Mickey que serão lançados no Disney Channel e no site Disney.com. A Disney escolheu Paul Rudish para criar a nova série. Paul é um excelente animador americano formado no CalArts e que ajudou Genndy Tartakovsky a criar séries como o Laboratório de Dexter, As Meninas Super Poderosas, Samurai Jack e Guerra nas Estrelas: As Guerras Clônicas. Ele trabalhou na Hanna-Barbera e depois no Cartoon Network Studios. [![Mickey Mouse Croissant de Triomphe](http://www.cafeetv.com.br/wp-content/uploads/2013/04/Mickey-Mouse-Croissant-de-Triomphe1.jpg)](http://www.cafeetv.com.br/wp-content/uploads/2013/04/Mickey-Mouse-Croissant-de-Triomphe1.jpg)

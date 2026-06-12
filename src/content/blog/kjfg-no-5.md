@@ -17,7 +17,7 @@ categories:
 - curta
 - video
 - youtube
-draft: false
+draft: true
 ---
 
 Três músicos profissionais – o urso, o coelho e o lobo – estão praticando sua arte na floresta quando um caçador aparece...

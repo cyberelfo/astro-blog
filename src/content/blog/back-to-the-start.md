@@ -17,7 +17,7 @@ categories:
 - Reino Unido
 - video
 - youtube
-draft: false
+draft: true
 ---
 
 Uma fazenda aos poucos vai virando uma fábrica... Dica do meu amigo Fernando Assis!

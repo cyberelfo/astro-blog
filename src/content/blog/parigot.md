@@ -17,7 +17,7 @@ categories:
 - curta
 - video
 - youtube
-draft: false
+draft: true
 ---
 
 _Seleção oficial Anima Mundi 2011._ Em uma Paris desproporcional um vagabundo está à procura de comida. Ele sabe tudo desta enorme cidade pois vive nas ruas. Mas desta vez capturar sua presa vai ser mais difícil do que nunca. Seu adversário é um entregador, um personagem completamente oposto a ele, mas que também conhece bem a cidade. Ambos os personagens se enfrentarão em um conflito que não é mais deles, sob o olhar de uma metrópole impiedosa! Mais um excelente filme de graduação da escola Georges Méliès.
