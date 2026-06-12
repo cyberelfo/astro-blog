@@ -5,7 +5,7 @@ description: Coisas fantásticas aparecem em uma mesa de cozinha
 date: 2011-11-15
 author: Franklin Amorim
 image:
-  src: ''
+  src: /images/DontSwimAfterLunch.jpeg
   alt: Coisas fantásticas aparecem em uma mesa de cozinha
 vimeo: 25568485
 tags: []

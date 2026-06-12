@@ -5,7 +5,7 @@ description: Animação Ultra-violenta no melhor estilo Quentin Tarantino
 date: 2011-11-17
 author: Franklin Amorim
 image:
-  src: ''
+  src: /images/DrawPoker.jpg
   alt: Animação Ultra-violenta no melhor estilo Quentin Tarantino
 youtube: Y3j-5vxWins
 tags: []
