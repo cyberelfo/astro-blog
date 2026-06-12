@@ -25,7 +25,7 @@ const hasVideo = youtube || vimeo;
     </div>
     {
         hasVideo ? (
-            <div class="video-container">
+            <div class="video-container" data-youtube={youtube} data-vimeo={vimeo}>
                 {
                     youtube && (
                         <YouTube
@@ -62,3 +62,37 @@ const hasVideo = youtube || vimeo;
         )
     }
 </header>
+
+<script>
+    const container = document.querySelector(".video-container");
+    if (container) {
+        const vimeoId = container.getAttribute("data-vimeo");
+        const youtubeId = container.getAttribute("data-youtube");
+
+        if (vimeoId) {
+            const url = `https://vimeo.com/api/oembed.json?url=https://vimeo.com/${vimeoId}`;
+            fetch(url)
+                .then(res => res.json())
+                .then(data => {
+                    if (data.width && data.height) {
+                        container.style.aspectRatio = `${data.width} / ${data.height}`;
+                        container.style.paddingBottom = "0";
+                        container.style.height = "auto";
+                    }
+                })
+                .catch(err => console.error("Error fetching Vimeo ratio:", err));
+        } else if (youtubeId) {
+            const url = `https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=${youtubeId}`;
+            fetch(url)
+                .then(res => res.json())
+                .then(data => {
+                    if (data.width && data.height) {
+                        container.style.aspectRatio = `${data.width} / ${data.height}`;
+                        container.style.paddingBottom = "0";
+                        container.style.height = "auto";
+                    }
+                })
+                .catch(err => console.error("Error fetching YouTube ratio:", err));
+        }
+    }
+</script>
