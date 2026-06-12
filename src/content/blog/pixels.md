@@ -1,0 +1,28 @@
+---
+layout: ../../layouts/BlogPostLayout.astro
+title: Pixels
+description: Grande vencedor do festival Annecy 2011
+date: 2011-10-11
+author: Franklin Amorim
+image:
+  src: /images/pixels.jpg
+  alt: Grande vencedor do festival Annecy 2011
+vimeo: 10829255
+tags: []
+category: Animação 3D
+categories:
+- animacao
+- animacao 3D
+- annecy 2011
+- curta
+- video
+- vimeo
+draft: false
+---
+
+A invasão de Nova York por criaturas de 8-bits!
+
+- Direção: Patrick Jean
+- Roteiro: Patrick Jean Fotografia: Matias Boucard Efeitos: Patrick Jean and outros
+- Produção: [One More Production](http://www.onemoreproduction.com/)
+- França, 2010
