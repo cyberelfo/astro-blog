@@ -8,9 +8,9 @@ image:
   src: /images/anima-mundi-2013-wide.jpg
   alt: 'Sorteio: kit Anima Mundi 2013'
 tags: []
-category: Uncategorized
+category: anima mundi
 categories:
-- Uncategorized
+- anima mundi
 - promoção
 draft: true
 ---
