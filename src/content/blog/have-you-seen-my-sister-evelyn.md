@@ -16,7 +16,7 @@ categories:
 - curta
 - video
 - youtube
-heroImage: http://ec2-107-22-145-204.compute-1.amazonaws.com/wordpress/wp-content/uploads/2011/10/Have-You-Seen-My-Sister-Evelyn.png
+heroImage: /images/Have-You-Seen-My-Sister-Evelyn.png
 okvideo: <iframe src="http://www.youtube.com/embed/skUK-OlU4H0?&amp;autohide=1&amp;rel=0&amp;showinfo=0";wmode=transparent"
   frameborder="0" width="640" height="360"></iframe>
 draft: false

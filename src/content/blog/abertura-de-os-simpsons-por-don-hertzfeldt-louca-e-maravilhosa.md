@@ -26,5 +26,5 @@ Os produtores de Os Simpsons estão realmente de parabéns. Mais uma vez eles tr
 - WISDOM TEETH http://youtu.be/9W-VGUOiVDc 
 - Everything Will Be Ok https://www.youtube.com/watch?v=1IUX0Qy-IDM 
 
-[![Os Simpsons – Don Hertzfeldt 02](http://www.cafeetv.com.br/wp-content/uploads/2014/10/ simpsons-don-hertzfeldt-couch-gag-laser-time.jpg)](http://www.cafeetv.com.br/wp-content/uploads/2014/10/simpsons-don-hertzfeldt-couch-gag-laser-time.jpg) 
-[![Os Simpsons – Don Hertzfeldt 01](http://www.cafeetv.com.br/wp-content/uploads/2014/10/watch-don-hertzfeldts-mind-bending-simpsons-couch-gag.png)](http://www.cafeetv.com.br/wp-content/uploads/2014/10/watch-don-hertzfeldts-mind-bending-simpsons-couch-gag.png)
+[![Os Simpsons – Don Hertzfeldt 02](/images/simpsons-don-hertzfeldt-couch-gag-laser-time.jpg)](/images/simpsons-don-hertzfeldt-couch-gag-laser-time.jpg) 
+[![Os Simpsons – Don Hertzfeldt 01](/images/watch-don-hertzfeldts-mind-bending-simpsons-couch-gag.png)](/images/watch-don-hertzfeldts-mind-bending-simpsons-couch-gag.png)

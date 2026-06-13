@@ -22,4 +22,4 @@ draft: false
 
 **Coin** é um curta de animação dirigido por Chris Burns. Inspirado nos primeiros jogos de videogame, Coin acompanha a saga de um homem destruindo tudo em seu caminho em busca de vingança.
 
-- Direção: Chris Burns Estados Unidos, 2013 <http://www.exit73studios.com/exit73studios/coin.html> [![Coin 02](http://www.cafeetv.com.br/wp-content/uploads/2014/04/COIN-003.jpg)](http://www.cafeetv.com.br/wp-content/uploads/2014/04/COIN-003.jpg) [![Coin 01](http://www.cafeetv.com.br/wp-content/uploads/2014/04/COIN-001.jpg)](http://www.cafeetv.com.br/wp-content/uploads/2014/04/COIN-001.jpg)
+- Direção: Chris Burns Estados Unidos, 2013 <http://www.exit73studios.com/exit73studios/coin.html> [![Coin 02](/images/COIN-003.jpg)](/images/COIN-003.jpg) [![Coin 01](/images/COIN-001.jpg)](/images/COIN-001.jpg)

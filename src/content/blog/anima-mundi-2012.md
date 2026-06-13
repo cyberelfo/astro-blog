@@ -48,32 +48,32 @@ A lista completa dos selecionados se encontra no [site do festival](http://www.a
 
 ## Lavazza a Modo Mio
 
-## [How To Eat Your Apple](http://www.cafeetv.com.br/how-to-eat-your-apple-filme-independente-de-animador-da-pixar-e-um-saboroso-delirio-surreal.html "How To Eat Your Apple – Filme independente de animador da Pixar é um saboroso delírio surreal")
+## [How To Eat Your Apple](/blog/how-to-eat-your-apple/ "How To Eat Your Apple – Filme independente de animador da Pixar é um saboroso delírio surreal")
 
-## [FriendSheep](http://www.cafeetv.com.br/friendsheep-uma-animacao-sobre-lobos-ovelhas-primeiro-emprego-e-a-amizade-no-ambiente-de-trabalho.html "FriendSheep – Uma animação sobre lobos, ovelhas, primeiro emprego e a amizade no ambiente de trabalho")
+## [FriendSheep](/blog/friendsheep/ "FriendSheep – Uma animação sobre lobos, ovelhas, primeiro emprego e a amizade no ambiente de trabalho")
 
-## [Frictions](http://www.cafeetv.com.br/frictions-um-dancarino-interagindo-com-varios-pedacos-de-papel-em-uma-coreografia-precisa.html "Frictions – Um dançarino interagindo com vários pedaços de papel em uma coreografia precisa")
+## [Frictions](/blog/frictions/ "Frictions – Um dançarino interagindo com vários pedaços de papel em uma coreografia precisa")
 
-## [Little Tombstone](http://www.cafeetv.com.br/little-tombstone-bela-homenagem-aos-faroestes-de-sergio-leone.html "Little Tombstone – Bela homenagem aos faroestes de Sergio Leone")
+## [Little Tombstone](/blog/little-tombstone/ "Little Tombstone – Bela homenagem aos faroestes de Sergio Leone")
 
-## [Plato](http://www.cafeetv.com.br/plato-o-mito-da-caverna-de-platao-revisitado-por-esta-instigante-animacao.html "Plato – O mito da caverna de Platão revisitado por esta instigante animação")
+## [Plato](/blog/plato/ "Plato – O mito da caverna de Platão revisitado por esta instigante animação")
 
-## [Réflexion](http://www.cafeetv.com.br/reflexion-o-espelho-pode-ser-seu-melhor-amigo-ou-inimigo.html "Réflexion – O espelho pode ser seu melhor amigo… ou inimigo")
+## [Réflexion](/blog/rflexion/ "Réflexion – O espelho pode ser seu melhor amigo… ou inimigo")
 
 ## Pythagasaurus (em inglês, sem legendas)
 
-## [Swimming Pool](http://www.cafeetv.com.br/swimming-pool-uma-piscina-no-meio-da-cidade-e-o-cenario-de-uma-historia-de-amor-e-fantasia-em-baixo-dagua.html "Swimming Pool – Uma piscina no meio da cidade é o cenário de uma história de amor e fantasia em baixo d’água")
+## [Swimming Pool](/blog/swimming-pool/ "Swimming Pool – Uma piscina no meio da cidade é o cenário de uma história de amor e fantasia em baixo d’água")
 
-## [Ride of Passage](http://www.cafeetv.com.br/ride-of-passage-um-pequeno-cacador-um-grande-camaleao-e-a-tentativa-de-impressionar-a-tribo.html "Ride of Passage – Um pequeno caçador, um grande camaleão, e a tentativa de impressionar a tribo")
+## [Ride of Passage](/blog/ride-of-passage/ "Ride of Passage – Um pequeno caçador, um grande camaleão, e a tentativa de impressionar a tribo")
 
-## [A Shadow of Blue](http://www.cafeetv.com.br/a-shadow-of-blue-deslumbrada-com-uma-borboleta-esta-garotinha-vai-descobrir-um-mundo-novo-de-sombras-e-fantasias.html "A Shadow of Blue – Deslumbrada com uma borboleta esta garotinha vai descobrir um mundo novo de sombras e fantasias") (use a senha _shadow_)
+## [A Shadow of Blue](/blog/a-shadow-of-blue/ "A Shadow of Blue – Deslumbrada com uma borboleta esta garotinha vai descobrir um mundo novo de sombras e fantasias") (use a senha _shadow_)
 
-## [12 Drawings a Day](http://www.cafeetv.com.br/12-drawings-a-day-animacao-de-denis-chapon.html "12 Drawings a Day – Animacao de Denis Chapon")
+## [12 Drawings a Day](/blog/12-drawings-a-day/ "12 Drawings a Day – Animacao de Denis Chapon")
 
-## [O Homem Que Nunca Tinha Ido Ao Cinema](http://www.cafeetv.com.br/o-homem-que-nunca-tinha-ido-ao-cinema-animacao-2d3d-do-estudio-beeld.html "O Homem Que Nunca Tinha Ido Ao Cinema – Animação 2D/3D do estúdio BEELD")
+## [O Homem Que Nunca Tinha Ido Ao Cinema](/blog/o-homem-que-nunca-tinha-ido-ao-cinema/ "O Homem Que Nunca Tinha Ido Ao Cinema – Animação 2D/3D do estúdio BEELD")
 
-## [Reading Kills](http://www.cafeetv.com.br/reading-kills-animacao-de-beto-gomez.html "Reading Kills – Animação de Beto Gomez")
+## [Reading Kills](/blog/reading-kills/ "Reading Kills – Animação de Beto Gomez")
 
-## [The Night We Were Kings](http://www.cafeetv.com.br/the-night-we-were-kings-mais-uma-otima-animacao-de-estudantes-da-escola-gobelins.html "The Night We Were Kings – Mais uma ótima animação de estudantes da escola Gobelins")
+## [The Night We Were Kings](/blog/the-night-we-were-kings/ "The Night We Were Kings – Mais uma ótima animação de estudantes da escola Gobelins")
 
-## [Moving Pictures](http://www.cafeetv.com.br/moving-pictures-mistura-de-animacao-3d-com-2d-parece-um-conto-de-fadas-moderno-ou-nao.html "Moving Pictures – Mistura de animação 3D com 2D parece um conto de fadas moderno… ou não?")
+## [Moving Pictures](/blog/moving-pictures/ "Moving Pictures – Mistura de animação 3D com 2D parece um conto de fadas moderno… ou não?")

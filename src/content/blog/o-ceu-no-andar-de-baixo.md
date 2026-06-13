@@ -17,7 +17,7 @@ categories:
 - curta
 - video
 - portacurtas
-heroImage: http://www.cafeetv.com.br/wp-content/uploads/2011/09/o-ceu-no-andar-de-baixo-big.jpg
+heroImage: /images/o-ceu-no-andar-de-baixo-big.jpg
 okvideo: <iframe src="http://player.vimeo.com/video/53922189?title=0&amp;byline=0&amp;portrait=0"
   width="640" height="360" frameborder="0" webkitAllowFullScreen mozallowfullscreen
   allowFullScreen></iframe>

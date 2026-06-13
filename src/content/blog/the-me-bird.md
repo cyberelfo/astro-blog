@@ -22,7 +22,7 @@ categories:
 draft: false
 ---
 
-[![The Me Bird](http://www.cafeetv.com.br/wp-content/uploads/2014/04/The-Me-Bird5-1024x576.jpg)](http://www.cafeetv.com.br/wp-content/uploads/2014/04/The-Me-Bird5.jpg) _O curta-metragem**The Me Bird** é uma interpretação livre do poema "O Pássaro Eu" de Pablo Neruda. A inspiração na técnica do "recorte de papel" (strata stencil) ajuda a conceituar a repetição de camadas, como o passado de nossos movimentos e ações. Os quadros descritos como prisão e o passado como um fardo servem como pano de fundo para a história de uma bailarina em uma viagem rumo à liberdade. A experimentação artística diversificada recria a tempestade que conecta pássaro e dançarina._
+[![The Me Bird](/images/The-Me-Bird5-1024x576.jpg)](/images/The-Me-Bird5.jpg) _O curta-metragem**The Me Bird** é uma interpretação livre do poema "O Pássaro Eu" de Pablo Neruda. A inspiração na técnica do "recorte de papel" (strata stencil) ajuda a conceituar a repetição de camadas, como o passado de nossos movimentos e ações. Os quadros descritos como prisão e o passado como um fardo servem como pano de fundo para a história de uma bailarina em uma viagem rumo à liberdade. A experimentação artística diversificada recria a tempestade que conecta pássaro e dançarina._
 
 - Direção: Gabriel Kempers & Maria Ilka Azêdo
 - Produção: [18bis.tv](http://www.18bis.tv/) 
