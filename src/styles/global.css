@@ -18,6 +18,7 @@ img,
 picture {
     width: 100%;
     max-width: 100%;
+    height: auto;
     display: block;
 }
 
@@ -509,8 +510,9 @@ button {
         /* height: 400px; */
         background-color: transparent;
         width: min(300px, 100%);
+        height: auto;
         /* box-shadow: var(--shadow-lg); */
-        object-fit: cover;
+        object-fit: contain;
         object-position: center;
 
         @media (--md) {
