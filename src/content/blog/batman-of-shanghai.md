@@ -26,25 +26,9 @@ draft: false
 
 Abaixo as partes dois e três:
 
-<div class="video-container">
-  <iframe
-      class="responsive-video"
-      src=https://www.youtube.com/embed/7UdPhqzFIRE
-      title="YouTube video player"
-      style="position:absolute;top:0;left:0;width:100%;height:100%;"
-      allowfullscreen
-  ></iframe>
-</div>
+[youtube:7UdPhqzFIRE]
 
-  <div class="video-container">
-    <iframe
-        class="responsive-video"
-        src=https://www.youtube.com/embed/HiGs04WSIaU
-        title="YouTube video player"
-        style="position:absolute;top:0;left:0;width:100%;height:100%;"
-        allowfullscreen
-    ></iframe>
-  </div>
+  [youtube:HiGs04WSIaU]
 
 - Produção: [Wolf Smoke Studio](http://www.rpoani.com/eng/) 
 - China, 2012

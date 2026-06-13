@@ -20,113 +20,85 @@ draft: false
 # BAM
 
 _Um jovem boxeador luta para compreender as consequências perturbadoras de seu temperamento explosivo._ 
-<div class="video-container">
-  <iframe class="responsive-video" src="https://www.youtube.com/embed/ykzVIkuRBRI" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-</div>
+[youtube:ykzVIkuRBRI]
   
 
 # Branded Dreams
 
 _Nossos sonhos constituem o último refúgio seguro e sem anúncios, parece. O que acontece quando publicitários conseguem adentrar nossos sonhos?_ 
-<div class="video-container">
-  <iframe class="responsive-video" src="https://player.vimeo.com/video/150799305?color=f0603f&title=0&byline=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-</div>
+[vimeo:150799305]
   
 
 # Geist
 
 _Um pescador naufragado descobre um segredo sombrio._ 
-<div class="video-container">
-  <iframe class="responsive-video" src="https://player.vimeo.com/video/174544848?color=f0603f&title=0&byline=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-</div>
+[vimeo:174544848]
   
 
 # Journal Animè
 
 _Filme inspirado nos eventos internacionais publicados nas páginas do jornal francês Libération._ 
-<div class="video-container">
-  <iframe class="responsive-video" src="https://player.vimeo.com/video/191631752?color=f0603f&title=0&byline=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-</div>
+[vimeo:191631752]
   
 
 # Ossa
 
 _O mundo é um palco. Nesse teatro, uma dançarina se torna consciente de si, revelando os mecanismos que manipulam os fios._ 
-<div class="video-container">
-  <iframe class="responsive-video" src="https://player.vimeo.com/video/137464081?color=f0603f&title=0&byline=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-</div>
+[vimeo:137464081]
   
 
 # Adam
 
 _No início, Ela nos criou._ 
-<div class="video-container">
-  <iframe class="responsive-video" src="https://player.vimeo.com/video/165701358?color=f0603f&title=0&byline=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-</div>
+[vimeo:165701358]
   
 
 # La Vague
 
 _Três bruxas tentam lidar com sua casa inundada. Mas um incidente dramático complica as coisas..._ 
-<div class="video-container">
-  <iframe class="responsive-video" src="https://www.youtube.com/embed/wxwEvSLDt9Y" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-</div>
+[youtube:wxwEvSLDt9Y]
   
 
 # Slow Wave
 
 _Perturbacões do sono por fora e por dentro._ 
-<div class="video-container">
-  <iframe class="responsive-video" src="https://player.vimeo.com/video/155080375?color=f0603f&title=0&byline=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-</div>
+[vimeo:155080375]
   
 
 # Velodrool
 
 _Um ciclista viciado fica sem cigarros. Ele participa de uma corrida para consegui-los, mas vai precisar da ajuda de umas pessoas peculiares para permanecer na competição._ 
-<div class="video-container">
-  <iframe class="responsive-video" src="https://player.vimeo.com/video/184641947?color=f0603f&title=0&byline=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-</div>
+[vimeo:184641947]
   
 
 # Wildfire
 
 _A vida em família de Ena, uma bombeira apaixonada, é ameaçada por seu fascínio pelo fogo._ 
-<div class="video-container">
-  <iframe class="responsive-video" src="https://www.youtube.com/embed/oj7zfiMr7UI" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-</div>
+[youtube:oj7zfiMr7UI]
   
 
 # O Disco de Ouro
 
 _K'Ayo é um dos músicos mais famosos de seu sistema planetário. Em seu piano, apresenta ao público composições únicas. Alguns chegam a afirmar que nunca na história da galáxia alguém foi capaz de compor melodias tão extraordinárias._ 
-<div class="video-container">
-  <iframe class="responsive-video" src="https://player.vimeo.com/video/161713082?color=f0603f&title=0&byline=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-</div>
+[vimeo:161713082]
   
 
 # Pete’s Story
 
 _Animação feita a partir do depoimento de um garoto do reino unido que sofreu violência por parte da mãe durante a infância._ 
-<div class="video-container">
-  <iframe class="responsive-video" src="https://player.vimeo.com/video/108303152?color=f0603f&title=0&byline=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-</div>
+[vimeo:108303152]
   
 
 # Ma’agalim
 
 _Videoclipe da música Ma’agalim, de Jane bordeaux. Uma boneca de madeira está presa no tempo em um velho fliperama._ 
-<div class="video-container">
-  <iframe class="responsive-video" src="https://player.vimeo.com/video/162052542?color=f0603f&title=0&byline=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-</div>
+[vimeo:162052542]
   
 
 # Não é Mole – Any Malu
 
 _Any Malu apresenta uma paródia musical em que explica o processo de animação 2D._ 
-<div class="video-container">
-  <iframe class="responsive-video" src="https://www.youtube.com/embed/tColvIyMcpA" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-</div>
+[youtube:tColvIyMcpA]
   
 
 ###### Assista a mais curtas de outras edições do Anima Mundi [aqui](http://www.cafeetv.com.br/category/anima-mundi).
