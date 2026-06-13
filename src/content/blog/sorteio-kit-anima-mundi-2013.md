@@ -12,7 +12,7 @@ category: Uncategorized
 categories:
 - Uncategorized
 - promoção
-draft: false
+draft: true
 ---
 
 Pessoal, Nós do Café & TV amamos o [Festival Anima Mundi](http://www.animamundi.com.br/ "Festival Anima Mundi"). É uma época do ano que aguardamos ansiosamente, algo como o natal dos apaixonados por animação. Isso porque, durante o festival, além de vermos filmes fantásticos, ainda podemos comprar vários produtos lindos como camisetas, bolsas, livros e tudo mais. E se você também é apaixonado pelo festival como a gente não pode perder essa oportunidade: estamos sorteando um super kit de produtos que a produção do Anima Mundi 2013 mandou para a gente! E este ano os produtos estão especialmente lindos, já que todas as ilustrações são do animador premiado Juan Pablo Zaramella. Olha ó que tem no kit : 
