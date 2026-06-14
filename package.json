@@ -7,7 +7,8 @@
   ],
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && pagefind --site dist",
+    "pagefind:dev": "astro build && pagefind --site dist --output-path public/pagefind",
     "preview": "astro preview",
     "astro": "astro"
   },
@@ -21,5 +22,8 @@
     "astro-icon": "^1.1.5",
     "postcss": "^8.5.1",
     "postcss-preset-env": "^10.1.3"
+  },
+  "devDependencies": {
+    "pagefind": "^1.5.2"
   }
 }

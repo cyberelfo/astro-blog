@@ -30,6 +30,9 @@ import navData from "../Data/navData";
                     ))
                 }
             </ul>
+            <button id="search-toggle" aria-label="Abrir busca" class="search-toggle">
+                <Icon name="tabler:search" class="search-icon" />
+            </button>
             <button id="theme-toggle" aria-label="Alterar tema" class="theme-toggle">
                 <Icon name="tabler:sun" class="sun-icon" />
                 <Icon name="tabler:moon" class="moon-icon" />
@@ -41,6 +44,7 @@ import navData from "../Data/navData";
 <script>
     import "../js/nav.js";
 
+    // Theme toggle
     const themeToggle = document.getElementById("theme-toggle");
     themeToggle?.addEventListener("click", () => {
         const currentTheme = document.documentElement.getAttribute("data-theme");
@@ -48,4 +52,60 @@ import navData from "../Data/navData";
         document.documentElement.setAttribute("data-theme", newTheme);
         localStorage.setItem("theme", newTheme);
     });
+
+    // Search toggle
+    const searchToggle = document.getElementById("search-toggle");
+    const searchModal = document.getElementById("search-modal");
+
+    if (searchToggle && searchModal) {
+        searchToggle.addEventListener("click", () => {
+            const loadPagefind = window["loadPagefind"];
+            const initPagefind = window["initPagefind"];
+            if (typeof loadPagefind === "function") {
+                loadPagefind(() => {
+                    // @ts-ignore
+                    searchModal.showModal();
+                    if (typeof initPagefind === "function") {
+                        initPagefind();
+                    }
+                    const searchInput = searchModal.querySelector(".pagefind-ui__search-input");
+                    if (searchInput) {
+                        // @ts-ignore
+                        searchInput.focus();
+                    }
+                });
+            }
+        });
+    }
 </script>
+
+<style>
+    .search-toggle {
+        background: transparent;
+        box-shadow: none;
+        border: 1px solid transparent;
+        border-radius: var(--radius-full);
+        width: var(--space-lg);
+        height: var(--space-lg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: var(--space-2xs);
+        transition: background-color var(--transition-ease-fast), border-color var(--transition-ease-fast);
+    }
+
+    .search-toggle:hover {
+        background-color: hsla(var(--txt) / 0.08);
+        border-color: hsla(var(--txt) / 0.15);
+    }
+
+    .search-toggle svg {
+        width: 20px;
+        height: 20px;
+        transition: transform var(--transition-squish-slow);
+    }
+
+    .search-toggle:hover svg {
+        transform: scale(1.1);
+    }
+</style>

@@ -3,6 +3,8 @@
 import MainHead from "./MainHead.astro";
 import Footer from "../components/Footer.astro";
 import Nav from "../components/Nav.astro";
+import SearchModal from "../components/SearchModal.astro";
+
 
 // style imports
 import "../styles/global.css";
@@ -35,9 +37,11 @@ const {
         </script>
         <!-- End of Google tag (gtag.js) -->
         <Nav />
-        <main>
+        <main data-pagefind-body>
             <slot> Default text</slot>
         </main>
         <Footer />
+        <SearchModal />
     </body>
 </html>
+
