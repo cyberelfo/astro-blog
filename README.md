@@ -11,6 +11,7 @@ A minimal, modern blog built with [Astro](https://astro.build/). This project fe
 - YouTube video embeds in posts
 - SEO and RSS feed support
 - Sitemap generation
+- Local full-text search with Pagefind (Portuguese pt-br localized)
 
 ## 🚀 Project Structure
 
@@ -47,7 +48,13 @@ Start the development server:
 npm run dev
 ```
 
-Build for production:
+Build search index for local development (run once if testing search functionality locally):
+
+```sh
+npm run pagefind:dev
+```
+
+Build for production (automatically runs Pagefind):
 
 ```sh
 npm run build
@@ -84,6 +91,7 @@ Your post content here.
 - [@astrojs/rss](https://docs.astro.build/en/guides/rss/)
 - [@astrojs/sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/)
 - [astro-icon](https://www.npmjs.com/package/astro-icon)
+- [Pagefind](https://pagefind.app/) (local, static full-text search)
 
 ## 🌐 Site Metadata
 
