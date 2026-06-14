@@ -38,10 +38,10 @@ h6 {
     --_hue: 235;
 
     /* Light Mode */
-    --bkg--light: var(--_hue) 25% 97%;
-    --txt--light: var(--_hue) 40% 5%;
-    --accent--light: var(--_hue) 55% 50%;
-    --muted--light: var(--_hue) 30% 99%;
+    --bkg--light: 0 0% 98.4%; /* #fbfbfb */
+    --txt--light: 0 0% 13.3%; /* #222222 */
+    --accent--light: 14 62% 52%; /* #d15b39 (Warm editorial orange accent) */
+    --muted--light: 0 0% 99%; /* #fdfdfd */
     /* Dark Mode */
     --bkg--dark: var(--_hue) 15% 10%;
     --txt--dark: var(--_hue) 20% 85%;
@@ -203,12 +203,17 @@ body {
     color: hsl(var(--txt));
     font-size: var(--fs-md);
     line-height: var(--lh-1-4);
-    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-family: 'Libre Baskerville', Georgia, serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
 }
+
+main {
+    width: 100%;
+}
+
 
 .h1,
 .h2,
@@ -269,6 +274,7 @@ small {
 
 a,
 button {
+    font-family: 'Karla', sans-serif;
     color: hsl(var(--txt));
     border-radius: var(--radius-sm);
     transition:
@@ -358,7 +364,7 @@ button {
 
 .container {
     width: 100%;
-    max-width: 1500px;
+    max-width: 1210px;
     margin-inline: auto;
     padding: var(--space-md);
 }
@@ -448,7 +454,7 @@ button {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 1500px;
+    max-width: 1210px;
     margin-inline: auto;
     padding-inline: var(--space-md);
 }
@@ -477,7 +483,7 @@ button {
     & div {
         display: grid;
         place-items: center;
-        max-width: 1500px;
+        max-width: 1210px;
         margin-inline: auto;
         gap: var(--space-sm);
 
@@ -595,6 +601,9 @@ button {
     & img {
         box-shadow: var(--shadow-sm);
         object-fit: cover;
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        height: auto;
     }
 
     & a {
