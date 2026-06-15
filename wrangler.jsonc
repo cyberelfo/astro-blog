@@ -1,8 +1,10 @@
 {
     "name": "cafeetv",
-    // Update to today's date
-    "compatibility_date": "2025-06-11",
+    // Update this date when you want to adopt new Cloudflare runtime features.
+    // See: https://developers.cloudflare.com/workers/configuration/compatibility-dates/
+    "compatibility_date": "2026-06-15",
     "assets": {
+        // The build output directory produced by `npm run build`
         "directory": "./dist"
     }
 }

@@ -31,7 +31,7 @@ const gaId = siteData.gaId;
                 <script define:vars={{ gaId }}>
                     window.dataLayer = window.dataLayer || [];
                     function gtag() {
-                        dataLayer.push(arguments);
+                        dataLayer.push(arguments); // eslint-disable-line prefer-rest-params
                     }
                     gtag("js", new Date());
                     gtag("config", gaId);

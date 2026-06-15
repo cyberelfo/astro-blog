@@ -63,14 +63,14 @@ import navData from "../data/navData";
             const initPagefind = window["initPagefind"];
             if (typeof loadPagefind === "function") {
                 loadPagefind(() => {
-                    // @ts-ignore
+                    // @ts-expect-error — showModal() exists on HTMLDialogElement but TS types Element
                     searchModal.showModal();
                     if (typeof initPagefind === "function") {
                         initPagefind();
                     }
                     const searchInput = searchModal.querySelector(".pagefind-ui__search-input");
                     if (searchInput) {
-                        // @ts-ignore
+                        // @ts-expect-error — focus() exists on HTMLInputElement but TS types Element
                         searchInput.focus();
                     }
                 });

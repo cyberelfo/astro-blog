@@ -1,18 +1,8 @@
-# Café & TV - Astro Blog
+# Café & TV
 
-A modern, fast, and feature-rich blog built with [Astro](https://astro.build/) showcasing award-winning short animations. It features static full-text search, dark/light theme support, RSS/Sitemap integration, dynamic pagination, and rich video embedding options.
+A static blog showcasing award-winning short animations, built with [Astro](https://astro.build/) and deployed to [Cloudflare Pages](https://pages.cloudflare.com/).
 
----
-
-## ✨ Features
-
-- **Astro Content Collections:** Blog posts managed as a structured content collection (`src/content/blog/`) with strong schema validation.
-- **Local Static Search:** Dynamic full-text search powered by **Pagefind** inside a custom-styled, glassmorphic modal dialog with Portuguese (`pt-br`) localization and client-side lazy-loading.
-- **Dynamic Routing:** Dynamically generated paths for posts (`src/pages/blog/[...slug].astro`), categories (`src/pages/category/[category].astro`), and authors (`src/pages/author/[author].astro`).
-- **Flexible Layouts:** Choose between `BlogPostLayout` (classic review layout) and `EditorialPostLayout` (magazine-style layout with featured headers and custom font styles).
-- **Responsive Embeds:** Native support for YouTube and Vimeo video embeds in both post headers and inline content using responsive wrappers.
-- **Dark/Light Theme:** Fully responsive color themes that automatically adapt to system settings or user choice, including smooth transition animations.
-- **SEO & Structured Metadata:** Semantic HTML tags, RSS feed generator (`src/pages/rss.xml.js`), automated XML Sitemap generation, and JSON-LD schema support (`src/js/jsonLD.js`) for optimized search engine indexing.
+Features: static full-text search (Pagefind), dark/light theme, RSS feed, XML sitemap, dynamic pagination, JSON-LD structured data, and responsive YouTube/Vimeo embeds.
 
 ---
 
@@ -20,123 +10,165 @@ A modern, fast, and feature-rich blog built with [Astro](https://astro.build/) s
 
 ```
 /
-├── public/                 # Static assets copied directly to the build root
-│   ├── favicon-96x96.png
+├── public/                   # Static assets served as-is
 │   ├── favicon.svg
-│   └── site.webmanifest
+│   ├── robots.txt
+│   └── images/               # Post images
 ├── src/
-│   ├── assets/             # Optimized asset sources (logos, images)
-│   ├── components/         # Reusable Astro UI components
-│   │   ├── Nav.astro       # Header navigation bar with theme and search toggles
-│   │   ├── SearchModal.astro # Glassmorphic dialog modal and Pagefind UI logic
-│   │   └── ...             # Cards, Pagination, Seo, CategoryCloud components
-│   ├── content/            # Astro Content Collections directory
-│   │   ├── blog/           # Blog posts in Markdown format (.md)
-│   │   └── config.ts       # Content schema definitions using Zod
-│   ├── Data/               # Navigation menus and site-wide metadata
-│   │   ├── navData.js
-│   │   └── siteData.json
-│   ├── Icons/              # Custom static SVG icons (logo.svg)
-│   ├── js/                 # Client scripts and utility helper scripts
-│   │   ├── utils.js        # Formatting dates, slugification, and layout utils
-│   │   └── jsonLD.js       # Structured JSON-LD schema builder for posts
-│   ├── layouts/            # Page templates and wrapper layouts
-│   │   ├── MainLayout.astro # Site-wide template wrapping all pages
-│   │   ├── BlogPostLayout.astro # Standard template for post reviews
-│   │   └── EditorialPostLayout.astro # Specialized template for editorial posts
-│   ├── pages/              # File-based routing and API endpoints
-│   │   ├── [...page].astro # Paginated home feed pages
-│   │   ├── sobre.astro     # Static About page
-│   │   ├── RSS.xml.js      # Dynamically generated RSS feed endpoint
-│   │   ├── blog/           # dynamic post slug routes
-│   │   ├── category/       # category page routes
-│   │   └── author/         # author bio page routes
-│   └── styles/             # Modular CSS styles
-│       └── global.css      # Core stylesheet and Design System tokens
-├── package.json            # Scripts, devDependencies, and project configurations
-├── astro.config.mjs        # Astro configuration, integrations, and remark plugins
-└── tsconfig.json           # TypeScript configuration
+│   ├── assets/               # Optimised asset sources (logos, images processed by Astro)
+│   ├── components/           # Reusable Astro UI components
+│   │   ├── Nav.astro
+│   │   ├── PostCard.astro
+│   │   ├── PostHeader.astro
+│   │   ├── VideoEmbed.astro  # Shared YouTube/Vimeo embed with oEmbed aspect-ratio fetch
+│   │   ├── CategoryCloud.astro
+│   │   ├── RelatedPosts.astro
+│   │   ├── SearchModal.astro # Pagefind-powered full-text search
+│   │   ├── Seo.astro         # Open Graph, Twitter Card, and JSON-LD tags
+│   │   └── ...
+│   ├── content/
+│   │   ├── blog/             # Markdown posts (.md) — one file per post
+│   │   │   └── _template.md  # Starter template (excluded from build by glob)
+│   │   └── content.config.ts # Zod schema for the blog collection
+│   ├── data/
+│   │   ├── navData.ts        # Navigation items
+│   │   └── siteData.json     # Site-wide metadata (title, description, GA ID)
+│   ├── layouts/
+│   │   ├── MainLayout.astro          # Site shell (nav, footer, GA, search modal)
+│   │   ├── MainHead.astro            # <head> with fonts, SEO, and meta tags
+│   │   └── EditorialPostLayout.astro # Magazine-style post template
+│   ├── lib/
+│   │   ├── utils.ts    # slugify, formatDate, formatBlogPosts
+│   │   ├── jsonLD.ts   # JSON-LD schema builder (type-safe, XSS-safe)
+│   │   └── nav.js      # Client-side navigation script
+│   ├── pages/
+│   │   ├── [...page].astro          # Paginated home feed
+│   │   ├── blog/[...slug].astro     # Individual post pages
+│   │   ├── category/[category].astro
+│   │   ├── author/[author].astro
+│   │   ├── sobre.astro              # About page
+│   │   └── rss.xml.js               # RSS feed endpoint
+│   └── styles/
+│       └── global.css    # Design system tokens and global styles
+├── astro.config.mjs      # Astro config, integrations, and remark plugins
+├── postcss.config.mjs    # PostCSS (custom-media-queries + nesting-rules)
+├── wrangler.jsonc        # Cloudflare Pages deployment config
+└── tsconfig.json         # TypeScript config (extends astro/tsconfigs/strict)
 ```
 
 ---
 
-## 🧑‍💻 Usage
+## 🧑‍💻 Development
 
-### Install Dependencies:
+### Install dependencies
 
 ```sh
 npm install
 ```
 
-### Build Search Index for Local Development:
-Since Pagefind indexes compiled HTML, you must build the site once locally to generate a search index that the local development server can read:
+### Build the search index for local dev
+
+Pagefind indexes compiled HTML, so you must build once before the dev server can serve search results:
 
 ```sh
 npm run pagefind:dev
 ```
 
-### Start the Development Server:
+### Start the dev server
 
 ```sh
 npm run dev
 ```
 
-### Build for Production:
-Builds the entire site using Astro and runs Pagefind automatically to compile the production index inside the `dist/` directory:
+### Build for production
+
+Builds the site with Astro then runs Pagefind to generate the search index inside `dist/`:
 
 ```sh
 npm run build
 ```
 
-### Preview the Production Build:
+### Preview the production build locally
 
 ```sh
 npm run preview
 ```
 
----
+### Lint & format
 
-## 📝 Adding a Blog Post
-
-Add a new Markdown file to `src/content/blog/`. The file's frontmatter is validated against the schema defined in `src/content.config.ts`.
-
-### Markdown Frontmatter Example:
-
-```markdown
----
-title: O Retrato de Dorian Gray
-description: Análise sobre a deslumbrante animação de Georges Schwizgebel adaptando a obra clássica.
-date: 2026-06-14
-author: Franklin Amorim
-category: Animação 2D
-image:
-  src: "/src/assets/images/dorian-gray.jpg"
-  alt: "Uma cena colorida da animação retratando Dorian Gray."
-draft: false                            # Opcional (padrão: false)
-youtube: If3wzG43PD8                   # Opcional (ID para cabeçalho do post)
-vimeo: 12345678                        # Opcional (ID para cabeçalho do post)
-layout: "../../layouts/BlogPostLayout.astro" # Define o layout do post
----
-
-O conteúdo do seu post vai aqui em Markdown.
-
-### Embutindo vídeos no corpo do post:
-Além dos vídeos de cabeçalho, você pode utilizar shortcodes customizados no corpo do Markdown que serão automaticamente convertidos em iframes responsivos:
-
-[youtube:If3wzG43PD8]
-[vimeo:12345678]
+```sh
+npm run lint      # ESLint (eslint-plugin-astro + @typescript-eslint/parser)
+npm run format    # Prettier (prettier-plugin-astro)
 ```
 
 ---
 
-## 📦 Main Dependencies & Integrations
+## 📝 Adding a blog post
 
-- **[Astro](https://astro.build/) (v6.0+)** - Static site framework
-- **[astro-icon](https://www.npmjs.com/package/astro-icon)** - Custom icon helper integration
-- **[@astrojs/sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/)** - Automated sitemap builder
-- **[astro-embed](https://www.npmjs.com/package/astro-embed)** - Rich video embedding helper
-- **[Pagefind](https://pagefind.app/)** - Zero-config, static client-side search engine
-- **[PostCSS](https://postcss.org/) & [postcss-preset-env](https://preset-env.cssdb.org/)** - Modern CSS processing and custom media query support
+Create a new Markdown file in `src/content/blog/`. The frontmatter is validated against the schema in [`src/content/content.config.ts`](src/content/content.config.ts). Copy [`_template.md`](src/content/blog/_template.md) as a starting point.
+
+### Required frontmatter fields
+
+```markdown
+---
+title: O Retrato de Dorian Gray
+description: Análise sobre a animação de Georges Schwizgebel.
+date: 2026-06-14
+author: Franklin Amorim
+category: Animação 2D
+image:
+  src: "/images/dorian-gray.jpg"
+  alt: "Uma cena da animação retratando Dorian Gray."
+---
+```
+
+### Optional frontmatter fields
+
+| Field | Type | Description |
+|---|---|---|
+| `youtube` | `string` | YouTube video ID — renders as the post hero embed |
+| `vimeo` | `string` | Vimeo video ID — renders as the post hero embed |
+| `draft` | `boolean` | Set `true` to exclude from build (default: `false`) |
+| `robots` | `string` | e.g. `"noindex, nofollow"` to block crawlers |
+
+### Embedding videos in the post body
+
+Use shortcode syntax anywhere in the Markdown body — the remark plugin converts them to responsive iframes:
+
+```
+[youtube:dQw4w9WgXcQ]
+[vimeo:123456789]
+```
+
+---
+
+## 📦 Key dependencies
+
+| Package | Purpose |
+|---|---|
+| [Astro](https://astro.build/) v6 | Static site framework |
+| [Pagefind](https://pagefind.app/) | Static full-text search |
+| [astro-embed](https://www.npmjs.com/package/astro-embed) | Optimised YouTube lite embed |
+| [@astrojs/sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/) | Auto-generated XML sitemap |
+| [@astrojs/rss](https://docs.astro.build/en/guides/rss/) | RSS feed |
+| [astro-icon](https://www.npmjs.com/package/astro-icon) | SVG icon component |
+| [postcss-preset-env](https://preset-env.cssdb.org/) | CSS nesting + custom media queries |
+
+---
+
+## ☁️ Deployment (Cloudflare Pages)
+
+The site deploys automatically to **Cloudflare Pages** on every push to `main`.
+
+**Build settings** (configured in the Cloudflare Pages dashboard):
+
+| Setting | Value |
+|---|---|
+| Build command | `npm run build` |
+| Build output directory | `dist` |
+| Node.js version | 22 |
+
+The [`wrangler.jsonc`](wrangler.jsonc) file configures the Cloudflare project name and serves `dist/` as static assets. The `compatibility_date` should be updated when Cloudflare releases new runtime features you want to adopt.
 
 ---
 
