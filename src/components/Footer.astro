@@ -1,12 +1,12 @@
 ---
 import { Icon } from "astro-icon/components";
+
+const year = new Date().getFullYear();
 ---
 
 <footer>
     <div>
-        <small>
-            Copyright &copy; <span id="copyright"></span> | All rights reserved
-        </small>
+        <small>Copyright &copy; {year} | All rights reserved</small>
         <small>
             <a href="/rss.xml">
                 Subscribe to my site
@@ -15,9 +15,3 @@ import { Icon } from "astro-icon/components";
         </small>
     </div>
 </footer>
-
-<script>
-    document.querySelector("#copyright").textContent = new Date()
-        .getFullYear()
-        .toString();
-</script>

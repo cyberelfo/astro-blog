@@ -23,6 +23,10 @@ export async function getStaticPaths({ paginate }) {
 }
 
 const { page } = Astro.props;
+
+// Fetch once at render time and pass down to CategoryCloud,
+// so it doesn't need to call getCollection independently.
+const allPosts = await getCollection("blog");
 ---
 
 <MainLayout title="Café & TV">
@@ -61,6 +65,6 @@ const { page } = Astro.props;
     </section>
     <aside class="container" aria-label="Blog categories">
         <h2 class="h3">Categorias</h2>
-        <CategoryCloud showCount={true} />
+        <CategoryCloud showCount={true} posts={allPosts} />
     </aside>
 </MainLayout>

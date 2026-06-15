@@ -1,31 +1,31 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, type CollectionEntry } from "astro:content";
 import { formatBlogPosts, slugify } from "../lib/utils";
 
-const allPosts = await getCollection("blog");
+interface Props {
+    showCount?: boolean;
+    posts?: CollectionEntry<"blog">[];
+}
+
+const { showCount, posts: passedPosts } = Astro.props;
+
+// Use posts passed by the parent when available, avoiding a duplicate getCollection call
+const allPosts = passedPosts ?? await getCollection("blog");
 const formattedPosts = formatBlogPosts(allPosts);
-const allCategories = formattedPosts
-    .map((cat) => cat.data.category.toLowerCase())
-    .flat();
 
-const processedCats = allCategories.reduce((acc, category) => {
-    // check if the category exists already
-    const value = acc[category] || 0;
+const allCategories = formattedPosts.map((post) => post.data.category.toLowerCase());
 
-    return {
-        ...acc,
-        [category]: value + 1,
-    };
+const processedCats = allCategories.reduce<Record<string, number>>((acc, category) => {
+    acc[category] = (acc[category] ?? 0) + 1;
+    return acc;
 }, {});
-
-const { showCount } = Astro.props;
 ---
 
 <ul class="categories">
     {
         Object.entries(processedCats).map(([key, val]) => (
             <li>
-                <a class="badge" href={`/category/${slugify(key)}`}>
+                <a class="badge" href={`/category/${slugify(key)}/`}>
                     {key} {showCount && `(${val})`}
                 </a>
             </li>
