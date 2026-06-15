@@ -16,7 +16,7 @@ const { title, description, date, category, author, image } = frontmatter;
         <a href={`/category/${slugify(category)}/`} class="badge">{category}</a>
     </small>
     <a href={url} aria-hidden="true" tabindex="-1">
-        <Image src={image.src} alt={image.alt} inferSize loading="lazy" decoding="async" width={400} height={225} />
+        <Image src={image.src} alt="" inferSize loading="lazy" decoding="async" width={400} height={225} />
     </a>
     <div class="content">
         <div>

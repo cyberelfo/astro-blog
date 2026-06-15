@@ -34,7 +34,7 @@ const allPosts = await getCollection("blog");
 >
     {
         page.currentPage === 1 && (
-            <section class="container about" aria-label="About Me">
+            <section class="container about" aria-label="Sobre o Café & TV">
                 <Image
                     src={logoImage}
                     alt="CafeeTV Logo"
@@ -50,7 +50,7 @@ const allPosts = await getCollection("blog");
             </section>
         )
     }
-    <section class="container" aria-label="New Blog Posts">
+    <section class="container" aria-label="Últimos posts">
         <h2 class="h1">{page.currentPage === 1 ? "Últimos posts" : "Posts anteriores"}</h2>
         <div class="post-container">
             {
@@ -65,7 +65,7 @@ const allPosts = await getCollection("blog");
         </div>
         <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
     </section>
-    <aside class="container" aria-label="Blog categories">
+    <aside class="container" aria-label="Categorias do blog">
         <h2 class="h3">Categorias</h2>
         <CategoryCloud showCount={true} posts={allPosts} />
     </aside>
