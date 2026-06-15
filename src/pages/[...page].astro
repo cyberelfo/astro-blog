@@ -11,7 +11,7 @@ import { getCollection } from "astro:content";
 import logoImage from "../assets/images/CAFE_E_TV_crop_transparent_400.png";
 
 // utils imports
-import { formatBlogPosts } from "../js/utils";
+import { formatBlogPosts } from "../lib/utils";
 
 export async function getStaticPaths({ paginate }) {
     const allPosts = await getCollection("blog");

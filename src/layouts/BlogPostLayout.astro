@@ -9,7 +9,7 @@ import RelatedPosts from "../components/RelatedPosts.astro";
 import { getCollection } from "astro:content";
 
 // Util imports
-import { formatBlogPosts } from "../js/utils";
+import { formatBlogPosts } from "../lib/utils";
 
 const { frontmatter } = Astro.props;
 const { title, description, date, category, author, image, youtube, vimeo } =

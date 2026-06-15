@@ -4,7 +4,7 @@ import MainLayout from "./MainLayout.astro";
 import { YouTube } from "astro-embed";
 
 // Util imports
-import { slugify, formatDate } from "../js/utils";
+import { slugify, formatDate } from "../lib/utils";
 
 const { frontmatter } = Astro.props;
 const { title, description, date, category, author, image, youtube, vimeo } = frontmatter;
