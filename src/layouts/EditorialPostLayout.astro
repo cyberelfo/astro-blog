@@ -1,7 +1,7 @@
 ---
 // component imports
 import MainLayout from "./MainLayout.astro";
-import { YouTube } from "astro-embed";
+import VideoEmbed from "../components/VideoEmbed.astro";
 
 // Util imports
 import { slugify, formatDate } from "../lib/utils";
@@ -19,11 +19,6 @@ const hasVideo = youtube || vimeo;
     {frontmatter}
     robots={frontmatter.robots}
 >
-    <!-- Add Google Fonts specifically for this layout -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
-
     <article class="editorial-post">
         <!-- Editorial Header -->
         <header class="editorial-header">
@@ -42,38 +37,17 @@ const hasVideo = youtube || vimeo;
         {
             hasVideo ? (
                 <div class="editorial-media-wrapper">
-                    <div class="editorial-video-container" data-youtube={youtube} data-vimeo={vimeo}>
-                        {
-                            youtube && (
-                                <YouTube
-                                    id={youtube}
-                                    class="responsive-video"
-                                    posterQuality="maxresdefault"
-                                />
-                            )
-                        }
-                        {
-                            vimeo && (
-                                <iframe
-                                    class="responsive-video"
-                                    src={`https://player.vimeo.com/video/${vimeo}?color=d15b39&title=0&byline=0`}
-                                    frameborder="0"
-                                    allow="autoplay; fullscreen; picture-in-picture"
-                                    allowfullscreen
-                                />
-                            )
-                        }
-                    </div>
+                    <VideoEmbed {youtube} {vimeo} />
                 </div>
             ) : (
                 image && image.src && (
                     <div class="editorial-media-wrapper">
-                        <img 
-                            src={image.src} 
-                            alt={image.alt || ""} 
-                            class="editorial-hero-image" 
-                            loading="eager" 
-                            decoding="async" 
+                        <img
+                            src={image.src}
+                            alt={image.alt || ""}
+                            class="editorial-hero-image"
+                            loading="eager"
+                            decoding="async"
                         />
                     </div>
                 )
@@ -95,17 +69,10 @@ const hasVideo = youtube || vimeo;
     /* Scope styles for the Editorial Post */
     .editorial-post {
         font-family: 'Libre Baskerville', Georgia, serif;
-        background-color: #fbfbfb; /* off-white clean editorial background */
-        color: #222222; /* dark charcoal, high contrast but softer than pure black */
+        color: hsl(var(--txt));
         margin: 0;
         padding-bottom: var(--space-2xl);
         min-height: 100vh;
-    }
-
-    /* Reset global colors inside the post for clean light theme */
-    :global(body) {
-        background-color: #fbfbfb !important;
-        color: #222222 !important;
     }
 
     .editorial-header {
@@ -125,11 +92,11 @@ const hasVideo = youtube || vimeo;
         align-items: center;
         justify-content: center;
         gap: var(--space-2xs);
-        color: #666;
+        color: hsla(var(--txt) / 0.55);
     }
 
     .editorial-category {
-        color: #d15b39; /* Warm editorial accent */
+        color: hsl(var(--accent));
         text-decoration: none;
         font-weight: 700;
     }
@@ -139,7 +106,7 @@ const hasVideo = youtube || vimeo;
     }
 
     .meta-divider {
-        color: #ccc;
+        color: hsla(var(--txt) / 0.25);
     }
 
     .editorial-title {
@@ -148,18 +115,18 @@ const hasVideo = youtube || vimeo;
         line-height: 1.25;
         font-weight: 700;
         margin-bottom: var(--space-sm);
-        color: #111;
+        color: hsl(var(--txt));
         text-wrap: balance;
     }
 
     .editorial-author {
         font-family: 'Karla', sans-serif;
         font-size: var(--fs-md);
-        color: #555;
+        color: hsla(var(--txt) / 0.7);
     }
 
     .editorial-author a {
-        color: #111;
+        color: hsl(var(--txt));
         text-decoration: underline;
         font-weight: 500;
     }
@@ -177,36 +144,7 @@ const hasVideo = youtube || vimeo;
         max-height: 600px;
         object-fit: cover;
         border-radius: 4px;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-    }
-
-    .editorial-video-container {
-        position: relative;
-        width: 100%;
-        aspect-ratio: 16 / 9;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-        border-radius: 4px;
-        overflow: hidden;
-    }
-
-    .editorial-video-container :global(lite-youtube),
-    .editorial-video-container :global(iframe) {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100% !important;
-        height: 100% !important;
-        max-width: 100% !important;
-        border: none;
-    }
-
-    .responsive-video {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: none;
+        box-shadow: var(--shadow-md);
     }
 
     .editorial-body-grid {
@@ -226,7 +164,7 @@ const hasVideo = youtube || vimeo;
         width: 100%;
         font-size: clamp(16px, 2.2vw, 20px);
         line-height: 2.0; /* Crucial Zippy Frames line height */
-        color: #292929;
+        color: hsl(var(--txt));
     }
 
     /* Stylize article content elements */
@@ -240,7 +178,7 @@ const hasVideo = youtube || vimeo;
     .editorial-content :global(h3),
     .editorial-content :global(h4) {
         font-family: 'Libre Baskerville', Georgia, serif;
-        color: #111;
+        color: hsl(var(--txt));
         font-weight: 700;
         margin-top: var(--space-lg);
         margin-bottom: var(--space-xs);
@@ -256,13 +194,13 @@ const hasVideo = youtube || vimeo;
     }
 
     .editorial-content :global(a) {
-        color: #d15b39;
+        color: hsl(var(--accent));
         text-decoration: underline;
         text-underline-offset: 4px;
     }
 
     .editorial-content :global(a:hover) {
-        color: #111;
+        color: hsl(var(--txt));
     }
 
     .editorial-content :global(ul),
@@ -278,41 +216,8 @@ const hasVideo = youtube || vimeo;
     .editorial-content :global(blockquote) {
         margin: var(--space-lg) 0;
         padding-left: var(--space-md);
-        border-left: 4px solid #d15b39;
+        border-left: 4px solid hsl(var(--accent));
         font-style: italic;
-        color: #555;
+        color: hsla(var(--txt) / 0.7);
     }
 </style>
-
-<script>
-    // Responsive ratio code
-    const container = document.querySelector(".editorial-video-container") as HTMLElement;
-    if (container) {
-        const vimeoId = container.getAttribute("data-vimeo");
-        const youtubeId = container.getAttribute("data-youtube");
-
-        if (vimeoId) {
-            const url = `https://vimeo.com/api/oembed.json?url=https://vimeo.com/${vimeoId}`;
-            fetch(url)
-                .then(res => res.json())
-                .then(data => {
-                    if (data.width && data.height) {
-                        container.style.aspectRatio = `${data.width} / ${data.height}`;
-                        container.style.height = "auto";
-                    }
-                })
-                .catch(err => console.error("Error fetching Vimeo ratio:", err));
-        } else if (youtubeId) {
-            const url = `https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=${youtubeId}`;
-            fetch(url)
-                .then(res => res.json())
-                .then(data => {
-                    if (data.width && data.height) {
-                        container.style.aspectRatio = `${data.width} / ${data.height}`;
-                        container.style.height = "auto";
-                    }
-                })
-                .catch(err => console.error("Error fetching YouTube ratio:", err));
-        }
-    }
-</script>

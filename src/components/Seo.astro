@@ -17,26 +17,29 @@ const jsonLD = jsonLDGenerator({
     url,
 });
 
-const siteUrl = Astro.site || 'https://www.cafeetv.com.br';
+const siteUrl = Astro.site || "https://www.cafeetv.com.br";
 const relativeImageSrc = image?.src || siteData.image.src;
 const absoluteImageUrl = new URL(relativeImageSrc, siteUrl).toString();
+
+// Derive content type from extension; fall back to image/jpeg
+const ext = relativeImageSrc.split(".").pop()?.toLowerCase();
+const imageType =
+    ext === "png" ? "image/png"
+    : ext === "webp" ? "image/webp"
+    : ext === "gif" ? "image/gif"
+    : "image/jpeg";
 ---
 
 <!-- SEO -->
 <link rel="canonical" href={url} />
 
 <!-- Open Graph -->
-<meta property="og:site_name" content="Café & TV" />
+<meta property="og:site_name" content={siteData.title} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:url" content={url} />
 <meta property="og:image" content={absoluteImageUrl} />
-<meta property="og:image:url" content={absoluteImageUrl} />
-<meta
-    property="og:image:secure_url"
-    content={absoluteImageUrl}
-/>
-<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:type" content={imageType} />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="600" />
 <meta property="og:image:alt" content={image?.alt || siteData.image.alt} />

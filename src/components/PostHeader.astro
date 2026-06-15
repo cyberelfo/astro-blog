@@ -1,7 +1,6 @@
 ---
-// component imports
 import { slugify, formatDate } from "../lib/utils";
-import { YouTube } from "astro-embed";
+import VideoEmbed from "./VideoEmbed.astro";
 
 const { title, description, date, category, author, image, youtube, vimeo } =
     Astro.props;
@@ -25,74 +24,19 @@ const hasVideo = youtube || vimeo;
     </div>
     {
         hasVideo ? (
-            <div class="video-container" data-youtube={youtube} data-vimeo={vimeo}>
-                {
-                    youtube && (
-                        <YouTube
-                            id={youtube}
-                            class="responsive-video"
-                            posterQuality="maxresdefault"
-                        />
-                    )
-                }
-                {
-                    vimeo && (
-                        <iframe
-                            class="responsive-video"
-                            src={`https://player.vimeo.com/video/${vimeo}?color=f0603f&title=0&byline=0`}
-                            frameborder="0"
-                            allow="autoplay; fullscreen; picture-in-picture"
-                            allowfullscreen
-                        />
-                    )
-                }
-            </div>
+            <VideoEmbed {youtube} {vimeo} />
         ) : (
             image && image.src && (
-                <img 
-                    src={image.src} 
-                    alt={image.alt || ""} 
-                    class="hero-image" 
-                    loading="eager" 
-                    decoding="async" 
-                    width="1200" 
+                <img
+                    src={image.src}
+                    alt={image.alt || ""}
+                    class="hero-image"
+                    loading="eager"
+                    decoding="async"
+                    width="1200"
                     height="675"
                 />
             )
         )
     }
 </header>
-
-<script>
-    const container = document.querySelector(".video-container");
-    if (container) {
-        const vimeoId = container.getAttribute("data-vimeo");
-        const youtubeId = container.getAttribute("data-youtube");
-
-        if (vimeoId) {
-            const url = `https://vimeo.com/api/oembed.json?url=https://vimeo.com/${vimeoId}`;
-            fetch(url)
-                .then(res => res.json())
-                .then(data => {
-                    if (data.width && data.height) {
-                        container.style.aspectRatio = `${data.width} / ${data.height}`;
-                        container.style.paddingBottom = "0";
-                        container.style.height = "auto";
-                    }
-                })
-                .catch(err => console.error("Error fetching Vimeo ratio:", err));
-        } else if (youtubeId) {
-            const url = `https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=${youtubeId}`;
-            fetch(url)
-                .then(res => res.json())
-                .then(data => {
-                    if (data.width && data.height) {
-                        container.style.aspectRatio = `${data.width} / ${data.height}`;
-                        container.style.paddingBottom = "0";
-                        container.style.height = "auto";
-                    }
-                })
-                .catch(err => console.error("Error fetching YouTube ratio:", err));
-        }
-    }
-</script>
