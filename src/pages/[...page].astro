@@ -7,7 +7,7 @@ import CategoryCloud from "../components/CategoryCloud.astro";
 
 // Astro assets and content collections import
 import { Image } from "astro:assets";
-import { getCollection } from "astro:content";
+import { getCollection, type CollectionEntry } from "astro:content";
 import logoImage from "../assets/images/CAFE_E_TV_crop_transparent_400.png";
 
 // utils imports
@@ -48,7 +48,7 @@ const { page } = Astro.props;
         <h2 class="h1">{page.currentPage === 1 ? "Últimos posts" : "Posts anteriores"}</h2>
         <div class="post-container">
             {
-                page.data.map((post: any) => (
+                page.data.map((post) => (
                     <PostCard
                         frontmatter={post.data}
                         url={`/blog/${post.id}/`}

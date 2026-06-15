@@ -1,23 +1,28 @@
 ---
+import type { CollectionEntry } from "astro:content";
 import { slugify, formatDate } from "../lib/utils";
+
+interface Props {
+    relatedPosts: CollectionEntry<"blog">[];
+}
 
 const { relatedPosts } = Astro.props;
 ---
 
 {
     relatedPosts.map((post) => {
-        const data = post.data || post.frontmatter || {};
-        const url = post.url || `/blog/${post.id}/`;
+        const { title, author, date } = post.data;
+        const url = `/blog/${post.id}/`;
         return (
             <div class="post">
                 <h3 class="h4">
-                    <a href={url}>{data.title}</a>
+                    <a href={url}>{title}</a>
                 </h3>
                 <small>
-                    <a href={`/author/${slugify(data.author)}/`}>
-                        {data.author}
+                    <a href={`/author/${slugify(author)}/`}>
+                        {author}
                     </a>{" "}
-                    • {formatDate(data.date)}
+                    • {formatDate(date)}
                 </small>
             </div>
         );

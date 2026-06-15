@@ -6,7 +6,7 @@ import MainLayout from "./MainLayout.astro";
 import RelatedPosts from "../components/RelatedPosts.astro";
 
 // Astro content collections import
-import { getCollection } from "astro:content";
+import { getCollection, type CollectionEntry } from "astro:content";
 
 // Util imports
 import { formatBlogPosts } from "../lib/utils";
@@ -20,7 +20,7 @@ const formattedPosts = formatBlogPosts(allPosts, { sortByDate: false });
 
 const relatedPosts = formattedPosts
     .filter(
-        (post: any) =>
+        (post: CollectionEntry<"blog">) =>
             post.data.category.toLowerCase() ===
                 category.toLowerCase() && post.data.title !== title,
     )
