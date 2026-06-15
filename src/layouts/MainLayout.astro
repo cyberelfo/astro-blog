@@ -8,6 +8,7 @@ import SearchModal from "../components/SearchModal.astro";
 
 // style imports
 import "../styles/global.css";
+import siteData from "../data/siteData.json";
 
 const {
     title = "Café & TV",
@@ -17,7 +18,7 @@ const {
     robots,
 } = Astro.props;
 
-const gaId = import.meta.env.PUBLIC_GA_ID;
+const gaId = siteData.gaId;
 ---
 
 <html lang="pt-br">
