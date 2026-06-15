@@ -33,9 +33,12 @@ const formattedPosts = formatBlogPosts(allPosts);
 const catPosts = formattedPosts.filter(
     (post: CollectionEntry<"blog">) => slugify(post.data.category) === category,
 );
+
+const pageTitle = `${name} | Café & TV`;
+const pageDescription = `${catPosts.length} post${catPosts.length !== 1 ? 's' : ''} sobre ${name} no Café & TV.`;
 ---
 
-<MainLayout title={name}>
+<MainLayout title={pageTitle} description={pageDescription}>
     <section class="container" aria-label={`Posts about ${name}`}>
         <h1 class="h1">
             Posts sobre <span>{name}</span>

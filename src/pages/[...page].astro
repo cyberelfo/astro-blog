@@ -29,7 +29,9 @@ const { page } = Astro.props;
 const allPosts = await getCollection("blog");
 ---
 
-<MainLayout title="Café & TV">
+<MainLayout
+    title={page.currentPage === 1 ? "Café & TV" : `Posts anteriores — Página ${page.currentPage} | Café & TV`}
+>
     {
         page.currentPage === 1 && (
             <section class="container about" aria-label="About Me">
