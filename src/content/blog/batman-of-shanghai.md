@@ -28,7 +28,7 @@ Abaixo as partes dois e três:
 
 [youtube:7UdPhqzFIRE]
 
-  [youtube:HiGs04WSIaU]
+[youtube:HiGs04WSIaU]
 
 - Produção: [Wolf Smoke Studio](http://www.rpoani.com/eng/) 
 - China, 2012

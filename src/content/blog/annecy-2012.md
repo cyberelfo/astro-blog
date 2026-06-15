@@ -17,7 +17,7 @@ categories:
 - França
 - gobelins
 - annecy 2012
-draft: false
+draft: true
 ---
 
 Assista às vinhetas da [Gobelins](http://www.gobelins.fr/en/gobelins) feitas especialmente para o [Festival Internacional de Animação Annecy 2012](http://www.annecy.org/). Cada um é uma prova viva da qualidade dos estudantes desta famosa escola de animação. Todos os curtas fazem referencia a Irlanda, que foi o país homenageado deste ano. **Hurley's Irish** **Beyond the Sea** **Holy Sheep** **Matches** **The Line**

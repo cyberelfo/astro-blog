@@ -15,7 +15,9 @@ categories:
 draft: false
 ---
 
-[![Anima Mundi 2016 XL](/images/AnimaMundi2016XL.jpg)](/images/AnimaMundi2016XL.jpg) O Anima Mundi 2016 foi um grande sucesso. Apesar dos diversos problemas econômicos do país, que afetaram seu tamanho, a 24ª edição do maior festival de animação da América Latina trouxe ao Brasil mais de 400 filmes utilizando as mais diversas técnicas, como computacão gráfica, massinha, stop-motion, aquarela e etc. No total foram exibidas animações de 45 países, incluindo Rússia, Irã, Chile, Moçambique, Japão e Austrália. Fizemos abaixo uma seleção de animações que foram exibidas no festival e que estão disponiveis para assistir online. Divirta-se! 
+[![Anima Mundi 2016 XL](/images/AnimaMundi2016XL.jpg)](/images/AnimaMundi2016XL.jpg) 
+
+O Anima Mundi 2016 foi um grande sucesso. Apesar dos diversos problemas econômicos do país, que afetaram seu tamanho, a 24ª edição do maior festival de animação da América Latina trouxe ao Brasil mais de 400 filmes utilizando as mais diversas técnicas, como computacão gráfica, massinha, stop-motion, aquarela e etc. No total foram exibidas animações de 45 países, incluindo Rússia, Irã, Chile, Moçambique, Japão e Austrália. Fizemos abaixo uma seleção de animações que foram exibidas no festival e que estão disponiveis para assistir online. Divirta-se! 
 
 # BAM
 

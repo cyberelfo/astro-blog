@@ -25,17 +25,21 @@ draft: false
 
 _"Um herói improvável embarca em uma jornada cruel por terra, mar e ar, em todas as atrações de um planeta transformado em um enorme parque petroquímico ... e além."_ _Bendito Machine IV: Fuel the Machines_ é o último episódio da super premiada saga das máquinas benditas.
 
-- Direção: Jossie Malis
-- Produção: [Zumbakamera](http://www.zumbakamera.com/) Musica: Sxip Shirey & Joseph R. Coniff Som: Julie Reier & Jossie Malis. <http://benditomachine.com/> Espanha, 2012 Se ainda não viu, aproveite para ver os episódios anteriores: 
+- Direção: [Jossie Malis](http://www.jossiemalis.com/)
+- Produção: [Zumbakamera](http://www.zumbakamera.com/)
+- Musica: Sxip Shirey & Joseph R. Coniff Som: Julie Reier & Jossie Malis
+- <http://benditomachine.com/> 
+- Espanha, 2012
 
-## Bendito Machine I
+Se ainda não viu, aproveite para ver os episódios anteriores:
 
- 
+**Bendito Machine I**
+[youtube:MZ0DmYyYgis]
 
-## Bendito Machine II
+**Bendito Machine II**
+[youtube:ASQ-hpDZV3Y]
 
- 
+**Bendito Machine III**
+[youtube:h-4kfKH_2xs]
 
-## Bendito Machine III
-
-  E o autor está com uma campanha de crowdfunding para produzir os próximos episódios da série. Se quiser conhecer, e até mesmo contribuir, acesse o endereço <http://www.kickstarter.com/projects/zumbakamera/bendito-machine>.
+E o autor está com uma campanha de crowdfunding para produzir os próximos episódios da série. Se quiser conhecer, e até mesmo contribuir, acesse o endereço <http://www.kickstarter.com/projects/zumbakamera/bendito-machine>.

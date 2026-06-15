@@ -22,4 +22,6 @@ draft: false
 
 O artista neo zelandês Ned Wenlock criou essa estilosa animação para um cover da música All We Ever Wanted Was Everything do MGMT.
 
-- Direção: [Ned Wenlock](http://oneedo.posterous.com/) Nova Zelandia, 2011 <http://oneedo.posterous.com/mgmt-late-night-tales>
+- Direção: [Ned Wenlock](http://oneedo.posterous.com/) 
+- Nova Zelandia, 2011 
+- <http://oneedo.posterous.com/mgmt-late-night-tales>

@@ -40,40 +40,40 @@ Julho está se aproximando, e nós que curtimos animação já ficamos ansiosos.
 
 A lista completa dos selecionados se encontra no [site do festival](http://www.animamundi.com.br/pt/festival/informacoes/selecionados:566.html). Alguns dos filmes escolhidos já foram exibidos aqui no Café & TV, então se você já quiser ir se preparando para o festival, assista algumas das animações selecionadas abaixo:  
 
-## Slug Invasion
+Slug Invasion
 
-## This is Not Real
+This is Not Real
 
-## Load
+[Load](/blog/load/ "Load – Curta-metragem em computação gráfica em computação gráfica que ganhou prêmio em 2011")
 
-## Lavazza a Modo Mio
+Lavazza a Modo Mio
 
-## [How To Eat Your Apple](/blog/how-to-eat-your-apple/ "How To Eat Your Apple – Filme independente de animador da Pixar é um saboroso delírio surreal")
+[How To Eat Your Apple](/blog/how-to-eat-your-apple/ "How To Eat Your Apple – Filme independente de animador da Pixar é um saboroso delírio surreal")
 
-## [FriendSheep](/blog/friendsheep/ "FriendSheep – Uma animação sobre lobos, ovelhas, primeiro emprego e a amizade no ambiente de trabalho")
+[FriendSheep](/blog/friendsheep/ "FriendSheep – Uma animação sobre lobos, ovelhas, primeiro emprego e a amizade no ambiente de trabalho")
 
-## [Frictions](/blog/frictions/ "Frictions – Um dançarino interagindo com vários pedaços de papel em uma coreografia precisa")
+[Frictions](/blog/frictions/ "Frictions – Um dançarino interagindo com vários pedaços de papel em uma coreografia precisa")
 
-## [Little Tombstone](/blog/little-tombstone/ "Little Tombstone – Bela homenagem aos faroestes de Sergio Leone")
+[Little Tombstone](/blog/little-tombstone/ "Little Tombstone – Bela homenagem aos faroestes de Sergio Leone")
 
-## [Plato](/blog/plato/ "Plato – O mito da caverna de Platão revisitado por esta instigante animação")
+[Plato](/blog/plato/ "Plato – O mito da caverna de Platão revisitado por esta instigante animação")
 
-## [Réflexion](/blog/rflexion/ "Réflexion – O espelho pode ser seu melhor amigo… ou inimigo")
+[Réflexion](/blog/rflexion/ "Réflexion – O espelho pode ser seu melhor amigo… ou inimigo")
 
-## Pythagasaurus (em inglês, sem legendas)
+Pythagasaurus (em inglês, sem legendas)
 
-## [Swimming Pool](/blog/swimming-pool/ "Swimming Pool – Uma piscina no meio da cidade é o cenário de uma história de amor e fantasia em baixo d’água")
+[Swimming Pool](/blog/swimming-pool/ "Swimming Pool – Uma piscina no meio da cidade é o cenário de uma história de amor e fantasia em baixo d’água")
 
-## [Ride of Passage](/blog/ride-of-passage/ "Ride of Passage – Um pequeno caçador, um grande camaleão, e a tentativa de impressionar a tribo")
+[Ride of Passage](/blog/ride-of-passage/ "Ride of Passage – Um pequeno caçador, um grande camaleão, e a tentativa de impressionar a tribo")
 
-## [A Shadow of Blue](/blog/a-shadow-of-blue/ "A Shadow of Blue – Deslumbrada com uma borboleta esta garotinha vai descobrir um mundo novo de sombras e fantasias") (use a senha _shadow_)
+[A Shadow of Blue](/blog/a-shadow-of-blue/ "A Shadow of Blue – Deslumbrada com uma borboleta esta garotinha vai descobrir um mundo novo de sombras e fantasias") (use a senha _shadow_)
 
-## [12 Drawings a Day](/blog/12-drawings-a-day/ "12 Drawings a Day – Animacao de Denis Chapon")
+[12 Drawings a Day](/blog/12-drawings-a-day/ "12 Drawings a Day – Animacao de Denis Chapon")
 
-## [O Homem Que Nunca Tinha Ido Ao Cinema](/blog/o-homem-que-nunca-tinha-ido-ao-cinema/ "O Homem Que Nunca Tinha Ido Ao Cinema – Animação 2D/3D do estúdio BEELD")
+[O Homem Que Nunca Tinha Ido Ao Cinema](/blog/o-homem-que-nunca-tinha-ido-ao-cinema/ "O Homem Que Nunca Tinha Ido Ao Cinema – Animação 2D/3D do estúdio BEELD")
 
-## [Reading Kills](/blog/reading-kills/ "Reading Kills – Animação de Beto Gomez")
+[Reading Kills](/blog/reading-kills/ "Reading Kills – Animação de Beto Gomez")
 
-## [The Night We Were Kings](/blog/the-night-we-were-kings/ "The Night We Were Kings – Mais uma ótima animação de estudantes da escola Gobelins")
+[The Night We Were Kings](/blog/the-night-we-were-kings/ "The Night We Were Kings – Mais uma ótima animação de estudantes da escola Gobelins")
 
-## [Moving Pictures](/blog/moving-pictures/ "Moving Pictures – Mistura de animação 3D com 2D parece um conto de fadas moderno… ou não?")
+[Moving Pictures](/blog/moving-pictures/ "Moving Pictures – Mistura de animação 3D com 2D parece um conto de fadas moderno… ou não?")

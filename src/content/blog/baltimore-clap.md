@@ -19,7 +19,11 @@ categories:
 draft: false
 ---
 
-Clipe para a música do artista de dubstep Benga.
+Clipe para a música do artista de dubstep [Benga](http://www.bengamusic.com).
 
 - Direção: Kristofer Ström
-- Produção: Bart Yates Reino Unido, 2010 <http://ljudbilden.com/>
+- Produção: Bart Yates 
+- Reino Unido, 2010 
+- [http://ljudbilden.com/](http://ljudbilden.com/)
+
+![Baltimore Clap](/images/baltimore_clap.jpg)
