@@ -23,4 +23,6 @@ Belo curta de Frederic Siegel e Benjamin Morard.
 - Suiça, 2019
 
 
-<a href="https://vimeo.com/505156613">THE LONELY ORBIT - Making Of</a> from <a href="https://vimeo.com/teamtumult">Team Tumult</a> on <a href="https://vimeo.com">Vimeo</a>.
+THE LONELY ORBIT - Making Of from Team Tumult on Vimeo.
+
+[vimeo:505156613]
