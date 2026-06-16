@@ -1,11 +1,11 @@
 ---
 import { getCollection, render } from "astro:content";
-import BlogPostLayout from "../../layouts/BlogPostLayout.astro";
 import EditorialPostLayout from "../../layouts/EditorialPostLayout.astro";
 
 export async function getStaticPaths() {
     const posts = await getCollection("blog");
-    return posts.map((post) => ({
+    const publishedPosts = posts.filter((post) => !import.meta.env.PROD || !post.data.draft);
+    return publishedPosts.map((post) => ({
         params: { slug: post.id },
         props: { post },
     }));
