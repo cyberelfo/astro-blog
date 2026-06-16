@@ -61,6 +61,30 @@
                     searching: "Buscando por '[SEARCH_TERM]'..."
                 }
             });
+
+            // Make result thumbnails clickable: Pagefind renders result-thumb as a
+            // plain <div>; we wrap it in an <a> to the same URL as the result title.
+            const container = document.getElementById('search-container');
+            if (container) {
+                const observer = new MutationObserver(() => {
+                    container.querySelectorAll('.pagefind-ui__result-thumb:not([data-linked])').forEach((thumb) => {
+                        const result = thumb.closest('.pagefind-ui__result');
+                        if (!result) return;
+                        const link = result.querySelector('.pagefind-ui__result-link');
+                        if (!link) return;
+
+                        const anchor = document.createElement('a');
+                        anchor.href = link.href;
+                        anchor.tabIndex = -1; // title link is the accessible target
+                        anchor.setAttribute('aria-hidden', 'true');
+                        anchor.style.display = 'contents'; // no layout impact
+                        thumb.parentNode.insertBefore(anchor, thumb);
+                        anchor.appendChild(thumb);
+                        thumb.setAttribute('data-linked', ''); // mark as processed
+                    });
+                });
+                observer.observe(container, { childList: true, subtree: true });
+            }
         }
     };
 
@@ -306,6 +330,16 @@
         font-weight: bold !important;
         padding-inline: 2px !important;
         border-radius: 2px !important;
+    }
+
+    /* Clickable thumbnail — added by MutationObserver */
+    :global(.pagefind-ui__result-thumb) {
+        cursor: pointer;
+        transition: opacity var(--transition-ease-fast);
+    }
+
+    :global(.pagefind-ui__result-thumb:hover) {
+        opacity: 0.85;
     }
 
     :global(.pagefind-ui__button) {

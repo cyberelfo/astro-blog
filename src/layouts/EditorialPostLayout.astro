@@ -20,6 +20,13 @@ const hasVideo = youtube || vimeo;
     robots={frontmatter.robots}
 >
     <article class="editorial-post">
+        {/* Explicit image hint for Pagefind search results.
+            Pagefind reads the first <img> in data-pagefind-body for its thumbnail.
+            Posts with a video hero render an <iframe>, not an <img>, so without this
+            hint those results appear with no image in the search modal. */}
+        {image?.src && (
+            <meta data-pagefind-meta="image[content]" content={image.src} />
+        )}
         <!-- Editorial Header -->
         <header class="editorial-header">
             <div class="header-meta">
