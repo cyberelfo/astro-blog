@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import { unified } from '@astrojs/markdown-remark';
 import icon from "astro-icon";
 import sitemap from "@astrojs/sitemap";
 
@@ -56,12 +57,37 @@ function remarkVideoEmbeds() {
     };
 }
 
+// Custom Rehype plugin to open external links in a new window
+function rehypeExternalLinks() {
+    return (tree) => {
+        function walk(node) {
+            if (node.type === 'element' && node.tagName === 'a') {
+                const href = node.properties?.href;
+                if (typeof href === 'string' && (href.startsWith('http://') || href.startsWith('https://'))) {
+                    node.properties = node.properties || {};
+                    node.properties.target = '_blank';
+                    node.properties.rel = 'noopener noreferrer';
+                }
+            }
+            if (node.children) {
+                for (const child of node.children) {
+                    walk(child);
+                }
+            }
+        }
+        walk(tree);
+    };
+}
+
 // https://astro.build/config
 export default defineConfig({
     site: 'https://www.cafeetv.com.br',
     integrations: [icon(), sitemap()],
     markdown: {
-        remarkPlugins: [remarkVideoEmbeds],
+        processor: unified({
+            remarkPlugins: [remarkVideoEmbeds],
+            rehypePlugins: [rehypeExternalLinks],
+        }),
     },
     i18n: {
         locales: ["pt-br"],

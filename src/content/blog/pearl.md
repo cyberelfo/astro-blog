@@ -15,7 +15,7 @@ draft: false
 
  Situado no interior de sua casa (um querido carro), a animação Pearl conta a história de uma menina e seu pai, que cruzam o país perseguindo seus sonhos. É uma história sobre os presentes que entregamos e seu poder de carregar o amor. E encontrar encantamento nos lugares mais improváveis.
  
- O curta é dirigido por Patrick Osborne, que ganhou o Oscar no ano passado pela animação Feast, feito para a Disney. Além disso, é o mais novo filme do grupo ATAP (Advanced Technology and Projects) do Google, que já lançou vários vídeos de realidade virtual (você pode ver outros <a href=\"https://www.youtube.com/playlist?list=PLDn90-IQtk8ECc9ImldHoBlskWDzQ6Awf\" target=\"_blank\">aqui</a>).
+ O curta é dirigido por Patrick Osborne, que ganhou o Oscar no ano passado pela animação Feast, feito para a Disney. Além disso, é o mais novo filme do grupo ATAP (Advanced Technology and Projects) do Google, que já lançou vários vídeos de realidade virtual (você pode ver outros [aqui](https://www.youtube.com/playlist?list=PLDn90-IQtk8ECc9ImldHoBlskWDzQ6Awf)).
  
  Para ver o vídeo em 360, você pode usar o aplicativo do Youtube no Android ou iOS.
  
