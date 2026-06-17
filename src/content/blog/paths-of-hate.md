@@ -20,7 +20,7 @@ categories:
 - video
 - vimeo
 - Platige Image
-draft: false
+draft: true
 director: "Damian Nenow"
 production: "[Platige Image](http://www.platige.com/) Polônia, 2010 ~~**Atualização**~~ O vídeo foi removido do Youtube a pedido da produtora. Pra compensar coloco o trailer official abaixo. Se o vídeo voltar a ficar disponível atualizo o post. ~~**Atualização 2**~~ ~~Pra quem não viu mais uma chance: subi o vídeo para o Youtube. Vamos ver quanto tempo demora para ele ser removido!~~ ~~**Atualização 3**~~ ~~O vídeo foi removido de novo. Agora só voltarei a posta-lo aqui quando sair uma versão oficial.~~ **Atualização 4** Assista Paths of Hate completo acima. Caso seja removido, veja aqui: <http://vimeo.com/channels/238134> **Atualização 5** Abaixo o videoclip para a canção \"Caminhos de ódio\" utilizadas na trilha sonora de \"Paths of Hate\". A música e a letra foram criadas por Jarosław Wójcik. A música é interpretada por A-MEN.  **Atualização 6** O vídeo está disponível no site de curtas da Platige: <http://www.platigeshorts.com/paths-of-hate.html>. No link também é possível fazer o download do vídeo em HD - 720p (1.4G de tamanho). Dica do"
 website: "http://www.platige.com"

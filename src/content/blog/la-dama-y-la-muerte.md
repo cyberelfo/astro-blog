@@ -17,7 +17,7 @@ categories:
 - curta
 - video
 - youtube
-draft: false
+draft: true
 ---
 
 Divertido curta espanhol produzida por Antonio Bandeiras e indicada em 2010 ao Oscar de melhor curta de animação. Uma doce velhinha vive sozinha à espera da morte para reencontrar seu marido. Mas quando é chegado o momento, um médico arrogante luta para recuperar a vida dela a qualquer preço.

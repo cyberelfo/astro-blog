@@ -17,7 +17,7 @@ categories:
 - curta
 - video
 - vimeo
-draft: false
+draft: true
 director: "Iuri Araújo"
 country: "Brasil"
 year: 2011

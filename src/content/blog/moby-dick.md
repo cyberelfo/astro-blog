@@ -17,7 +17,7 @@ categories:
 - video
 - vimeo
 - Brasil
-draft: false
+draft: true
 ---
 
 O velho capitão de um pequeno navio segue em busca de sua amada. Premiadíssimo curta nacional de Alessandro Corrêa & Davidson Lopes. Roteiro e animação: [Alessandro Corrêa](http://www.alessandrocorrea.com/) Trilha sonora: [Davidson Lopes](http://flavors.me/davidsonlopes) Brasil, 2011

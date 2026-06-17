@@ -18,7 +18,7 @@ categories:
 - oscar
 - video
 - youtube
-draft: false
+draft: true
 ---
 
 A Casa em Pequenos Cubos Animação ganhadora do Oscar 2009 de melhor animação curta metragem.
