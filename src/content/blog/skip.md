@@ -18,6 +18,8 @@ categories:
 - vimeo
 - Canada
 draft: false
+director: "Sarah Jolley"
+country: "Canada"
+year: 2012
 ---
-
-Skip é um lindo curta animado feito por Sarah Jolley na [Vancouver Film School](http://www.vfs.com/). Uma grande história de amor com personagens muito bem feitos e viagens no tempo engraçadas. Direção e Roteiro: Sarah Jolley Canada, 2012
+Skip é um lindo curta animado feito por Sarah Jolley na [Vancouver Film School](http://www.vfs.com/). Uma grande história de amor com personagens muito bem feitos e viagens no tempo engraçadas.

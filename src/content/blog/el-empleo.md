@@ -17,10 +17,11 @@ categories:
 - video
 - youtube
 draft: false
+director: "Santiago Bou Grasso"
+production: "Patricio Plaza"
+country: "Argentina"
+year: 2008
+website: "http://www.opusbou.com.ar"
 ---
 
-O Emprego: Um homem percorre seu caminho usual até o trabalho, imerso num sistema em que usar as pessoas como objetos faz parte do cotidiano. 
-- Direção: Santiago Bou Grasso 
-- Produção: Patricio Plaza 
-- [ Opusbou](http://www.opusbou.com.ar/) 
-- Argentina, 2008
+O Emprego: Um homem percorre seu caminho usual até o trabalho, imerso num sistema em que usar as pessoas como objetos faz parte do cotidiano.

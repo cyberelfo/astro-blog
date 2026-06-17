@@ -19,9 +19,10 @@ categories:
 - vimeo
 - França
 draft: false
+director: "[Carlos de Carvalho](http://www.carlos2carvalho.com/)"
+country: "França"
+year: 2011
+website: "http://www.carlos2carvalho.com"
 ---
 
 Lindo videoclip, criado em apenas 3 meses, para a música da banda [Timber Timbre](http://www.timbertimbre.com/).
-
-- Direção: [Carlos de Carvalho](http://www.carlos2carvalho.com/)
-- França, 2011

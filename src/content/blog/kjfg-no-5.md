@@ -18,10 +18,11 @@ categories:
 - video
 - youtube
 draft: true
+director: "Alexei Alexeev"
+production: "[Studio Baestarts Ltd](http://www.studiobaestarts.com/main.html)."
+country: "Hungria"
+year: 2007
+website: "http://www.studiobaestarts.com/main.html"
 ---
 
 Três músicos profissionais – o urso, o coelho e o lobo – estão praticando sua arte na floresta quando um caçador aparece...
-
-- Direção: Alexei Alexeev
-- Produção: [Studio Baestarts Ltd](http://www.studiobaestarts.com/main.html).
-- Hungria, 2007

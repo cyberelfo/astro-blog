@@ -18,9 +18,10 @@ categories:
 - vimeo
 - Estados Unidos
 draft: false
+director: "[Caroline Torres](http://carolinetea.com)"
+country: "Estados Unidos"
+year: 2012
+website: "http://carolinetea.com"
 ---
 
 Um belo filme auto-biográfico de Caroline Torres, _21 Years in 7 Minutes_ está concorrendo no Festival de Animação de Estudante do [Cartoon Brew](http://cartoonbrew.com/brewtv/21years.html).
-
-- Direção: [Caroline Torres](http://carolinetea.com)
-- Estados Unidos, 2012 

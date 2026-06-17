@@ -18,9 +18,9 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Jennifer Rae Bors Ringling College of Art and Design"
+country: "Estados Unidos"
+year: 2010
 ---
 
 _Seleção oficial Anima Mundi 2011._ Uma mulher entristecida embarca num trem, mas seu amante arrisca a vida e a integridade física para alcançá-la.
-
-- Direção: Jennifer Rae Bors Ringling College of Art and Design
-- Estados Unidos, 2010

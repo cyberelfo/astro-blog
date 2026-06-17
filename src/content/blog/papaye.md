@@ -19,12 +19,9 @@ categories:
 - vimeo
 - França
 draft: false
+country: "França"
+year: 2012
+website: "http://godetgeoffrey.blogspot.com"
 ---
 
 _Papaye_ é uma animação produzida por Geoffrey Godet em apenas 6 meses como trabalho de final de curso da escola francesa de animação
-
-- Supinfocom. Em pouco mais de um minuto Geoffrey conta uma história divertida, muito bem feita e com final surpreendente. Confira acima! Roteiro, direção e
-- animação: [Geoffrey Godet](http://godetgeoffrey.blogspot.com) [
-- Supinfocom](http://www.
-- supinfocom.fr/)
-- França, 2012

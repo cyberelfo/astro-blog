@@ -17,10 +17,10 @@ categories:
 - video
 - vimeo
 draft: false
+production: "Production: Thomas Meyer-Hermann"
+country: "Alemanha"
+year: 2010
+website: "http://www.filmbilder.de"
+director: "Andreas Hykade"
 ---
-
-Transformações, repetições e dezenas de referências à cultura pop são mescladas nesse impressionante curta de Andreas Hykade. Quem foi na Anima Mundi de 2010 deve lembrar que ele fez a [vinheta de abertura daquele ano](http://www.animamundi.com.br/pt/animemoria/2009/vinheta:401.html) e que seu trabalho foi usado na identidade visual e merchandise do evento. Roteiro, direção e animação: Andreas Hykade
-
-- Produção: Production: Thomas Meyer-Hermann
-- [Studio FILM BILDER](http://www.filmbilder.de/)
-- Alemanha, 2010
+Transformações, repetições e dezenas de referências à cultura pop são mescladas nesse impressionante curta de Andreas Hykade. Quem foi na Anima Mundi de 2010 deve lembrar que ele fez a [vinheta de abertura daquele ano](http://www.animamundi.com.br/pt/animemoria/2009/vinheta:401.html) e que seu trabalho foi usado na identidade visual e merchandise do evento.

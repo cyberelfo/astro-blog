@@ -18,11 +18,11 @@ categories:
 - video
 - youtube
 draft: false
+director: "Luciana Eguti e Paulo Muppet"
+production: "Luciana Eguti e Paulo Muppet"
+country: "Brasil"
+year: 2010
+website: "http://www.birdo.com.br"
 ---
 
 _Seleção oficial Anima Mundi 2011._ Cinco personagens, que vivem em compartimentos dentro de uma caixa, descobrem que não estão tão isolados uns dos outros quanto imaginavam.
-
-- Direção: Luciana Eguti e Paulo Muppet
-- Produção: Luciana Eguti e Paulo Muppet
-- [Birdo Studio](http://www.birdo.com.br/)
-- Brasil, 2010

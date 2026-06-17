@@ -20,8 +20,8 @@ categories:
 - vimeo
 - Estados Unidos
 draft: false
+director: "[Erez Horovitz](http://erezhorovitz.com/) Estados Unidos, 2012 <http://prominentfigures.tumblr.com"
+website: "http://erezhorovitz.com"
 ---
 
 Este curta para a ótima música de [Josh Ritter](http://joshritter.com/) foi criado com mais de 12.000 pedaços de papel de construção, do jeito que foi filmado, com nenhum efeito adicionado nas pós-produção.
-
-- Direção: [Erez Horovitz](http://erezhorovitz.com/) Estados Unidos, 2012 <http://prominentfigures.tumblr.com/>

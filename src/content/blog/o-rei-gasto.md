@@ -20,11 +20,9 @@ categories:
 - Brasil
 - anima mundi 2012
 draft: false
+music: "Leonardo Mendes Letra: Diogo Viegas Coral: Katharina, Luísa, Maria, Yago Edição e Mixagem de Som: Ana Luiza Pereira Mixagem 5.1: Luiz Adelmo Tradução e Legendas: Anna Beh"
+production: "Diogo Viegas & Simone Scofield Viegas"
+director: "[Diogo Viegas](http://diogoviegas.blogspot.com.br/)"
+website: "http://diogoviegas.blogspot.com.br"
 ---
-
-_Seleção Oficial Anima Mundi 2012_ Esta linda animação brasileira de Diogo Viegas foi escolhida por Carlos Saldanha, diretor de _A Era do Gelo_ , para um prêmio especial no Anima Mundi 2012. Vale conferir. Direção e criação: [Diogo Viegas](http://diogoviegas.blogspot.com.br/)
-
-- Produção: Diogo Viegas & Simone Scofield Viegas
-- Animação: Diogo Viegas Animação de Efeitos: Alessandro Monnerat Layouts: Diogo Viegas Cenários: Marcelo Vaz Edição e
-- Composição: Alessandro Monnerat
-- Música: Leonardo Mendes Letra: Diogo Viegas Coral: Katharina, Luísa, Maria, Yago Edição e Mixagem de Som: Ana Luiza Pereira Mixagem 5.1: Luiz Adelmo Tradução e Legendas: Anna Beh
+_Seleção Oficial Anima Mundi 2012_ Esta linda animação brasileira de Diogo Viegas foi escolhida por Carlos Saldanha, diretor de _A Era do Gelo_ , para um prêmio especial no Anima Mundi 2012. Vale conferir.

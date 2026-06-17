@@ -20,9 +20,10 @@ categories:
 - França
 - anima mundi 2012
 draft: false
+director: "Azais Frédéric; Do Malta Théo; Leymonerie Benjamin; Quillet Adrien [ESMA Ecole Supérieure des Métiers Artistiques](http://www.esma-montpellier.com/) <http://little-tombstone.com"
+country: "França"
+year: 2011
+website: "http://www.esma-montpellier.com"
 ---
 
 Em uma pequena cidade no extremo oeste americano, o bom e o mau travam um duelo decisivo. Enquanto isso, o agente funerário acompanha tudo com muito interesse... Homenagem ao filme "The Good, the Bad and the Ugly" (O Bom, o Mal e o Feio) de Sergio Leone.
-
-- Direção: Azais Frédéric; Do Malta Théo; Leymonerie Benjamin; Quillet Adrien [ESMA Ecole Supérieure des Métiers Artistiques](http://www.esma-montpellier.com/) <http://little-tombstone.com>
-- França, 2011

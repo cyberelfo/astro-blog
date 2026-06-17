@@ -18,9 +18,9 @@ categories:
 - video
 - youtube
 draft: true
+director: "Regina Pessoa"
+production: "Regina Pessoa [ Ciclope Filmes](http://www.ciclopefilmes.com/) Canadá / França / Portugal, 2006"
+website: "http://www.ciclopefilmes.com"
 ---
 
 Algumas pessoas são diferentes das outras, quando tudo que querem é ser iguais. Há pessoas que passam a vida toda escondendo suas diferenças enquanto outras pessoas assumem sua originalidade...
-
-- Direção: Regina Pessoa
-- Produção: Regina Pessoa [ Ciclope Filmes](http://www.ciclopefilmes.com/) Canadá / França / Portugal, 2006

@@ -17,9 +17,9 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Nelson Boles"
+country: "Estados Unidos"
+year: 2011
 ---
 
 Quão mínimo pode o personagem principal de um curta de animação ser e ainda provocar reações emocionais em uma audiência? O estudante da CalArts Nelson Boles explora este limite em seu belo e inteligentemente concebido curta Little Boat.
-
-- Direção: Nelson Boles
-- Estados Unidos, 2011

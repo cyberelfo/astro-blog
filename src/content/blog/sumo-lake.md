@@ -17,9 +17,8 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Greg Holfeld Australia, 2011"
+website: "http://sumolake.blogspot.com"
 ---
 
 Sumo Lake é uma versão rápida e animada do balé "O Lago dos Cisnes" com lutadores de sumô e um lagarto gigante usando um collant. Acho que não preciso dizer mais nada.
-
-- Direção: Greg Holfeld Australia, 2011
-- [ http://sumolake.blogspot.com/](http://sumolake.blogspot.com/)

@@ -19,10 +19,11 @@ categories:
 - vimeo
 - Brasil
 draft: false
+director: "Luciana Eguti; Paulo Muppet; Céu D’Ellia"
+production: "Céu D’Ellia - NUPA"
+country: "Roteiro: João Spacca Brasil"
+year: 2011
+website: "http://www.birdo.com.br"
 ---
 
 Mais uma excelente animação do Estúdio Birdo, dessa vez em homenagem ao poeta Mário de Andrade.
-
-- Direção: Luciana Eguti; Paulo Muppet; Céu D’Ellia
-- Produção: Céu D’Ellia - NUPA
-- Roteiro: João Spacca Brasil, 2011 <http://www.birdo.com.br/>

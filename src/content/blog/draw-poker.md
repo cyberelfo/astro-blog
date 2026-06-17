@@ -20,9 +20,9 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Emil Sellström ; Lise Vestergaard Jensen; Stephan Süssmann; Svend Rothmann Bonde"
+country: "Dinamarca"
+year: 2009
 ---
 
 Numa metrópole dos anos 1930, três criminosos reúnem-se em segredo para jogar pôquer. Eles farão de tudo para ganhar...
-
-- Direção: Emil Sellström ; Lise Vestergaard Jensen; Stephan Süssmann; Svend Rothmann Bonde
-- Dinamarca, 2009

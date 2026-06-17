@@ -18,8 +18,8 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Ercan Bozodgan; Mikkel Aabenhuus Sørensen [The Animation Workshop](http://www.animwork.dk/en/) Dinamarca"
+website: "http://www.animwork.dk/en"
 ---
 
 _Seleção oficial Anima Mundi 2011._ Capitão Incrível está prestes a salvar o dia, quando uma dor de barriga ameaça estragar tudo. Agora ele terá que correr contra o tempo para salvar sua imagem, ou a humanidade, antes que tuda desça pelo ralo!
-
-- Direção: Ercan Bozodgan; Mikkel Aabenhuus Sørensen [The Animation Workshop](http://www.animwork.dk/en/) Dinamarca,

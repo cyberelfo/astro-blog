@@ -18,10 +18,10 @@ categories:
 - vimeo
 - Estados Unidos
 draft: false
+director: "Jeff Gurwood"
+country: "Estados Unidos"
+year: 2011
+website: "http://jeffgurwood.com"
 ---
 
 Indyanimation é uma animação stop motion que reencena quadro a quadro a emocionante abertura de Os Caçadores da Arca Perdida. Os cenários foram construídos por Jeff Gurwood e ele animou o filme usando action figures da Hasbro.
-
-- Direção: Jeff Gurwood
-- [jeffgurwood.com](http://jeffgurwood.com/)
-- Estados Unidos, 2011

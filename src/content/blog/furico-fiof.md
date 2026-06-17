@@ -20,6 +20,7 @@ categories:
 - youtube
 - Brasil
 draft: true
+director: "Fernando Miller Produção executiva, efeitos e finalização: Érica Valle Som e"
+music: "Marcos Campello"
 ---
-
-_Seleção Oficial Anima Mundi 2011_ Uma bela e divertida homenagens às animações do inicio do século recheado com uma crítica à sociedade contemporânea. Direção, roteiro, animação e edição: Fernando Miller Produção executiva, efeitos e finalização: Érica Valle Som e trilha sonora: Marcos Campello
+_Seleção Oficial Anima Mundi 2011_ Uma bela e divertida homenagens às animações do inicio do século recheado com uma crítica à sociedade contemporânea.

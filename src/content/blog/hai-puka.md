@@ -17,11 +17,10 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Lucie Mayjonade"
+country: "França"
+year: 2010
+website: "http://www.ecolegeorgesmelies.fr"
 ---
 
 Hai Puka é o filme de graduação de Lucie Mayjonade na L’Ecole Georges Méliès, feito inteiramente por ela. Neste curta de animação tradicional, vemos uma garotinha perseguir um peixe imaginário, enquanto ela mesma é perseguida por uma sombra monstruosa...
-
-- Direção: Lucie Mayjonade
-- [ L’Ecole Georges Méliès](http://www.ecolegeorgesmelies.fr/)
-- França, 2010
-- [lilietothesea.blogspot.com](http://lilietothesea.blogspot.com/)

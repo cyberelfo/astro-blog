@@ -18,9 +18,10 @@ categories:
 - video
 - youtube
 draft: true
+director: "Cédric Villain <http://www.cedric-villain.info/defi12"
+country: "França"
+year: 2008
+website: "http://www.cedric-villain.info/defi12"
 ---
 
 Ganhador do prêmio de melhor curta-metragem pelo juri popular do festival Anima Mundi 2009, esta animação aborda todos os clichês e estereótipos em torno das pessoas asiáticas em geral e os chineses em particular. Para rir e refletir.
-
-- Direção: Cédric Villain <http://www.cedric-villain.info/defi12/>
-- França, 2008

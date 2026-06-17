@@ -18,10 +18,10 @@ categories:
 - vimeo
 - Hungria
 draft: false
+director: "Hanna Carlson, Milán Kopasz, Maja Szakadát"
+country: "Hungria"
+year: 2011
+website: "http://nadjaa.blogspot.com"
 ---
 
 Animação de graduação para a [Moholy-Nagy University of Art and Design](http://w2.mome.hu/).
-
-- Direção: Hanna Carlson, Milán Kopasz, Maja Szakadát,
-- [Nadja Andrasev](http://nadjaa.blogspot.com/)
-- Hungria, 2011

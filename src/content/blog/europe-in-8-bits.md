@@ -18,14 +18,15 @@ categories:
 - vimeo
 - Espanha
 draft: false
+country: "Espanha"
+year: 2014
+website: "http://www.devicers.com"
 ---
 
 Abertura do documentário **Europe In 8 Bits**. 
 
 Uma viagem visual desde o nascimento de um brinquedo até o seu renascimento como instrumento musical. **Europe In 8 Bits** é um documentário dirigido por _Javier Polo_ que explora o mundo da chip music, uma nova tendência musical que está crescendo exponencialmente em toda a Europa. As estrelas deste movimento musical nos mostram como reutilizar videogames velhos como o Nintendo Game Boy, NES, Atari ST, Amiga e Commodore 64 para transformá-los em ferramenta capaz de criar um novo som, um ritmo moderno e um estilo musical inovador. Esta é uma nova maneira de interpretar a música executada por um grande número de artistas que mostram suas habilidades em transformar essas máquinas "limitadas", projetadas para o lazer na década de 80, em instrumentos musicais e ferramentas gráficas surpreendentes. Ninguém vai ficar indiferente.
 
-- Direção, Design, Animação & Musica: [Devicers](http://www.devicers.com/) 
-- Espanha, 2014
 
 ![Europe In 8 Bits](/images/Europe-In-8-Bits.png)
 

@@ -17,6 +17,9 @@ categories:
 - video
 - vimeo
 draft: false
+director: "[Tom Judd](http://chambersjudd.com/)"
+music: "Jussi Honka Reino Unido, 2009 <http://animade.tv"
+production: "[Royal College of Art](http://www.rca.ac.uk/)"
+website: "http://chambersjudd.com"
 ---
-
-Bruce é uma premiada animação que explora como os avanços em biologia sintética de código-aberto permitem a um rapaz criar seu próprio herói de ação. Roteiro, direção, produção e animação: [Tom Judd](http://chambersjudd.com/) Produção : [Royal College of Art](http://www.rca.ac.uk/) Assistentes de animação: Scott Lockhart & Dan Chester Sound Design: Jussi Honka Reino Unido, 2009 <http://animade.tv/>
+Bruce é uma premiada animação que explora como os avanços em biologia sintética de código-aberto permitem a um rapaz criar seu próprio herói de ação.

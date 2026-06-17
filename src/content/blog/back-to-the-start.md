@@ -18,9 +18,10 @@ categories:
 - video
 - youtube
 draft: true
+director: "Johnny Kelly <http://www.nexusproductions.com"
+country: "Reino Unido"
+year: 2011
+website: "http://www.nexusproductions.com"
 ---
 
 Uma fazenda aos poucos vai virando uma fábrica... Dica do meu amigo Fernando Assis!
-
-- Direção: Johnny Kelly <http://www.nexusproductions.com>
-- Reino Unido, 2011

@@ -20,11 +20,11 @@ categories:
 - vimeo
 - França
 draft: false
+director: "Benjamin Renner Voz: Anthony Poupard"
+music: "Christophe Héral Edição: Emmanuelle Pencalet"
+production: "Annick Teninge; Amandine Vassieux"
+country: "França"
+year: 2007
 ---
 
 _La Queue de la Souris_ é um conto sobre um pequeno rato do campo que é capturado por um leão grande e feroz. Para não se tornar o jantar o rato propõem um trato com o leão: Ele vai encontrar outra refeição mais apetitosa para o felino. Uma bela animação 2D com um esquema de cores simples e um estilo angular muito interessante.
-
-- Direção: Benjamin Renner Voz: Anthony Poupard
-- Produção: Annick Teninge; Amandine Vassieux
-- Música: Christophe Héral Edição: Emmanuelle Pencalet
-- França, 2007

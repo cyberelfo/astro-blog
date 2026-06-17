@@ -1,0 +1,219 @@
+---
+interface Props {
+    director?: string;
+    music?: string;
+    production?: string;
+    country?: string;
+    year?: string | number;
+    website?: string;
+}
+
+const { director, music, production, country, year, website } = Astro.props;
+const hasCredits = director || music || production || country || year || website;
+
+// Simple markdown link parser
+function renderMarkdownLinks(text: string | undefined) {
+    if (!text) return "";
+    return text.replace(
+        /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,
+        '<a href="$2" target="_blank" rel="noopener noreferrer" class="credit-link">$1</a>'
+    );
+}
+
+// Format origin (country + year)
+let origin = "";
+if (country && year) {
+    origin = `${country}, ${year}`;
+} else if (country) {
+    origin = country;
+} else if (year) {
+    origin = String(year);
+}
+---
+
+{
+    hasCredits && (
+        <div class="credits-wrapper" data-pagefind-ignore>
+            <div class="credits-box">
+                <div class="credits-header">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="credits-icon">
+                        <rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect>
+                        <line x1="7" y1="2" x2="7" y2="22"></line>
+                        <line x1="17" y1="2" x2="17" y2="22"></line>
+                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                        <line x1="2" y1="7" x2="7" y2="7"></line>
+                        <line x1="2" y1="17" x2="7" y2="17"></line>
+                        <line x1="17" y1="17" x2="22" y2="17"></line>
+                        <line x1="17" y1="7" x2="22" y2="7"></line>
+                    </svg>
+                    <h3 class="credits-title">Ficha Técnica</h3>
+                </div>
+                <div class="credits-grid">
+                    {director && (
+                        <div class="credit-item">
+                            <span class="credit-label">Direção</span>
+                            <span class="credit-value" set:html={renderMarkdownLinks(director)} />
+                        </div>
+                    )}
+                    {music && (
+                        <div class="credit-item">
+                            <span class="credit-label">Trilha Sonora</span>
+                            <span class="credit-value" set:html={renderMarkdownLinks(music)} />
+                        </div>
+                    )}
+                    {production && (
+                        <div class="credit-item">
+                            <span class="credit-label">Produção</span>
+                            <span class="credit-value" set:html={renderMarkdownLinks(production)} />
+                        </div>
+                    )}
+                    {origin && (
+                        <div class="credit-item">
+                            <span class="credit-label">País & Ano</span>
+                            <span class="credit-value" set:html={renderMarkdownLinks(origin)} />
+                        </div>
+                    )}
+                    {website && (
+                        <div class="credit-item website-item">
+                            <span class="credit-label">Website</span>
+                            <span class="credit-value">
+                                <a href={website} target="_blank" rel="noopener noreferrer" class="credit-link website-link">
+                                    {website.replace(/^https?:\/\/(?:www\.)?/, '')}
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="external-icon">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    )}
+                </div>
+            </div>
+        </div>
+    )
+}
+
+<style>
+    .credits-wrapper {
+        margin: var(--space-xl) auto var(--space-sm);
+        width: 100%;
+        max-width: var(--content-lg);
+    }
+
+    .credits-box {
+        background-color: hsla(var(--txt) / 0.02);
+        border: 1px solid hsla(var(--txt) / 0.08);
+        border-radius: var(--radius-lg);
+        padding: var(--space-md) var(--space-lg);
+        box-shadow: var(--shadow-sm);
+        position: relative;
+        overflow: hidden;
+        transition: transform var(--transition-ease-fast), box-shadow var(--transition-ease-fast), border-color var(--transition-ease-fast);
+    }
+
+    .credits-box::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 4px;
+        height: 100%;
+        background: linear-gradient(to bottom, hsl(var(--accent)), hsla(var(--accent) / 0.5));
+    }
+
+    .credits-box:hover {
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-md);
+        border-color: hsla(var(--accent) / 0.3);
+    }
+
+    .credits-header {
+        display: flex;
+        align-items: center;
+        gap: var(--space-2xs);
+        margin-bottom: var(--space-md);
+        color: hsl(var(--accent));
+    }
+
+    .credits-icon {
+        width: 20px;
+        height: 20px;
+        stroke: currentColor;
+    }
+
+    .credits-title {
+        font-family: 'Karla', sans-serif;
+        font-size: var(--fs-sm);
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        margin: 0;
+        color: hsl(var(--txt));
+    }
+
+    .credits-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: var(--space-md);
+    }
+
+    @media (min-width: 640px) {
+        .credits-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        
+        .website-item {
+            grid-column: span 2;
+        }
+    }
+
+    .credit-item {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .credit-label {
+        font-family: 'Karla', sans-serif;
+        font-size: 0.72rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: hsla(var(--txt) / 0.5);
+    }
+
+    .credit-value {
+        font-family: 'Karla', sans-serif;
+        font-size: var(--fs-md);
+        color: hsl(var(--txt));
+        line-height: 1.4;
+    }
+
+    /* Style markdown links inside credit values */
+    .credit-value :global(.credit-link) {
+        color: hsl(var(--accent));
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        transition: color var(--transition-ease-fast);
+    }
+
+    .credit-value :global(.credit-link:hover) {
+        color: hsl(var(--txt));
+    }
+
+    .website-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        word-break: break-all;
+    }
+
+    .external-icon {
+        width: 14px;
+        height: 14px;
+        stroke: currentColor;
+        flex-shrink: 0;
+        opacity: 0.8;
+    }
+</style>

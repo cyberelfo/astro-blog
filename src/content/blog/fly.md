@@ -20,11 +20,11 @@ categories:
 - youtube
 - aardman
 draft: false
+director: "Alan Short"
+production: "Laura Pepper"
+country: "Reino Unido"
+year: 2010
+website: "http://www.aardman.com"
 ---
 
 _Seleção oficial Anima Mundi 2011._ Um sujeito pacato senta para assistir TV no conforto de sua casa, mas uma mosca parece não estar disposta a deixar isso acontecer. Mais uma vez a Aardman Animation consegue criar um curta muito engraçado com sua excelente qualidade técnica. O que torna este pequeno filme particularmente impressionante é o fato de que ele não possui nenhum diálogo.
-
-- Direção: Alan Short
-- Produção: Laura Pepper
-- [Aardman Animation](http://www.aardman.com/)
-- Reino Unido, 2010

@@ -21,9 +21,10 @@ categories:
 - Estados Unidos
 - Calarts
 draft: false
+production: "California Institute of the Arts Música e"
+country: "Sound Design: Jeff Shiffman Vozes: Corey Shiffman Taylor Sanches Estados Unidos"
+year: 2010
+website: "http://therenter.net"
+director: "Jason Carpenter"
 ---
-
-_The Renter_ é um curta de animação independente, escrito, dirigido e animado por Jason Carpenter. Baseado em uma história real, acompanhamos um menino que descobre como uma creche pode ser um lugar confuso e assustador. Roteiro, direção e animação: Jason Carpenter
-
-- Produção: California Institute of the Arts Música e
-- Sound Design: Jeff Shiffman Vozes: Corey Shiffman, Taylor Sanches Estados Unidos, 2010 <http://therenter.net/>
+_The Renter_ é um curta de animação independente, escrito, dirigido e animado por Jason Carpenter. Baseado em uma história real, acompanhamos um menino que descobre como uma creche pode ser um lugar confuso e assustador.

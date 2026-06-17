@@ -19,9 +19,9 @@ categories:
 - video
 - youtube
 draft: true
+director: "Marco Túlio"
+country: "Brasil"
+year: 2011
 ---
 
 _Seleção oficial Anima Mundi 2011._ Um macaco, que passou a vida inteira exercendo uma profissão com a qual não se identifica, começa a se questionar sobre sua verdadeira vocação. Beleza e qualidade técnica no primeiro filme de Marco Túlio.
-
-- Direção: Marco Túlio
-- Brasil, 2011

@@ -19,9 +19,9 @@ categories:
 - vimeo
 - França
 draft: false
+director: "Paf Paf"
+country: "França"
+year: 2011
 ---
 
 Videoclip produzido para a banda canadense [Misteur Valaire](http://mv.mu/).
-
-- Direção: Paf Paf
-- França, 2011

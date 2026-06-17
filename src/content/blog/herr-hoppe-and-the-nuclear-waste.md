@@ -21,11 +21,10 @@ categories:
 - filmakademie
 - anima mundi 2012
 draft: false
+director: "Jan Lachauer, Thorsten Löffler Direção técnica: Marcel Reinhard"
+music: "Christina Zenk, Sarah Griffel, Till Moses Kammertöns Som: Martin Kerschbaum, Alexander Zlamal"
+production: "Filmakademie BW Alemanha, 2012 <http://www.hilf-herrn-hoppe.de"
+website: "http://www.hilf-herrn-hoppe.de"
 ---
 
 Mais um curta em exibição no Anima Mundi 2012 _Um barril de resíduos nucleares cai na sala de estar de Sr. Hoppe, um cidadão comum da Alemanha. Ele tem que se livrar dele e faz isso à sua maneira estranha._ Abaixo mais dois episódios.
-
-- Direção: Jan Lachauer, Thorsten Löffler Direção técnica: Marcel Reinhard
-- Animação: Nikolaos Saradopoulos, Michael Schulz, Bin-Han To Voz: Moritz Schneider
-- Música: Christina Zenk, Sarah Griffel, Till Moses Kammertöns Som: Martin Kerschbaum, Alexander Zlamal
-- Produção: Filmakademie BW Alemanha, 2012 <http://www.hilf-herrn-hoppe.de/>

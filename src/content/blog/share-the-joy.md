@@ -19,9 +19,10 @@ categories:
 - Canada
 - annecy 2012
 draft: false
+director: "[SHED](http://www.shedmtl.com/)"
+country: "Canada"
+year: 2011
+website: "http://www.shedmtl.com"
 ---
 
 _Feliz Natal!_
-
-- Direção: [SHED](http://www.shedmtl.com/)
-- Canada, 2011

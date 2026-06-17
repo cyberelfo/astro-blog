@@ -22,13 +22,12 @@ okvideo: <iframe src="http://player.vimeo.com/video/53922189?title=0&amp;byline=
   width="640" height="360" frameborder="0" webkitAllowFullScreen mozallowfullscreen
   allowFullScreen></iframe>
 draft: false
+director: "Leonardo Cata Preta"
+music: "Daniel Nunes"
+country: "Brasil"
+year: 2010
+website: "http://oceunoandardebaixo.blogspot.com"
 ---
 _Seleção oficial Anima Mundi 2011._ 
 
-Desde os 12 anos de idade, Francisco faz fotografias de céu. Um dia, algo diferente aparece em uma de suas fotografias mudando a sua rotina. _O Céu no Andar de Baixo_ é uma linda animação nacional ganhadora de vários prêmios. 
-
-- Direção: Leonardo Cata Preta 
-- Edição de som: Ronaldo Gino 
-- Trilha Sonora: Daniel Nunes 
-- Brasil, 2010 
-- http://oceunoandardebaixo.blogspot.com/
+Desde os 12 anos de idade, Francisco faz fotografias de céu. Um dia, algo diferente aparece em uma de suas fotografias mudando a sua rotina. _O Céu no Andar de Baixo_ é uma linda animação nacional ganhadora de vários prêmios.

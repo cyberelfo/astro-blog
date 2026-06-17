@@ -19,11 +19,11 @@ categories:
 - vimeo
 - Israel
 draft: false
+director: "Eran Hilleli"
+music: "Ori Avni / Daniela Spector"
+country: "Israel"
+year: 2010
+website: "http://eranhilleli.com"
 ---
 
 _Seleção oficial Anima Mundi 2011_ Um grupo de pessoas segue as pegadas de um urso preto. Filme de graduação de Eran Hilleli para a [Bezalel Academy of Art and Design](http://www.bezalel.ac.il/en/).
-
-- Direção: Eran Hilleli
-- Música: Ori Avni / Daniela Spector
-- Israel, 2010
-- [ http://eranhilleli.com/](http://eranhilleli.com/)

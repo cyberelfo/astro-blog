@@ -21,9 +21,9 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Antoine Arditti"
+production: "[Metronomic](http://www.metronomic.fr/) França, 2009 <http://www.yulia-themovie.com"
+website: "http://www.metronomic.fr"
 ---
 
 Yulia desaparece repentinamente de sua cozinha. Logo em seguida ela reaparece em um quarto fechado com cinco alavancas em uma parede. Ao aciona-las ela inicia uma série de eventos absurdos que vão leva-la a... bom, veja o filme para descobrir.
-
-- Direção: Antoine Arditti
-- Produção: [Metronomic](http://www.metronomic.fr/) França, 2009 <http://www.yulia-themovie.com/>

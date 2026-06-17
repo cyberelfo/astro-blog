@@ -17,12 +17,10 @@ categories:
 - video
 - vimeo
 draft: false
+music: "The Freaks"
+country: "Coréia"
+year: 2011
+website: "http://www.stickymonsterlab.com"
 ---
 
-O Solitário: Sticky Monster Lab é uma estúdio criativo coreano, fundado em 2007 por três membros, cada um vindo de um campo diferente... Motion graphics, ilustração e eventos. Fla, um dos membros fundadores e também diretor do estúdio, dirigiu e animou este excelente curta para a música do The Freaks. 
-- Direção, roteiro e animação: FLA 
-- Designers: BOO, FLA 
-- Música: The Freaks 
-- Coordenação de projeto: Nana 
-- Coréia, 2011 
-- http://www.stickymonsterlab.com/
+O Solitário: Sticky Monster Lab é uma estúdio criativo coreano, fundado em 2007 por três membros, cada um vindo de um campo diferente... Motion graphics, ilustração e eventos. Fla, um dos membros fundadores e também diretor do estúdio, dirigiu e animou este excelente curta para a música do The Freaks.

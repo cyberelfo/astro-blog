@@ -18,9 +18,10 @@ categories:
 - vimeo
 - Espanha
 draft: false
+production: "[Hampa Animation Studio](http://www.hampastudio.com/)"
+country: "Espanha"
+year: 2011
+website: "http://www.hampastudio.com"
 ---
 
 O Hampa Studio criou três belos curtas de animação para a campanha "Usa el Coco", que visa promover o empreendedorismo e a inovação na sociedade espanhola. No fim do ano ele criaram mais um vídeo em comemoração ao Natal.
-
-- Produção: [Hampa Animation Studio](http://www.hampastudio.com/)
-- Espanha, 2011

@@ -17,10 +17,9 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Jens Blank"
+production: "MCQ Films Music: Paul Pringle"
+website: "http://animateme.me.uk/blog/?page_id=624"
 ---
 
 DSAL foi encomendado pela Anywalk para a exposição de arte promocional TREKX, que conta com 9 artistas de Londres e da China. A exposição estreou em Londres em maio de 2010, e viajou para Beijing e Shangai durante o verão. DSAL fala sobre sonhar acordado, brincando com a idéia de transformar ambientes mundanos em algo excitante.
-
-- Direção: Jens Blank
-- Produção: MCQ Films Music: Paul Pringle
-- [http://animateme.me.uk/](http://animateme.me.uk/blog/?page_id=624)

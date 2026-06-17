@@ -20,9 +20,10 @@ categories:
 - Italia
 - annecy 2012
 draft: false
+director: "[Donato Sansone](http://www.myspace.com/milkyeyes)"
+country: "Italia"
+year: 2011
+website: "http://www.myspace.com/milkyeyes"
 ---
 
 Estranho e lindo ao mesmo tempo... só vendo pra entender.
-
-- Direção: [Donato Sansone](http://www.myspace.com/milkyeyes)
-- Italia, 2011

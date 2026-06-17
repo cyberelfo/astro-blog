@@ -18,10 +18,10 @@ categories:
 - vimeo
 - gobelins
 draft: false
+director: "Simon Boucachard, Jean Baptiste Cumont, Sylvain Fabre, Guillaume Fesquet, Adeline Grange, Maxime Mary e Julien Rossire"
+country: "França"
+year: 2011
+website: "http://whosafraidofmrgreedy.blogspot.com"
 ---
 
 Um homem chega para tomar de volta sua identidade, roubada por um ogro enquanto ele era uma criança. Bizarro e lindo curta de animação tradicional dirigido por estudantes da Gobelins de Paris.
-
-- Direção: Simon Boucachard, Jean Baptiste Cumont, Sylvain Fabre, Guillaume Fesquet, Adeline Grange, Maxime Mary e Julien Rossire
-- França, 2011
-- [ http://whosafraidofmrgreedy.blogspot.com/](http://whosafraidofmrgreedy.blogspot.com/)

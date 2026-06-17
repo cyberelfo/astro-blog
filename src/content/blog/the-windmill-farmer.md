@@ -17,11 +17,11 @@ categories:
 - video
 - youtube
 draft: false
+director: "Joaquin Baldwin"
+music: "Nick Fevola"
+country: "Estados Unidos"
+year: 2010
+website: "http://www.pixelnitrate.com"
 ---
 
 Joaquin Baldwin teve a idéia para este lindo e sensível curta quando, ao voltar com um amigo de uma viagem, passou por uma fazenda de energia eólica: "Meu amigo disse que deveria levar uma eternidade para plantar e cultivar tantos moinhos de vento. Escrevi o título O fazendeiro de Moinhos de Vento como uma idéia para explorar mais tarde, e cerca de um ano depois eu comecei a desenvolvê-la em um personagem e sua história. Desde os primeiros quadros até a mistura final este filme levou quatro meses para ficar pronto"
-
-- Direção: Joaquin Baldwin
-- Música: Nick Fevola
-- Estados Unidos, 2010
-- [ http://www.pixelnitrate.com](http://www.pixelnitrate.com/)

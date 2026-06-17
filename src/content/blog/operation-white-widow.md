@@ -18,6 +18,9 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Jacek Mazur Música e"
+music: "Tommy Zee"
+country: "Polonia"
+year: 2011
 ---
-
-Roteiro criativo e uma técnica impecável neste impressionante curta de computação gráfica de Jacek Mazur. Direção, roteiro, modelagem, texturas e animação: Jacek Mazur Música e sound design: Tommy Zee Polonia, 2011
+Roteiro criativo e uma técnica impecável neste impressionante curta de computação gráfica de Jacek Mazur.

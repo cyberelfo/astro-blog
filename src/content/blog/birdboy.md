@@ -21,12 +21,13 @@ categories:
 - youtube
 - Espanha
 draft: true
+director: "Alberto Vázquez; Pedro Rivero"
+country: "Espanha"
+year: 2010
+website: "http://www.birdboy.net"
 ---
 
 Baseado na graphic novel PSICONAUTAS de Alberto Vázquez.
 
-- Direção: Alberto Vázquez; Pedro Rivero 
-- Espanha, 2010 
-- [http://www.birdboy.net/](http://www.birdboy.net/)
 
 ![Birdboy](/images/BIRDBOY_Frame06_660.jpg)

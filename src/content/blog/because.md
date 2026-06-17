@@ -18,10 +18,11 @@ categories:
 - video
 - youtube
 draft: false
+director: "[Cyriak](http://cyriak.co.uk/)"
+music: "Cyriak"
+country: "Reino Unido"
+year: 2012
+website: "http://cyriak.co.uk"
 ---
 
 _Because_ é uma animação incrível criado pelo animador ingles Cyriak, usando apenas uma foto e software de prateleira... _"Então, eu encontrei uma foto idiota do meu rosto e decidi fazer um vídeo com ela. Por quê? Só porque. É tudo feito com camadas 3D em Adobe After Effects... isto deu ao meu computador uma indigestão grave e derreteu um pouco o meu cérebro. Aproveite, se puder, suporte, se não puder."_ A música também foi criada pelo próprio Cyriak
-
-- Direção: [Cyriak](http://cyriak.co.uk/)
-- Música: Cyriak
-- Reino Unido, 2012

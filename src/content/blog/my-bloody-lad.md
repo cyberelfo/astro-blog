@@ -18,10 +18,11 @@ categories:
 - vimeo
 - gobelins
 draft: false
+director: "Cyrille Chauvin; Guillaume Dousse; Thibaud Petitpas; Pierre Rutz"
+production: "[WIZZprod°](http://wizz.fr/)"
+country: "França"
+year: 2011
+website: "http://wizz.fr"
 ---
 
 My Bloody Lad é um curta feito por 4 jovens alunos do primeiro ano da escola Gobelins. O filme foi produzido durante o estágio de um mês e meio no estúdio WIZZprod°, entre julho e agosto de 2011.
-
-- Direção: Cyrille Chauvin; Guillaume Dousse; Thibaud Petitpas; Pierre Rutz
-- Produção: [WIZZprod°](http://wizz.fr/)
-- França, 2011

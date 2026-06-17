@@ -18,9 +18,10 @@ categories:
 - vimeo
 - Canada
 draft: false
+production: "[Centre NAD](http://www.centrenad.com/)"
+country: "Canada"
+year: 2011
+website: "http://www.centrenad.com"
 ---
 
 Um macaco está casualmente desfrutando seu almoço na selva, quando de repente ele é capturado e jogado para o espaço. Criado por: Eric Villeneuve; Antoine Rouleau; Emmanuel Gatera Música: Sylvain Martel
-
-- Produção: [Centre NAD](http://www.centrenad.com/)
-- Canada, 2011

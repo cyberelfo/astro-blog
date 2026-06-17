@@ -18,10 +18,7 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Ta-Wei Chao, Tsai-Chun Han"
 ---
 
 Lindo e muito bem feito, Pig Box conta a história de um pássaro azul com frio que quer conseguir um pouco de calor de um porco-espinho sonolento.
-
-- Direção: Ta-Wei Chao, Tsai-Chun Han
-- Animação: Ta-Wei Chao Art Design: Tsai-Chun Han Musica: Lily Chou
-- Sound Design: Yin He Cor: Shu-Yi Chiou Efeitos 3D: Yu-Tai Tsai Suporte técnico: Yeh-Chuan Yao

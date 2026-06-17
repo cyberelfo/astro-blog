@@ -19,9 +19,10 @@ categories:
 - video
 - vimeo
 draft: false
+director: "[Anatoliy Lavrenishyn](http://www.toll.in.ua/)"
+country: "Ucrânia"
+year: 2005
+website: "http://www.toll.in.ua"
 ---
 
 Em sua busca por uma bela mulher este jovem se perde em um mundo de fantasias. Bela animação tradicional sobre o nosso desejo de um mundo melhor e, acima de tudo, mais bonito.
-
-- Direção: [Anatoliy Lavrenishyn](http://www.toll.in.ua/)
-- Ucrânia, 2005

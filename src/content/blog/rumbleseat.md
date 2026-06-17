@@ -17,10 +17,10 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Mike Roberts"
+music: "The Sadies <http://www.rumbleseatfilm.com"
+production: "Duopoly"
+website: "http://www.rumbleseatfilm.com"
 ---
 
 Rumbleseat é um ótimo curta de animação feito para a música do grupo The Sadies e ambientado em um mundo surreal criado pelo animador e diretor Mike Roberts. Inspirado em faroestes clássicos e cultura rockabilly, o filme gira em torno de um jovem que se encontra na parte traseira de um hot rod ocupado por quatro fantasmas sinistros, seguindo para um destino desconhecido...
-
-- Direção: Mike Roberts
-- Produção: Duopoly
-- Música: The Sadies <http://www.rumbleseatfilm.com/>

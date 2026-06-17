@@ -21,15 +21,16 @@ categories:
 - vimeo
 - Espanha
 draft: false
+director: "[Jossie Malis](http://www.jossiemalis.com/)"
+music: "Sxip Shirey & Joseph R. Coniff Som: Julie Reier & Jossie Malis"
+production: "[Zumbakamera](http://www.zumbakamera.com/)"
+country: "Espanha"
+year: 2012
+website: "http://www.jossiemalis.com"
 ---
 
 _"Um herói improvável embarca em uma jornada cruel por terra, mar e ar, em todas as atrações de um planeta transformado em um enorme parque petroquímico ... e além."_ _Bendito Machine IV: Fuel the Machines_ é o último episódio da super premiada saga das máquinas benditas.
 
-- Direção: [Jossie Malis](http://www.jossiemalis.com/)
-- Produção: [Zumbakamera](http://www.zumbakamera.com/)
-- Musica: Sxip Shirey & Joseph R. Coniff Som: Julie Reier & Jossie Malis
-- <http://benditomachine.com/> 
-- Espanha, 2012
 
 Se ainda não viu, aproveite para ver os episódios anteriores:
 

@@ -18,10 +18,10 @@ categories:
 - vimeo
 - Alemanha
 draft: false
+director: "Pascal Monaco & Felix Meyer"
+country: "Alemanha"
+year: 2012
+website: "http://www.wethinkthings.com"
 ---
 
 "_Cummulus & Nimbus é um, digamos ... longo projeto de 5 segundos. Tivemos essa idéia para um personagem, Cummulus. Ele foi concebido para ser um mascote, uma coisa engraçada para o nosso reel. Mas quanto mais pensávamos sobre o que ele poderia fazer, mais piadas e personagens surgiam e a coisa toda cresceu para uma abertura fake de desenho animado._" \- We Think Things
-
-- Direção: Pascal Monaco & Felix Meyer
-- [We Think Things](http://www.wethinkthings.com/)
-- Alemanha, 2012

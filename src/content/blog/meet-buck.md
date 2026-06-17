@@ -18,12 +18,12 @@ categories:
 - video
 - youtube
 draft: false
+director: "Denis Bouyer, Yann De Préval, Vincent Esousa, Laurent Monneron"
+production: "Supinfocom Arles"
+country: "França"
+year: 2010
 ---
 
 _Seleção oficial Anima Mundi 2011._ 
 
 Buck é um cara comum. Bem, se você aceitar o negócio da "cabeça de veado". Hoje, Buck vai passar a tarde com sua namorada que está muito feliz em vê-lo (ela esta quase sempre muito feliz). Mas quando Buck descobre que o pai dela não é o cara tolerante e simpático que ele esperava, a tarde de domingo fica realmente ruim. Muito ruim. Tipo ruim demais.
-
-- Direção: Denis Bouyer, Yann De Préval, Vincent Esousa, Laurent Monneron
-- Produção: Supinfocom Arles
-- França, 2010

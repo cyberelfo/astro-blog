@@ -17,9 +17,9 @@ categories:
 - vimeo
 - Noruega
 draft: false
+director: "Joseph Hodgson & Franck Aubry Animação & Direção de Arte: Joseph Hodgson & Franck Aubry"
+production: "[Racecar](http://www.racecar.no/) Noruega, 2011 <http://kiss.racecar.no"
+website: "http://www.racecar.no"
 ---
 
 _"Como Paul Auster disse uma vez: 'O sol é o passado, a terra é o presente e a lua é o futuro.' Em nosso primeiro curta independente, exploramos as conseqüência de algo tão inocente quanto um beijo. Uma história de amor entre o sol e a lua. Acreditamos que cada eclipse solar é uma tentativa da lua de alcançar o sol..."_
-
-- Direção: Joseph Hodgson & Franck Aubry Animação & Direção de Arte: Joseph Hodgson & Franck Aubry
-- Produção: [Racecar](http://www.racecar.no/) Noruega, 2011 <http://kiss.racecar.no/>

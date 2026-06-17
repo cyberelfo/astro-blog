@@ -17,9 +17,9 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Jonh Banana"
+country: "França"
+year: 2011
 ---
 
 Jonh Banana, um um animador que vive hoje na França, fez este curta em homenagem ao filme da Disney "Rocketeer".
-
-- Direção: Jonh Banana
-- França, 2011

@@ -18,12 +18,10 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Ari Gibson & Jason Pamment"
+production: "Luke Jurevicius"
+year: 2011
+website: "http://motionographer.com/2011/03/10/sometimes-the-stars-ari-gibson-jason-pamment"
 ---
 
 "Sometimes the Stars" é uma linda canção da banda australiana The Audreys, extraído do seu álbum de 2010 de mesmo nome. Este curta-metragem de animação, produzido por Lucas Jurevicius e dirigido por Ari Gibson & Pamment Jason, é sobre a jornada de uma menina perdida, através de uma paisagem surreal, e seu desejo de fazer uma conexão neste mundo distante mas estranhamente familiar. Abaixo algumas artes da produção. [![Sometimes the Stars - intial pitch concept 02](/images/intial_pitch_concept_02_ari_gibson__jason_pamment.jpg)](/images/intial_pitch_concept_02_ari_gibson__jason_pamment.jpg) [![Sometimes the Stars initial pitch concept](/images/initial_pitch_concept_ari_gibson.jpg)](/images/initial_pitch_concept_ari_gibson.jpg) [![Sometimes the Stars - early environment concept](/images/early_environment_concept_Shane_Devries.jpg)](/images/early_environment_concept_Shane_Devries.jpg) [![Sometimes the Stars - character concepts](/images/character-concepts_Luke_Jurevicius.jpg)](/images/character-concepts_Luke_Jurevicius.jpg) Musica: The Audreys
-
-- Produção: Luke Jurevicius
-- Direção: Ari Gibson & Jason Pamment
-- Designer de produção: Luke Jurevicius, Shane Devries, Jason Pamment, Ari Gibson
-- Roteiro: Luke Jurevicius, Ari Gibson & Jason Pamment Produção executiva: Tasha Coates, Tristan Goodall & Stu McCullogh Animação 2D: Ari Gibson Cenários: Art Jason Pamment Compositing: Ryan Kirby & Jason Pamment Cor: Jarrod Prince & Joshua Bowman Australia, 2011 Fonte:
-- [motionographer.com](http://motionographer.com/2011/03/10/sometimes-the-stars-ari-gibson-jason-pamment/ "http://motionographer.com/")

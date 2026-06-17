@@ -21,11 +21,11 @@ categories:
 - França
 - anima mundi 2012
 draft: false
+director: "Thomas Bozovic, Alexandre Cazals, Julien Legay, Chao Ma"
+production: "[Supinfocom](http://www.supinfocom.fr/)"
+country: "França"
+year: 2011
+website: "http://www.afoxtalemovie.com"
 ---
 
 _Seleção oficial Anima Mundi 2012_ Na China de seus ancestrais, os grandes e poderosos irmãos Wu caçam a mais misteriosa das raposas. Mas quem você acha que será realmente caçado, a raposa ou os homens?
-
-- Direção: Thomas Bozovic, Alexandre Cazals, Julien Legay, Chao Ma
-- Produção: [Supinfocom](http://www.supinfocom.fr/) 
-- [http://www.afoxtalemovie.com/](http://www.afoxtalemovie.com/)
-- França, 2011

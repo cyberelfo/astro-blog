@@ -19,10 +19,10 @@ categories:
 - Estados Unidos
 - Calarts
 draft: false
+director: "Carlos Romero"
+country: "Estados Unidos"
+year: 2012
+website: "http://calarts.edu"
 ---
 
 _Cylinder Six_ é mais um curta de animação da _CalArts_. Uma garota está passeando em sua scooter quando um espirito malvado provoca um acidente. Animação tradicional produzida por Carlos Romero com uma qualidade indiscutível e uma boa narativa.
-
-- Direção: Carlos Romero
-- [CalArts – California Institute of the Arts](http://calarts.edu/)
-- Estados Unidos, 2012

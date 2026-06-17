@@ -20,15 +20,12 @@ categories:
 - video
 - vimeo
 draft: false
+director: "[Mauro Carraro](http://www.mapo-mapos.com/), Raphaël Calamote, Jérémy Pasquet"
+music: "Pierre Manchot"
+production: "["
+country: "França"
+year: 2010
+website: "http://www.matatoro.fr"
 ---
 
 _Seleção oficial Anima Mundi 2011_ Um toureiro e um touro se confrontam em uma arena e em outros planos existenciais nessa exuberante animação de graduação para a escola
-
-- Supinfocom Arles.
-- Direção: [Mauro Carraro](http://www.mapo-mapos.com/), Raphaël Calamote, Jérémy Pasquet
-- Música: Pierre Manchot
-- Produção: [
-- Supinfocom Arles](http://www.
-- supinfocom.fr/)
-- França, 2010
-- [ http://www.matatoro.fr](http://www.matatoro.fr/)

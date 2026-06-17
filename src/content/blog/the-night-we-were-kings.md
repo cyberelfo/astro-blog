@@ -20,8 +20,9 @@ categories:
 - gobelins
 - anima mundi 2012
 draft: false
+director: "Chloe Nicolay; Manddy Wyckens; Anthony Lejeune; Gaspard Sumeire; Lea Justum"
+country: "França"
+year: 2011
+website: "http://www.gobelins.fr"
 ---
 
-- Direção: Chloe Nicolay; Manddy Wyckens; Anthony Lejeune; Gaspard Sumeire; Lea Justum
-- [Gobelins L'Ecole de L'Image](http://www.gobelins.fr/)
-- França, 2011

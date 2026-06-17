@@ -21,6 +21,8 @@ categories:
 - Israel
 - anima mundi 2012
 draft: false
+director: "Nadav Nachmany e Dror shpatz"
+music: "Amit Poznansky Israel, 2011 [Bezalel Academy of Art & Design](http://www.bezalel.ac.il/en/)"
+website: "http://www.bezalel.ac.il/en"
 ---
-
-_Moving Pictures_ é mais um belo curta vindo da escola de animação _Bezalel Academy_ de Israel. Desta vez temos uma curta que mistura animação 3D com animação 2D para contar a história de um homem que vive em um mundo de fantasia e felicidade. Mas nem tudo é o que parece... O filme foi produzido pelos alunos Nadav Nachmany (2D) e Dror shpatz (3D). Roteiro, direção e animação: Nadav Nachmany e Dror shpatz Música: Amit Poznansky Israel, 2011 [Bezalel Academy of Art & Design](http://www.bezalel.ac.il/en/)
+_Moving Pictures_ é mais um belo curta vindo da escola de animação _Bezalel Academy_ de Israel. Desta vez temos uma curta que mistura animação 3D com animação 2D para contar a história de um homem que vive em um mundo de fantasia e felicidade. Mas nem tudo é o que parece... O filme foi produzido pelos alunos Nadav Nachmany (2D) e Dror shpatz (3D).

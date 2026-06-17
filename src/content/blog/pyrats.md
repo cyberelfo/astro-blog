@@ -19,10 +19,10 @@ categories:
 - youtube
 - gobelins
 draft: false
+director: "Yves Bigerel, Bruno Dequier, Ben Fiquet, Nicolas Gueroux, Julien Le Rolland"
+country: "França"
+year: 2006
+website: "http://www.gobelins.fr"
 ---
 
 Um pirata está prestes a ser executado quando cinco companheiros seus aparecem em cena. Curta da Gobelins para abertura do Festival Internacional de Animação de Annecy 2006.
-
-- Direção: Yves Bigerel, Bruno Dequier, Ben Fiquet, Nicolas Gueroux, Julien Le Rolland
-- [ Gobelins, L’école de l’image](http://www.gobelins.fr/)
-- França, 2006

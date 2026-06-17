@@ -21,8 +21,8 @@ categories:
 - annecy 2012
 - anima mundi 2012
 draft: false
+director: "Erick Oh design de Som: David Ochs, Andrew Vernon Mixagem: Andrew Vernon <http://www.erickoh.com"
+website: "http://www.erickoh.com"
 ---
 
 Interessante filme feito a mão à mão (em uma Cintiq, usando TVPaint) de Erick Oh. Ele é uma artista de animação coreano vivendo na Califórnia, atualmente trabalhando na Pixar. Seus filmes independentes foram apresentados em Annecy, Hiroshima, Zagreb, SIGGRAPH e Anima Mundi.
-
-- Direção: Erick Oh design de Som: David Ochs, Andrew Vernon Mixagem: Andrew Vernon <http://www.erickoh.com/>

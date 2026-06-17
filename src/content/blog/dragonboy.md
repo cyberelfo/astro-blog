@@ -17,10 +17,11 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Lisa Allen, Bernie Warman and Shaofu Zhang"
+production: "[Academy of Art University](http://www.academyart.edu/)"
+country: "Estados Unidos"
+year: 2010
+website: "http://www.academyart.edu"
 ---
 
 Um cavaleiro. Uma princesa. Um dragão. Três crianças pequenas. Uma peça escolar. Uma batalha épica por amor e honra.
-
-- Direção: Lisa Allen, Bernie Warman and Shaofu Zhang
-- Produção: [Academy of Art University](http://www.academyart.edu/)
-- Estados Unidos, 2010

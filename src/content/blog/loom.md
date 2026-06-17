@@ -19,13 +19,13 @@ categories:
 - youtube
 - filmakademie
 draft: false
+director: "Ilija Brunck, Jan Bitzer, Csaba Letay"
+production: "Regina Welker"
+country: "Alemanha"
+year: 2010
+website: "http://www.filmakademie.de"
 ---
 
 _Seleção oficial Anima Mundi 2011._
 
 Uma traça fica presa em uma teia de aranha. Lutando para escapar, os movimentos de pânico da traça apenas diminuem suas chancesde sobrevivência. O que se segue é o esperado. A aranha aparecer, possui sua presa e se alimenta dela.
-
-- Direção: Ilija Brunck, Jan Bitzer, Csaba Letay
-- Produção: Regina Welker
-- [Filmakademie](http://www.filmakademie.de/)
-- Alemanha, 2010

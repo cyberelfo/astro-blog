@@ -20,12 +20,12 @@ categories:
 - Holanda
 - anima mundi 2012
 draft: false
+director: "[Frodo Kuipers](http://www.studiomosquito.nl/)"
+music: "Alex Debicki Mixagem final: Jeroen Nadorp at Bob Kommer"
+production: "[il Luster Films](http://www.illuster.nl/) Coprodução: NTR"
+country: "Holanda"
+year: 2011
+website: "http://www.studiomosquito.nl"
 ---
 
 _Seleção oficial Anima Mundi 2012_ Queimando no sol do deserto, Eduardo - um vendedor de limonada com um pequeno stand - está lutando contra a vontade de beber sua última garrafa de limonada refrescante. Então, um cliente sedento aparece rastejando em sua direção...
-
-- Direção: [Frodo Kuipers](http://www.studiomosquito.nl/)
-- Roteiro: Rudi Brekelmans Animação e design: Frodo Kuipers at [Studio Mosquito](http://www.studiomosquito.nl/) Vozes: Lee M. Ross, Simon Zwiers Som: Jeroen Nadorp
-- Música: Alex Debicki Mixagem final: Jeroen Nadorp at Bob Kommer
-- Produção: [il Luster Films](http://www.illuster.nl/) Coprodução: NTR
-- Holanda, 2011

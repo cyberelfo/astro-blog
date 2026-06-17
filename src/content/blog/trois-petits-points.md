@@ -21,10 +21,11 @@ categories:
 - youtube
 - gobelins
 draft: false
+director: "Lucrèce Andreae; Alice Dieudonne; Tracy Nowocien; Florian Parrot; Ornélie Prioul; Rémy Schaepman"
+production: "[Gobelins, l'école de l'image](http://www.gobelins.fr/)"
+country: "França"
+year: 2010
+website: "http://www.gobelins.fr"
 ---
 
 _Seleção oficial Anima Mundi 2011_ Uma costureira espera seu marido voltar da guerra.
-
-- Direção: Lucrèce Andreae; Alice Dieudonne; Tracy Nowocien; Florian Parrot; Ornélie Prioul; Rémy Schaepman
-- Produção: [Gobelins, l'école de l'image](http://www.gobelins.fr/)
-- França, 2010

@@ -18,6 +18,9 @@ categories:
 - vimeo
 - Italia
 draft: false
+director: "[Mario Greco](http://www.viewsic.tv/) Arte: [Daniel Egneus](http://www.danielegneus.com/) Animação: Marco Perugini"
+country: "Italia"
+year: 2010
+website: "http://www.viewsic.tv"
 ---
-
-"Leaving home" começa com uma surreal, etérea, e por vezes hipnótica criação onde a cidade nasce, cresce e se transforma levando o espectador para um mundo catastrófico e claustrofóbico. Direção e edição: [Mario Greco](http://www.viewsic.tv/) Arte: [Daniel Egneus](http://www.danielegneus.com/) Animação: Marco Perugini Musica: Stefano Brandoni Italia, 2010
+"Leaving home" começa com uma surreal, etérea, e por vezes hipnótica criação onde a cidade nasce, cresce e se transforma levando o espectador para um mundo catastrófico e claustrofóbico.

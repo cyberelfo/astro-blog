@@ -20,11 +20,11 @@ categories:
 - Alemanha
 - annecy 2012
 draft: false
+director: "[SUN & EGG](http://www.sunandegg.com/)"
+production: "Xin Sun"
+country: "Alemanha"
+year: 2012
+website: "http://www.sunandegg.com"
 ---
 
 Em uma noite chuvosa, um garoto chamado EGG bota um ovo, do qual nasce um monstro. O garoto, aterrorizado, corre a uma floresta próxima e abandona o monstro. Entretanto, este bizarro incidente se repete a cada noite, o que leva EGG a se sentir como um monstro e buscar o isolamento... _Happy Life_ é uma animação muito bem produzida, e que já foi exibido em vários festivais ao redor do mundo, incluindo o Annecy 2012. Roteiro, design e
-
-- direção: [SUN & EGG](http://www.sunandegg.com/)
-- Produção: Xin Sun
-- Animação: Yun Li & Xin Sun Composição e efeitos: Yun Li & Xin Sun Musica: Xingyu Li Som: Tobias Böhm Vozes: Yun Li, Xin Sun, Xingyu Li, Zhang Xuan, Mi Chai, Lei Lei, Hong Zhao
-- Alemanha, 2012

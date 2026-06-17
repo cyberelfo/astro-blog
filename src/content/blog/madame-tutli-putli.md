@@ -21,11 +21,11 @@ categories:
 - vimeo
 - National Film Board of Canada
 draft: false
+director: "Chris Lavis, Maciek Szczerbowski"
+production: "Marcy Page"
+country: "Canada"
+year: 2007
+website: "http://madametutliputli.com"
 ---
 
 _Indicado ao Oscar 2008 de melhor Animação Curta-metragem_ Senhora Tutli-Putli embarca no trem noturno, sob o peso de todas as suas posses terrenas e os fantasmas de seu passado. Ela viaja sozinha, encarando a bondade e a ameaça de estranhos. Conforme anoitece, ela se encontra presa em uma aventura metafísica desesperada. À deriva entre mundos reais e imaginários, Senhora Tutli-Putli confronta seus demônios e é arrastado para um redemoinho de mistério e suspense.
-
-- Direção: Chris Lavis, Maciek Szczerbowski
-- Produção: Marcy Page
-- Canada, 2007
-- [madametutliputli.com](http://madametutliputli.com/)

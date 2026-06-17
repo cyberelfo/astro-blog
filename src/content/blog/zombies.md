@@ -18,6 +18,7 @@ categories:
 - youtube
 - Austrália
 draft: false
+director: "[Guy Collins](http://www.guyjc.com/), em associação com Mondo Media. Musica \"Quasi Motion\": [Kevin MacLeod](http://incompetech.com) Licença: [Creative Commons \"Attribution 3.0\"](http://creativecommons.org/licenses/by/3.0/) Austrália, 2012"
+website: "http://www.guyjc.com"
 ---
-
-Um conto de sobrevivência animado. Direção e roteiro: [Guy Collins](http://www.guyjc.com/), em associação com Mondo Media. Musica "Quasi Motion": [Kevin MacLeod](http://incompetech.com) Licença: [Creative Commons "Attribution 3.0"](http://creativecommons.org/licenses/by/3.0/) Austrália, 2012
+Um conto de sobrevivência animado.

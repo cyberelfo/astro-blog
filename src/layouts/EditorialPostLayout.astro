@@ -2,6 +2,7 @@
 // component imports
 import MainLayout from "./MainLayout.astro";
 import VideoEmbed from "../components/VideoEmbed.astro";
+import CreditsBox from "../components/CreditsBox.astro";
 
 // Util imports
 import { slugify, formatDate } from "../lib/utils";
@@ -66,6 +67,7 @@ const hasVideo = youtube || vimeo;
             <div class="editorial-content-wrapper">
                 <div class="editorial-content">
                     <slot />
+                    <CreditsBox {...frontmatter} />
                 </div>
             </div>
         </div>

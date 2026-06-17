@@ -16,10 +16,10 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Neil Stubbings Design de som: Gregor Rosenberger"
+country: "Suiça"
+year: 2011
+website: "http://www.lemob.ch"
 ---
 
 Para este astronauta solitário um pit stop não planejado transforma-se em um encontro imediato do terceiro grau.
-
-- Direção: Neil Stubbings Design de som: Gregor Rosenberger
-- [ LeMob](http://www.lemob.ch)
-- Suiça, 2011

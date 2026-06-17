@@ -18,11 +18,11 @@ categories:
 - video
 - youtube
 draft: false
+director: "Fabrice O. Joubert"
+production: "Pumpkin Factory & Bibo Films"
+country: "França"
+year: 2008
+website: "http://www.frenchroast.fr"
 ---
 
-French Roast é uma divertida animação produzida pela Pumpkin Factory & Bibo Films. 
-
-- Direção: Fabrice O. Joubert
-- Produção: Pumpkin Factory & Bibo Films
-- França, 2008
-- [frenchroast.fr/](http://www.frenchroast.fr/)
+French Roast é uma divertida animação produzida pela Pumpkin Factory & Bibo Films.

@@ -11,6 +11,11 @@ image: {
 vimeo: 179779722
 category: Animação 2D
 draft: false
+director: "Joseph Bennett & Charles Huettner"
+music: "Joe Wong & Didier Leplae"
+production: "Matt Harrigan & Dave Newberg"
+country: "Estados Unidos"
+year: 2016
 ---
 
 Dirigido por Joseph Bennett e Charles Huettner, Scavengers, de 2016, mergulha o espectador em um mundo alienígena profundamente misterioso e visualmente fascinante. A narrativa acompanha uma dupla de exploradores espaciais, aparentemente perdidos, interagindo com a fauna, a flora e as forças sobrenaturais do ambiente.
@@ -22,11 +27,3 @@ O curta foi commissionado pela Cartoon Network, onde foi exibido no bloco Toonam
 O curta é realmente fascinante e me lembrou muito a animação francesa "La Planète Sauvage" (1973), de René Laloux, que também apresenta um mundo alienígena surreal e criaturas bizarras.
 
 Scavengers não oferece explicações fáceis. Em vez disso, convida o espectador a refletir sobre o papel do ser humano em mundos que não compreende, sobre adaptação e sobre a fina linha entre a curiosidade e a destruição.
-
-- Direção: Joseph Bennett & Charles Huettner
-- Produção: Matt Harrigan & Dave Newberg
-- Animação: Joseph Bennett, Charles Huettner, Caleb Wood, Nelson Boles, Jonathan Djob Nkondo, Sean Buckelew
-- Arte de cenário: Charles Huettner & Joseph Bennett
-- Desenho de som: Mike Jansson
-- Música: Joe Wong & Didier Leplae
-- Estados Unidos, 2016

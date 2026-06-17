@@ -20,9 +20,9 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Osman Cerfon"
+production: "Je Suis Bien Content França, 2010 <http://www.studio-wasia.com/promofilms/ChP/FrChP/chp-gen.html"
+website: "http://www.studio-wasia.com/promofilms/ChP/FrChP/chp-gen.html"
 ---
 
 _Seleção Oficial Anima Mundi 2011_ Jinx tem uma cabeça de peixe. Quando uma bolha escapa da sua boca e persegue alguém, ele vive uma maré de azar...
-
-- Direção: Osman Cerfon
-- Produção: Je Suis Bien Content França, 2010 <http://www.studio-wasia.com/promofilms/ChP/FrChP/chp-gen.html>

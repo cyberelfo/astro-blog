@@ -18,12 +18,10 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Paul Alexandre; Dara Cazamea; Maxime Cazaux; Romain Delaunay; Laurent Monneron ["
+country: "França"
+year: 2011
+website: "http://www."
 ---
 
 _Seleção oficial Anima Mundi 2011._ Talvez você goste de almoçar em um lugar sossegado, como um parque... Mas e se o seu almoço não gostar? Nas ruas todos podem ouvir você gritar, mas quem se importa? Hambuster é um filme de graduação co-dirigido por quatro estudantes de
-
-- Supinfocom Arles.
-- Direção: Paul Alexandre; Dara Cazamea; Maxime Cazaux; Romain Delaunay; Laurent Monneron [
-- Supinfocom École d'animation 2D / 3D](http://www.
-- supinfocom.fr/)
-- França, 2011

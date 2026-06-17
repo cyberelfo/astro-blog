@@ -20,9 +20,9 @@ categories:
 - França
 - anima mundi 2012
 draft: false
+director: "Denis Chapon"
+country: "França"
+year: 2011
 ---
 
 Durante 3 anos (2008-2011) Denis Chapon fez 12 desenhos de animação a cada dia (o equivalente a 1 segundo de animação). Ele usou uma caneta permanente e a parte de trás de folhas de papel A4 usadas. Este curta é o resultado deste trabalho.
-
-- Direção: Denis Chapon
-- França, 2011

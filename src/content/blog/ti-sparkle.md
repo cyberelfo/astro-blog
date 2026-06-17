@@ -18,10 +18,10 @@ categories:
 - video
 - vimeo
 draft: false
+production: "Sebas&Clim; \\- [Trunk Animation](http://trunk.me.uk/) Musica"
+country: "Reino Unido"
+year: 2012
+website: "http://www.flow-audio.com"
 ---
 
 Estes quatro comerciais para a TI Sparkle são simples, elegantes e comunicam a mensagem. Quem dera todas as propagandas fossem assim.
-
-- Produção: Sebas&Clim; \- [Trunk Animation](http://trunk.me.uk/) Musica:
-- [Flow Audio](http://www.flow-audio.com/)
-- Reino Unido, 2012

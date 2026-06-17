@@ -20,12 +20,10 @@ categories:
 - vimeo
 - anima mundi 2012
 draft: false
+director: "Louis Hudson"
+production: "Louis Hudson & Jon Petrie Musica e som – Ben Walker"
+year: 2011
+website: "http://diceproductions.co.uk"
 ---
 
 Selecionado para o Festival Anima Mundi 2012. _Um homem minúsculo vive dentro de um gato e se envolve num pegajoso triângulo amoroso._
-
-- Direção: Louis Hudson
-- Roteiro: Louis Hudson & Ian Ravenscroft
-- Produção: Louis Hudson & Jon Petrie Musica e som – Ben Walker
-- Animação: Louis Hudson, Jo Hepworth, Rachel Thorn, Loukia Kyriakidou,Matthew Waruszynski, Robert Brown, Barbara Benas, Jenny Lewis, Ron Warmington, Adam Watts, Dwayne Harris Animation Clean Up: Denise Dean, Simon Cartwright, Nuria Gonzalez Blanco,Daniel Underdown, Chris Colman, Tegan Jephcott Colorização digital: Denise Dean, Ben Lynch, Matt Sandbrook, Samantha Boggild, Mark Skinner, Andy Macpherson, Chris Stokes, Tim Lozinski, Lauren Newman, Patrick Mallon, Lianne Allen, David Thomas, Paul Berner, Natasha Williams Atriz: Amy Commander
-- Elenco: Kevin Eldon – Yorkie Josie Long – Susan Isabel Fay – Michelle Jon Petrie – Cat Reino Unido, 2011 <http://diceproductions.co.uk/>

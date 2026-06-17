@@ -18,10 +18,10 @@ categories:
 - vimeo
 - Irlanda
 draft: false
+director: "[Sean Mullen](http://seanmullenartwork.blogspot.com/)"
+country: "Irlanda"
+year: 2009
+website: "http://www.giant.ie"
 ---
 
 The Artists é um curta sobre dois pintores rivais que não conseguem enxergar além da tela.
-
-- Direção: [Sean Mullen](http://seanmullenartwork.blogspot.com/)
-- [Giant Creative](http://www.giant.ie/)
-- Irlanda, 2009

@@ -16,6 +16,9 @@ categories:
 - video
 - vimeo
 draft: false
+director: "[Justin Farris](http://webspace.ringling.edu/~jfarris"
+country: "Estados Unidos"
+year: 2011
+website: "http://webspace.ringling.edu/~jfarris"
 ---
-
-Um pastor de ovelhas está tentando ir à igreja, mas seu rebanho não consegue parar de segui-lo... Direção, roteiro e animação: [Justin Farris](http://webspace.ringling.edu/~jfarris/) Estados Unidos, 2011
+Um pastor de ovelhas está tentando ir à igreja, mas seu rebanho não consegue parar de segui-lo...

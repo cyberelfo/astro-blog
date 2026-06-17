@@ -17,11 +17,11 @@ categories:
 - video
 - youtube
 draft: false
+director: "Andrzej Jobczyk"
+production: "Andrzej Bednarek"
 ---
 
 _Seleção oficial Anima Mundi 2011._ Como a realidade pareceria se fosse virada do avesso? Instigante filme polonês de Andrzej Jobczyk.
 
-- Direção: Andrzej Jobczyk
-- Produção: Andrzej Bednarek 
 
 Polónia, 2008

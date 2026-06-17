@@ -19,9 +19,10 @@ categories:
 - video
 - youtube
 draft: false
+director: "Konstantin Bronzit"
+country: "Roteiro: Konstantin Bronzit Russia"
+year: 2007
+website: "http://www.melnitsa.com"
 ---
 
 O amor é sempre repentino. Ninguém se surpreende quando este acontece no trabalho, mesmo que o lugar de trabalho seja inesperado. Este curta concorreu ao Oscar 2009 de melhor animação curta metragem, junto com [Oktapodi](/blog/oktapodi/ "Oktapodi") e [La Maison en Petits Cubes](/blog/la-maison-en-petits-cubes/ "La Maison en Petits Cubes"), que foi o vencedor.
-
-- Direção: Konstantin Bronzit
-- Roteiro: Konstantin Bronzit [ Melnitsa Animation Studio](http://www.melnitsa.com/) Russia, 2007

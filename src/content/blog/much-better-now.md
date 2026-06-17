@@ -18,10 +18,10 @@ categories:
 - vimeo
 - Áustria
 draft: false
+production: "Salon Alpin Direção, roteiro e"
+country: "Animação: Christoph \"Kris\" Staber Áustria"
+year: 2011
+website: "http://muchbetternow.net"
 ---
 
 Em _Much Better Now_ um marcador de livro está preso em um volume esquecido que de repente é aberto pelo vento. Ele então começa a surfar nas ondas feitas pelas páginas do livro, experimentando a maior aventura da sua vida.
-
-- Produção: Salon Alpin Direção, roteiro e
-- animação: Philipp Comarella & Simon Griesser Música e som: Silvio Canazei Eletricista: Thomas Welz
-- Animação: Christoph "Kris" Staber Áustria, 2011 <http://muchbetternow.net/>

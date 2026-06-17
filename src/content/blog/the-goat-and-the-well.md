@@ -17,10 +17,10 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Benjamin Cady Som: Kassian Sheppard."
+country: "Reino Unido"
+year: 2010
+website: "http://thegoatandthewell.blogspot.com"
 ---
 
 Este excelente filme de graduação de Benjamin Cady acabou de ganhar o prêmio da NFB (National Film Board of Canada) no Festival Internacional de Animação de Ottawa.
-
-- Direção: Benjamin Cady Som: Kassian Sheppard.
-- Reino Unido, 2010
-- [ http://thegoatandthewell.blogspot.com](http://thegoatandthewell.blogspot.com/)

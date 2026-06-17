@@ -19,6 +19,12 @@ const blogCollection = defineCollection({
         draft: z.boolean().optional().default(false),
         robots: z.string().optional(),
         layout: z.string().optional(),
+        director: z.string().optional(),
+        music: z.string().optional(),
+        production: z.string().optional(),
+        country: z.string().optional(),
+        year: z.union([z.number(), z.string()]).optional(),
+        website: z.string().optional(),
     }),
 });
 

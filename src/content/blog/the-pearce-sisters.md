@@ -19,9 +19,9 @@ categories:
 - vimeo
 - aardman
 draft: false
+director: "Luis Cook"
+production: "[Aardman Animations](http://www.aardman.com/) Reino Unido, 2007 <http://www.pearcesisters.co.uk"
+website: "http://www.aardman.com"
 ---
 
 A Aardman Animations combina vários gêneros e estilos de animação para contar esta história macabra de duas irmãs, Lol e Edna, que vivem isoladas numa praia remota, tirando seu parco sustento do mar, e que um dia são surpreendidas por uma visita inesperada.
-
-- Direção: Luis Cook
-- Produção: [Aardman Animations](http://www.aardman.com/) Reino Unido, 2007 <http://www.pearcesisters.co.uk/>

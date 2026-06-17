@@ -18,11 +18,10 @@ categories:
 - vimeo
 - Estados Unidos
 draft: false
+director: "[Kimberly Knoll](http://kimberlyknoll.blogspot.com/) e"
+country: "Estados Unidos"
+year: 2011
+website: "http://shiftguys.blogspot.com"
 ---
 
 Um belo conto de ficção ciêntifica sobre uma sociedade onde robôs são ilegais.
-
-- Direção: [Kimberly Knoll](http://kimberlyknoll.blogspot.com/) e
-- [Yunghan Chang](http://shiftguys.blogspot.com/)
-- [San Jose State University](http://www.sjsu.edu/)
-- Estados Unidos, 2011

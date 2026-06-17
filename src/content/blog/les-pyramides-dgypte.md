@@ -19,10 +19,11 @@ categories:
 - vimeo
 - França
 draft: false
+director: "[Corentin Charron](http://onectin.fr), [Lise Corriol](http://lisecorriol.wix.com/lise), [Olivier Lafay](http://lafayolivier.com), [Nicolas Mrikhi](http://nicojak.com)"
+music: "Kalina Świątnicka"
+country: "França"
+year: 2013
+website: "http://onectin.fr"
 ---
 
-Cairo, 1920, um arqueólogo está prestes a descobrir o segredo das Pirâmides do Egito... 
-
-- Direção: [Corentin Charron](http://onectin.fr), [Lise Corriol](http://lisecorriol.wix.com/lise), [Olivier Lafay](http://lafayolivier.com), [Nicolas Mrikhi](http://nicojak.com) 
-- Música: Kalina Świątnicka 
-- França, 2013
+Cairo, 1920, um arqueólogo está prestes a descobrir o segredo das Pirâmides do Egito...

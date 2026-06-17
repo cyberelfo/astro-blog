@@ -19,11 +19,11 @@ categories:
 - youtube
 - gobelins
 draft: false
+director: "Julien Bocabeille, François-Xavier Chanioux, Olivier Delabarre, Thierry Marchand, Quentin Marmier, Emud Mokhberi"
+production: "Gobelins, l'école de l'image"
+country: "França"
+year: 2007
+website: "http://www.gobelins.fr"
 ---
 
 Filme do estudio frances Gobelins nomeado ao Oscar de melhor curta de animação de 2007.
-
-- Direção: Julien Bocabeille, François-Xavier Chanioux, Olivier Delabarre, Thierry Marchand, Quentin Marmier, Emud Mokhberi
-- Produção: Gobelins, l'école de l'image
-- França, 2007
-- [gobelins.fr](http://www.gobelins.fr)

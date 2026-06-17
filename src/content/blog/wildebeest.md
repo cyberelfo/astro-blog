@@ -18,9 +18,10 @@ categories:
 - video
 - youtube
 draft: false
+production: "[Bird Box Studios](http://birdboxstudio.com/)"
+country: "Reino Unido"
+year: 2012
+website: "http://birdboxstudio.com"
 ---
 
 Wildebeest é mais uma excelente animação do Bird Box Studios.
-
-- Produção: [Bird Box Studios](http://birdboxstudio.com/)
-- Reino Unido, 2012

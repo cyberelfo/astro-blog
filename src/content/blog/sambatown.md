@@ -19,9 +19,10 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Cadu Macedo"
+country: "Animação: Rogério Shareid Brasil"
+year: 2010
+website: "http://www.sambatown.com"
 ---
 
 _Seleção oficial Anima Mundi 2011_ Sambatown é uma estória sobre três personagens envolvidos num triângulo amoroso. Ambientado em algum lugar nas américas negras, o filme mistura elementos do candomblé e dos antigos bailes de carnaval.
-
-- Direção: Cadu Macedo
-- Animação: Rogério Shareid Brasil, 2010 <http://www.sambatown.com/>

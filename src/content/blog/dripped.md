@@ -18,10 +18,10 @@ categories:
 - video
 - youtube
 draft: true
+director: "Leo Verrier"
+production: "Chez Eddy"
+country: "França"
+year: 2010
 ---
 
 _Seleção oficial Anima Mundi 2011._ Nova York 1950. Jack rouba pinturas dos museus e as esconde em casa... para comer! Ótima animação com uma bela trilha sonora de jazz.
-
-- Direção: Leo Verrier
-- Produção: Chez Eddy
-- França, 2010

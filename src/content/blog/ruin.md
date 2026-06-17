@@ -18,9 +18,9 @@ categories:
 - vimeo
 - Estados Unidos
 draft: false
+director: "Wes Ball"
+production: "[Oddball Animation](http://www.oddballanimation.com/) Estados Unidos, 2012 <http://www.oddballanimation.com/concept-ruin"
+website: "http://www.oddballanimation.com"
 ---
 
 _Ruin_ é uma animação de ação / ficção-científica que se passa em um mundo pós-apocalíptico, dirigida por Wes Ball. O curta demorou mais de dois anos para ser concluído pela empresa de Ball, a Oddball Animation, e é parte de um filme maior que o diretor gostaria de produzir.
-
-- Direção: Wes Ball
-- Produção: [Oddball Animation](http://www.oddballanimation.com/) Estados Unidos, 2012 <http://www.oddballanimation.com/concept-ruin>

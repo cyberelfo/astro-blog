@@ -18,10 +18,11 @@ categories:
 - vimeo
 - Alemanha
 draft: false
+director: "Annette Jung"
+production: "[Talking Animals Animation Studio](http://www.talking-animals.com/)"
+country: "Alemanha"
+year: 2013
+website: "http://www.talking-animals.com"
 ---
 
 Se você curte Michael Jackson ou Lego ou, melhor ainda, os dois, não perca _Lego Dance_ , fantástica (e curtíssima) animação de Annette Jung.
-
-- Direção: Annette Jung
-- Produção: [Talking Animals Animation Studio](http://www.talking-animals.com/)
-- Alemanha, 2013

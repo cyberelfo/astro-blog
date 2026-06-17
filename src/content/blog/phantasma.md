@@ -18,6 +18,10 @@ categories:
 - vimeo
 - Brasil
 draft: false
+director: "[Alessandro Correa](http://www.alessandrocorrea.com/)"
+music: "Efeitos de Áudio: Davidson Lopes Canto: Enio Mendes"
+country: "Brasil"
+year: 2012
+website: "http://www.alessandrocorrea.com"
 ---
-
-Eu devo confessar que nunca vi O Fantasma da Ópera. O máximo de conhecimento que tenho sobre essa obra é que ela trata de um fantasma e que se passa em uma ópera. Dito isso, acredito que o novo curta do diretor Alessandro Correa é uma homenagem a esta famosa peça da Broadway. Ou não? Bom, isso não importa. O que importa é que _Phantasma_ é uma animação preciosa. Com uma direção caprichada, um visual arrebatador, roteiro elegante e uma trilha sonora delicada e poderosa, o curta é impressionante e imperdível. Se gostou, não perca o outro ótimo curta de Alessandro, [Moby Dick](/blog/moby-dick/ "Moby Dick – Bela animação de Alessandro Corrêa é um conto de amor singular"). Direção & Animação: [Alessandro Correa](http://www.alessandrocorrea.com/) Trilha Sonora: Gavin Folgert Mixagem & Efeitos de Áudio: Davidson Lopes Canto: Enio Mendes Brasil, 2012
+Eu devo confessar que nunca vi O Fantasma da Ópera. O máximo de conhecimento que tenho sobre essa obra é que ela trata de um fantasma e que se passa em uma ópera. Dito isso, acredito que o novo curta do diretor Alessandro Correa é uma homenagem a esta famosa peça da Broadway. Ou não? Bom, isso não importa. O que importa é que _Phantasma_ é uma animação preciosa. Com uma direção caprichada, um visual arrebatador, roteiro elegante e uma trilha sonora delicada e poderosa, o curta é impressionante e imperdível. Se gostou, não perca o outro ótimo curta de Alessandro, [Moby Dick](/blog/moby-dick/ "Moby Dick – Bela animação de Alessandro Corrêa é um conto de amor singular").

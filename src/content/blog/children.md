@@ -17,10 +17,11 @@ categories:
 - video
 - youtube
 draft: false
+director: "Takuya Okada; Takahiro Miyauchi; Naoki Izutsu; Temari Kondo"
+production: "[Trident College of Computer](http://www.jpnnavi.com/en/?c=index&a=school&gakouid=1250)"
+country: "Japão"
+year: 2010
+website: "http://www.jpnnavi.com/en/?c=index&a=school&gakouid=1250"
 ---
 
 Zona industrial... Educação reprimindo a personalidade das crianças... Diariamente... Uma delas irá se revoltar.
-
-- Direção: Takuya Okada; Takahiro Miyauchi; Naoki Izutsu; Temari Kondo
-- Produção: [Trident College of Computer](http://www.jpnnavi.com/en/?c=index&a=school&gakouid=1250)
-- Japão, 2010

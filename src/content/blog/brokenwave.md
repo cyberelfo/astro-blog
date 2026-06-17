@@ -19,12 +19,10 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Chris Allen"
+country: "Reino Unido"
+year: 2010
+website: "http://www.aucb.ac.uk"
 ---
 
 Baseado em memórias do avô do diretor. "Tudo o que já fizemos ou nos envolvemos, está em algum lugar da nossa memória, você só precisa de um gatilho"
-
-- Direção: Chris Allen
-- Co-Direção: Tara Baker
-- Animação: Chris Allen, Tara Baker, David Abiose, Tim Grant, Lizzie Sevenoaks, Benjamin Riehl, Paul Knight
-- Reino Unido, 2010
-- [Arts University College of Bournemouth](http://www.aucb.ac.uk/)

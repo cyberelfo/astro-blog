@@ -19,9 +19,9 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Jonas Brandão"
+production: "Thiago Minamisawa Brasil, 2009 <http://www.splitfilmes.com.br"
+website: "http://www.splitfilmes.com.br"
 ---
 
 Em "Um Lugar Comum", como em qualquer praça ou parque, Marina e o desajeitado Zezé se conhecem e juntos plantam uma árvore, que torna-se o símbolo de sua amizade. O filme acompanha o crescimento das crianças e seus desencontros ao longo dos anos neste mesmo lugar comum. Animação realizada pelos alunos da UFSCar.
-
-- Direção: Jonas Brandão
-- Produção: Thiago Minamisawa Brasil, 2009 <http://www.splitfilmes.com.br/>

@@ -21,10 +21,11 @@ categories:
 - Canada
 - anima mundi 2012
 draft: false
+director: "[Beto Gomez](http://whothehellisbetogomez.com/)"
+music: "Mucca Pazza"
+country: "Canadá"
+year: 2012
+website: "http://www.vfs.com"
 ---
 
 Imagine um mundo onde o simples ato de ler pode ser mortal. Excelente animação de graduação do artista brasileiro Beto Gomez.
-
-- Direção: [Beto Gomez](http://whothehellisbetogomez.com/) Musica: Mucca Pazza
-- [Vancouver Film School](http://www.vfs.com/)
-- Canadá, 2012

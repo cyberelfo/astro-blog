@@ -18,11 +18,11 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Patrick Jean"
+production: "[One More Production](http://www.onemoreproduction.com/)"
+country: "França"
+year: 2010
+website: "http://www.onemoreproduction.com"
 ---
 
 A invasão de Nova York por criaturas de 8-bits!
-
-- Direção: Patrick Jean
-- Roteiro: Patrick Jean Fotografia: Matias Boucard Efeitos: Patrick Jean and outros
-- Produção: [One More Production](http://www.onemoreproduction.com/)
-- França, 2010

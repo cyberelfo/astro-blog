@@ -19,10 +19,10 @@ categories:
 - vimeo
 - Dinamarca
 draft: false
+director: "Asger Grevil; Mette Vestergaard Madsen; Michael Bech; Jonas Kirkegaard"
+country: "Dinamarca"
+year: 2012
+website: "http://www.animwork.dk/en"
 ---
 
 Wing, que tem apenas uma asa, é assediado por um grupo de corvos opressivos por ser fraco e diferente deles.
-
-- Direção: Asger Grevil; Mette Vestergaard Madsen; Michael Bech; Jonas Kirkegaard
-- Dinamarca, 2012
-- [The Animation Workshop](http://www.animwork.dk/en/)

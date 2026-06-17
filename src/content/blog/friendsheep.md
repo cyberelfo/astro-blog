@@ -20,9 +20,10 @@ categories:
 - Espanha
 - annecy 2012
 draft: false
+director: "Jaime Maestro <http://friendsheepshortfilm.com"
+country: "Espanha"
+year: 2012
+website: "http://friendsheepshortfilm.com"
 ---
 
 FriendSheep é uma excelente animação 3D desenvolvida pelos alunos da escola de animação espanhola [PrimerFrame](http://www.primerframe.com/). Um lobo descobre uma empresa onde todos os trabalhadores são ovelhas. Nesse momento tem uma idéia infalível: se disfarçar de cachorro e conseguir um emprego na empresa. Mas as coisas não saem exatamente como ele esperava...
-
-- Direção: Jaime Maestro <http://friendsheepshortfilm.com/>
-- Espanha, 2012

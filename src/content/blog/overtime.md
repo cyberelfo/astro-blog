@@ -20,13 +20,12 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Oury Atlan; Thibaut Berland; Damien Ferrie"
+music: "Sielberman Ochestra; Ornadel e Starlight Symphony Mills e Mark Nelson"
+production: "["
+country: "França"
+year: 2004
+website: "http://www."
 ---
 
 A história de uma trupe de pequenos bonecos Caco que encontram seu criador deitado na cama e que, eventualmente, irão compreender sua morte.
-
-- Direção: Oury Atlan; Thibaut Berland; Damien Ferrie
-- Música: Sielberman Ochestra; Ornadel e Starlight Symphony Mills e Mark Nelson
-- Produção: [
-- Supinfocom Valenciennes](http://www.
-- supinfocom.fr/)
-- França, 2004

@@ -18,9 +18,10 @@ categories:
 - vimeo
 - França
 draft: false
+director: "Ludovic Gavillet, Lucas Hudson, Colin Jean-Saunier e Derya Kocaurlu"
+music: "Erwann Chandon Som: Alexandre Perrier"
+country: "França"
+year: 2012
 ---
 
 _Monsterbox_ é uma bela animação 3D dirigida por Ludovic Gavillet, Lucas Hudson, Colin Jean-Saunier e Derya Kocaurlu, todos estudantes de graduação da _Bellecour Ecoles d’Art_ da França.
-
-- Direção: Ludovic Gavillet, Lucas Hudson, Colin Jean-Saunier e Derya Kocaurlu Musica: Erwann Chandon Som: Alexandre Perrier
-- França, 2012

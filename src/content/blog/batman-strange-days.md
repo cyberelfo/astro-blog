@@ -18,12 +18,13 @@ categories:
 - youtube
 - Estados Unidos
 draft: false
+production: "Bruce Timm"
+country: "Estados Unidos"
+year: 2014
 ---
 
 **Batman: Strange Days** é um curta de animação do premiado produtor _Bruce Timm_ para comemorar os 75 anos do cruzado encapuzado. Bruce foi co-criador de uma das melhores séries de super heróis já feita: **Batman The Animated Series**. Neste conto perdido do passado de Batman, o Cavaleiro das Trevas acompanha um estranho gigante ao covil misteriosa do Dr. Hugo Strange. 
 
-- Produção: Bruce Timm
-- Estados Unidos, 2014  
 
 Veja também: [Batman of Shanghai](batman-of-shanghai)
 

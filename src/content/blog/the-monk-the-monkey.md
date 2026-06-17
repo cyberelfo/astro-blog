@@ -17,10 +17,11 @@ categories:
 - video
 - youtube
 draft: false
+director: "Brendan Carroll & Francesco Giroldini"
+music: "Erez Koskas Ringling College of Art + Design"
+country: "Estados Unidos"
+year: 2010
+website: "http://monkmonkey.com"
 ---
 
 Ragu, um jovem determinado, é enviado por seu mestre em sua busca final para se tornar um monge. Porém esta tarefa aparentemente simples torna-se um desafio inesperado para Ragu quando ele descobre o verdadeiro valor de sua busca.
-
-- Direção: Brendan Carroll & Francesco Giroldini Musica: Erez Koskas Ringling College of Art + Design
-- [ http://monkmonkey.com/](http://monkmonkey.com/)
-- Estados Unidos, 2010

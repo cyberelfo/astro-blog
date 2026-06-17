@@ -20,9 +20,10 @@ categories:
 - vimeo
 - Argentina
 draft: false
+production: "[ARTSH.it](http://artsh.it/)"
+country: "Argentina"
+year: 2010
+website: "http://artsh.it"
+director: "[BLU](http://www.blublu.org)"
 ---
-
-_Seleção Oficial Anima Mundi 2011_ BIG BANG BIG BOOM é... um ponto de vista não científico sobre o início e a evolução da vida ... e como ela poderia acabar. Direção e animação: [BLU](http://www.blublu.org)
-
-- Produção: [ARTSH.it](http://artsh.it/)
-- Argentina, 2010
+_Seleção Oficial Anima Mundi 2011_ BIG BANG BIG BOOM é... um ponto de vista não científico sobre o início e a evolução da vida ... e como ela poderia acabar.

@@ -21,10 +21,9 @@ categories:
 - vimeo
 - Suiça
 draft: false
+director: "[Rafael Sommerhalder](http://www.crictor.ch/) Som: Zhe Wu"
+production: "[Royal College of Art](http://www.rca.ac.uk/), London Reino Unido; Suiça, 2009 Fonte: <http://www.animationblog.org/2012/04/rafael-sommerhalder-wolves-2009.html"
+website: "http://www.crictor.ch"
 ---
 
 _Seleção Oficial Anima Mundi 2011_ _Wolves_ é um raro filme de animação. Estranho e intrigante, cheio de sutilezas e com um compasso cuidadoso o filme conta uma história de amor a primeira vista. Mas com uma perspectiva totalmente diferente, lembrando bastante um conto de Júlio Cortázar. Dirigido por Rafael Sommerhalder e produzido pela Royal College of Art's, o curta foi selecionado e exibido no último festival Anima Mundi. Roteiro e
-
-- direção: [Rafael Sommerhalder](http://www.crictor.ch/) Som: Zhe Wu
-- Elenco: Tony Guilfoyle, Bali Engel Musica: Hansueli Tischhauser
-- Produção: [Royal College of Art](http://www.rca.ac.uk/), London Reino Unido; Suiça, 2009 Fonte: <http://www.animationblog.org/2012/04/rafael-sommerhalder-wolves-2009.html>

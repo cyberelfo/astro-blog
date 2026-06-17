@@ -18,9 +18,9 @@ categories:
 - video
 - youtube
 draft: false
+director: "Yi Zhao Netherlands Institute for Animation Film"
+country: "Holanda"
+year: 2010
 ---
 
 _Seleção oficial Anima Mundi 2011._ A vida é uma longa viagem num barco a remo, que às vezes flutua calmamente e às vezes enfrenta tempestades perigosas.
-
-- Direção: Yi Zhao Netherlands Institute for Animation Film
-- Holanda, 2010

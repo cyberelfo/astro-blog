@@ -18,10 +18,10 @@ categories:
 - video
 - youtube
 draft: false
+director: "Ryan Woodward"
+production: "Ryan Woodward"
+country: "Estados Unidos"
+year: 2010
 ---
 
 _Seleção oficial Anima Mundi 2011._ A dança contemporânea e a complexidade das relações íntimas.
-
-- Direção: Ryan Woodward
-- Produção: Ryan Woodward
-- Estados Unidos, 2010

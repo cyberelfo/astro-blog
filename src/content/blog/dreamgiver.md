@@ -19,10 +19,10 @@ categories:
 - vimeo
 - Estados Unidos
 draft: false
+director: "[Tyler Carter](http://www.tycarter.com/)"
+country: "Estados Unidos"
+year: 2012
+website: "http://animation.byu.edu"
 ---
 
 Uma noite comum de entrega de sonhos se transforma em pesadelo quando um livro de mitologia antiga ganha vida.
-
-- Direção: [Tyler Carter](http://www.tycarter.com/)
-- [Brigham Young University's Center for Animation](http://animation.byu.edu/)
-- Estados Unidos, 2012

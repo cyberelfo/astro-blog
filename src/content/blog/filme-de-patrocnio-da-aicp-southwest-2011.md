@@ -17,10 +17,9 @@ categories:
 - video
 - youtube
 draft: false
+director: "Brad Herbert"
+production: "Amy Cass Produção executiva: Chad Briggs / Rick Perez Direção de fotografia: Brad Herbert"
+website: "http://www.elementxcreative.com"
 ---
 
 Se alguém tem de aguentar a exibição de dezenas de logotipos de empresas, este é o caminho a seguir: tecendo os nomes dos patrocinadores em uma bela e assombrosa história (que parece retirada da série de TV Além da Imaginação) sobre um menino que para o tempo e então vê sua cidade natal de uma forma totalmente nova.
-
-- Direção: Brad Herbert
-- Produção: Amy Cass Produção executiva: Chad Briggs / Rick Perez Direção de fotografia: Brad Herbert
-- [ http://www.elementxcreative.com/](http://www.elementxcreative.com/)

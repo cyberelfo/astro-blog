@@ -18,10 +18,10 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Iuri Araújo"
+country: "Brasil"
+year: 2011
+website: "http://porqueasnamoradas.blogspot.com"
 ---
 
 _Seleção oficial Anima Mundi 2011._ Relacionamentos são muito complexos. Se pudéssemos analisar, de forma cômica, comportamentos de homens e mulheres durante um namoro, como seria? Algum dos sexos devem gostar mais do que o outro ou ambos devem gostar na mesma medida para que seja saudável? Por que as namoradas devem amar mais do que seus namorados? Bom, assista e entenda...
-
-- Direção: Iuri Araújo
-- [ http://porqueasnamoradas.blogspot.com/](http://porqueasnamoradas.blogspot.com/)
-- Brasil, 2011

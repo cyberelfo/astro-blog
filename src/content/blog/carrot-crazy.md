@@ -17,11 +17,11 @@ categories:
 - video
 - vimeo
 draft: false
+director: "[Dylan Vanwormer](http://www.dylanvanwormer.com/)"
+production: "[Ringling College of Art and Design](http://www.ringling.edu/)"
+country: "Estados Unidos"
+year: 2011
+website: "http://www.loganscelina.com"
 ---
 
 Dois caçadores e apenas um coelho... quem vai ganhar?
-
-- Direção: [Dylan Vanwormer](http://www.dylanvanwormer.com/);
-- [Logan Scelina](http://www.loganscelina.com/)
-- Produção: [Ringling College of Art and Design](http://www.ringling.edu/)
-- Estados Unidos, 2011

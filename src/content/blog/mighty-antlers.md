@@ -18,10 +18,10 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Sune Reinhardt, Mikael Ilnæs, Michael L. Fonsholt, Jouko Keskitalo"
+country: "Dinamarca"
+year: 2011
+website: "http://mightyantlers.blogspot.com"
 ---
 
 Um homem dirige seu carro furiosamente por uma estrada estreita, cercada por uma vasta floresta. Quando avista um cervo no meio da estrada ele faz uma tentativa maldosa de atingi-lo. Esta covardia, No entanto, terá conseqüências dolorosas.
-
-- Direção: Sune Reinhardt, Mikael Ilnæs, Michael L. Fonsholt, Jouko Keskitalo
-- [ http://mightyantlers.blogspot.com/](http://mightyantlers.blogspot.com/)
-- Dinamarca, 2011

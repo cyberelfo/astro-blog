@@ -19,9 +19,9 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Joanna Lurie"
+production: "Pfohl França, 2010 <http://joannalurie.com"
+website: "http://joannalurie.com"
 ---
 
 _Seleção oficial Anima Mundi 2011_ **O Silêncio sob a Casca de Árvore** Em meio a uma floresta, estranhas criaturinhas descobrem como a neve é bonita, fascinante e branca... Título em Inglês: The Silence Beneath the Bark
-
-- Direção: Joanna Lurie
-- Produção: Pfohl França, 2010 <http://joannalurie.com/>

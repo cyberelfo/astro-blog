@@ -18,11 +18,12 @@ categories:
 - Reino Unido
 - vimeo
 draft: false
+director: "Sam Taylor e Bjorn Aschim"
+music: "Box of Toys Audio"
+production: "Fritzi Nicolaus Som &"
+country: "Reino Unido"
+year: 2013
+website: "http://thelineanimation.com"
 ---
 
  **Tudo Que Eu Consigo Ver Daqui** Uma partida de futebol inocente se torna mortal quando um jogador não convidado aparece pra jogar.
-
-- Direção: Sam Taylor e Bjorn Aschim
-- Produção: Fritzi Nicolaus Som & Musica: Box of Toys Audio
-- [The Line Studio](http://thelineanimation.com)
-- Reino Unido, 2013

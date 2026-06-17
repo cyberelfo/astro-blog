@@ -20,6 +20,10 @@ categories:
 - youtube
 - China
 draft: false
+production: "[Wolf Smoke Studio](http://www.rpoani.com/eng/)"
+country: "China"
+year: 2012
+website: "http://www.rpoani.com/eng"
 ---
 
 **Batman de Shangai** é uma fantástica animação do Wolf Smoke Studio para o bloco _DC Nation_ do Cartoon Network. 
@@ -29,6 +33,3 @@ Abaixo as partes dois e três:
 [youtube:7UdPhqzFIRE]
 
 [youtube:HiGs04WSIaU]
-
-- Produção: [Wolf Smoke Studio](http://www.rpoani.com/eng/) 
-- China, 2012

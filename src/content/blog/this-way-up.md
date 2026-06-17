@@ -18,12 +18,11 @@ categories:
 - video
 - youtube
 draft: true
+director: "Alan Smith and Adam Foulkes"
+production: "Charlotte Bavasso, Christopher O'Reilly, Christine Ponzevera"
+country: "Reino Unido"
+year: 2008
+website: "http://www.thiswayupmovie.com"
 ---
 
 Quando uma pedra desliza e esmaga o seu carro funerário, a A.T. Shank & Son sabe que vai ter um dia ruim... Tendo como única companhia um caixão, esta estranha dupla terá de enfrentar várias armadilhas emocionais e literais no seu caminho até a sepultura. Este ótimo filme, indicado ao Oscar 2009 de Melhor Animação Curta-metragem, traz de volta a diversão aos funerais!
-
-- Direção: Alan Smith and Adam Foulkes
-- Roteiro: Adam Foulkes, Christopher O'Reilly, Alan Smith
-- Produção: Charlotte Bavasso, Christopher O'Reilly, Christine Ponzevera
-- Reino Unido, 2008
-- [www.thiswayupmovie.com](http://www.thiswayupmovie.com/)

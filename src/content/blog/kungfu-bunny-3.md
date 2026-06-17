@@ -21,10 +21,10 @@ categories:
 - anima mundi 2012
 - live-action
 draft: false
+director: "Vincent Li"
+production: "School of Animation and Digital Arts, University of China"
+country: "China"
+year: 2009
 ---
 
 _Seleção oficial Anima Mundi 2012_ Algo está fermentando embaixo da mesa. A batalha está começando. Será o Coelho Kung Fu sempre invencível?
-
-- Direção: Vincent Li
-- Produção: School of Animation and Digital Arts, University of China
-- China, 2009

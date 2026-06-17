@@ -18,13 +18,11 @@ categories:
 - vimeo
 - Holanda
 draft: false
+director: "Albert ‘t Hooft & Paco Vink Direção de arte: Paco Vink"
+production: "Chris Mouw Trilha sonora original: Maarten Spruijt Sonoplastia e mixagem: Jeroen & Ronald Nadorp, Bob Kommer Studios System Administrator: Pepijn Blom Drama coaches: Michiel Snijders & Arnoud Rijken [Stichting il Luster Films](http://www.illuster.nl/)"
+country: "Holanda"
+year: 2012
+website: "http://www.anikey.nl"
 ---
 
 _Little Quentin_ é uma ótima animação na tradição dos velhos filmes de detetive, muito bem produzida, com uma boa história e um final surpreendente.
-
-- Direção: Albert ‘t Hooft & Paco Vink Direção de arte: Paco Vink
-- Animadores: Paco Vink, David de Rooij, Jelle Brunt, Yi ‘Shadow Master’ Zhao. Coloristas: Albert ‘t Hooft, Paco Vink, David de Rooij, Jelle Brunt, Yi Zhao.
-- Produção: il Luster Films Produção executiva: Michiel Snijders & Arnoud Rijken Assistente de
-- produção: Chris Mouw Trilha sonora original: Maarten Spruijt Sonoplastia e mixagem: Jeroen & Ronald Nadorp, Bob Kommer Studios System Administrator: Pepijn Blom Drama coaches: Michiel Snijders & Arnoud Rijken [Stichting il Luster Films](http://www.illuster.nl/) /
-- [AniKey Animation Studios](http://www.anikey.nl/)
-- Holanda, 2012

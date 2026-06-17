@@ -17,10 +17,11 @@ categories:
 - youtube
 - Coreia do Sul
 draft: false
+director: "Moo-hyun Jang"
+production: "[Mesai](http://www.mesai.co.kr/)"
+country: "Coreia"
+year: 2009
+website: "http://www.mesai.co.kr"
 ---
 
 Bela animação com um visual muito realista, sobre a relação de amor e ódio deste rapaz com seus despertadores.
-
-- Direção: Moo-hyun Jang
-- Produção: [Mesai](http://www.mesai.co.kr/)
-- Coreia, 2009

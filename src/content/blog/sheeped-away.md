@@ -16,10 +16,10 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Junaid Chundrigar"
+country: "Holanda"
+year: 2011
+website: "http://www.imajunation.com"
 ---
 
 Este fazendeiro que só queria ficar com suas amadas ovelhinhas. Mas quando um OVNI gigante aparece para rouba-las, ele precisa fazer de tudo para salva-las. E será que ele consegue fazer isso sem acordar sua temível esposa?
-
-- Direção: Junaid Chundrigar
-- [ imaJunation](http://www.imajunation.com/)
-- Holanda, 2011

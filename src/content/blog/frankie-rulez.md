@@ -18,9 +18,10 @@ categories:
 - vimeo
 - Estados Unidos
 draft: false
+director: "San Charoenchai <http://www.mulletproof.com"
+country: "Estados Unidos"
+year: 2012
+website: "http://www.mulletproof.com"
 ---
 
 _Frankie Rulez!!!_ conta a história de um alienígena egomaníaco determinado a conquistar a galaxia, um planeta misterioso de cada vez. A animação, feita em 3D, foi dirigida pelo animador de Los Angeles San Charoenchai e demorou 5 meses para ficar pronta.
-
-- Direção: San Charoenchai <http://www.mulletproof.com/>
-- Estados Unidos, 2012

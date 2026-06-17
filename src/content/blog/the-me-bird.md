@@ -20,13 +20,15 @@ categories:
 - Brasil
 - anima mundi 2013
 draft: false
+director: "Gabriel Kempers & Maria Ilka Azêdo"
+production: "[18bis.tv](http://www.18bis.tv/)"
+country: "Brasil"
+year: 2013
+website: "http://www.18bis.tv"
 ---
 
 O curta-metragem **The Me Bird** é uma interpretação livre do poema "O Pássaro Eu" de Pablo Neruda. A inspiração na técnica do "recorte de papel" (strata stencil) ajuda a conceituar a repetição de camadas, como o passado de nossos movimentos e ações. Os quadros descritos como prisão e o passado como um fardo servem como pano de fundo para a história de uma bailarina em uma viagem rumo à liberdade. A experimentação artística diversificada recria a tempestade que conecta pássaro e dançarina.
 
-- Direção: Gabriel Kempers & Maria Ilka Azêdo
-- Produção: [18bis.tv](http://www.18bis.tv/) 
-- Brasil, 2013 
 
 Making of:
 

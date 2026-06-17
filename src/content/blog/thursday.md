@@ -17,8 +17,8 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Matthias Hoegg at the Royal College of Art London, 2010 <http://matthiashoegg.co.uk"
+website: "http://matthiashoegg.co.uk"
 ---
 
 Uma história de amor cotidiana que se passa no futuro não muito distante onde pássaros se debatem com a tecnologia, leitores automáticos de mão e cortes de energia. Indicado ao BAFTA para melhor curta metragem.
-
-- direção: Matthias Hoegg at the Royal College of Art London, 2010 <http://matthiashoegg.co.uk/>

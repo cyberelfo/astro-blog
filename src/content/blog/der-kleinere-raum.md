@@ -18,10 +18,11 @@ categories:
 - vimeo
 - Alemanha
 draft: false
+director: "Cristobal Leon & Nina Wehrle"
+production: "[It’s Raining Elephants](http://www.itsrainingelephants.ch/)"
+country: "Alemanha"
+year: 2009
+website: "http://www.itsrainingelephants.ch"
 ---
 
 Em uma sala há uma caixa. Na caixa, há uma floresta. Na floresta há uma criança perdida. Seres vivos feitos de papel aparecem e desaparecem em "Der Kleinere Raum". "Nós desenvolvemos a estrutura narrativa do filme passo a passo espontaneamente, e criamos o filme todo no período de um mês de intenso trabalho." O "Der Kleinere Raum" foi exibido em mais de 25 festivais internacionais de cinema e animação. O filme recebeu duas menções especiais de júri e ganhou um prêmio no festival Animanima Sérvia.
-
-- Direção: Cristobal Leon & Nina Wehrle
-- Produção: [It’s Raining Elephants](http://www.itsrainingelephants.ch/)
-- Alemanha, 2009

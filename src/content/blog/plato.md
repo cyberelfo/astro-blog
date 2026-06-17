@@ -20,9 +20,9 @@ categories:
 - video
 - anima mundi 2012
 draft: false
+director: "Léonard Cohen"
+country: "França"
+year: 2010
 ---
 
 Caindo para cima, rolando lateralmente, achatando profundamente, seguindo em ziguezague. Ei, cara! Onde está o seu cubo? Bem-vindo a Platão, em algum lugar entre a distorção da realidade e o rigor da imaginação. Animação ganhadora do prêmio de melhor curta de graduação no Festival Annecy 2011.
-
-- Direção: Léonard Cohen
-- França, 2010

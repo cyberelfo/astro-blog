@@ -18,13 +18,12 @@ categories:
 - video
 - vimeo
 draft: false
+director: "[Alek Wasilewski](http://alekwasilewski.com/)"
+music: "Edward Harrison"
+production: "[Studio Miniatur Filmowych Co.](http://smf.com.pl/pl/)"
+country: "Polônia"
+year: 2011
+website: "http://luckydayforever.com"
 ---
 
 _Prole 514 sonha ganhar a Grande Loteria. O ganhador da loteria é transformado e admitido na exclusiva sociedade Branca, onde todo mundo é bonito, jovem e feliz e as pessoas passam suas vidas despreocupadas apenas na diversão e em festas. Um dia, o desejo de 514 se torna realidade ... mas era isso o que ele realmente queria?_ Roteiro, design e
-
-- direção: [Alek Wasilewski](http://alekwasilewski.com/) Musica: Edward Harrison
-- Sound design: Cooper Skinner
-- Animação: Alek Wasilewski
-- Produção: [Studio Miniatur Filmowych Co.](http://smf.com.pl/pl/)
-- [luckydayforever.com](http://luckydayforever.com)
-- Polônia, 2011

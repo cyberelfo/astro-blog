@@ -20,12 +20,11 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Clément Soulmagnon; Yann Benedi; Sébastien Eballard; Quentin Chaillet"
+production: "["
+country: "França"
+year: 2008
+website: "http://www."
 ---
 
 Tem algo nas animações francesas que as diferenciam das demais, algo na estética, ou no ritmo, ou nas cores, ou na música, não sei bem o que, só sei que sempre que assisto me fascino. Gary é um ótimo exemplo disso, com todos as características que citei e mais algumas (incluindo uma interessante mistura de 2D com 3D). Algumas partes do curta tem falas em francês, mas o domínio do idioma não é necessário, pois a narrativa é bastante clara e universal.
-
-- Direção: Clément Soulmagnon; Yann Benedi; Sébastien Eballard; Quentin Chaillet
-- Produção: [
-- Supinfocom](http://www.
-- supinfocom.fr/)
-- França, 2008

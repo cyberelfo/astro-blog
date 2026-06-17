@@ -18,10 +18,10 @@ categories:
 - vimeo
 - França
 draft: false
+director: "[Laetitia Butyn](http://timtimsia.com/)"
+country: "França"
+year: 2011
+website: "http://www.angouleme-emca.fr"
 ---
 
 Duas crianças apaixonadas serão separadas pela vida.
-
-- Direção: [Laetitia Butyn](http://timtimsia.com/)
-- [École de la Chambre de Commerce et d'Industrie d'Angoulême](http://www.angouleme-emca.fr/)
-- França, 2011

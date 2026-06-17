@@ -18,11 +18,10 @@ categories:
 - vimeo
 - Holanda
 draft: false
+music: "Alexander Reumers & Jorrit Kleijnen"
+production: "Jiek Weishut"
+country: "Holanda"
+year: 2010
+director: "Joost Lieuwma"
 ---
-
-Joost Lieuwma se graduou em 2005 na Utrecht School of Arts com o curta de animação _Once upon a time in my wife_. Desde então ele tem trabalhado como um animador freelance em Utrecht. _Things You’d Better Not Mix Up_ é sua primeira animação independente. Roteiro, direção e animação: Joost Lieuwma
-
-- Produção: Jiek Weishut
-- Música: Alexander Reumers & Jorrit Kleijnen
-- Sound Design: Iwan van Wijk
-- Holanda, 2010
+Joost Lieuwma se graduou em 2005 na Utrecht School of Arts com o curta de animação _Once upon a time in my wife_. Desde então ele tem trabalhado como um animador freelance em Utrecht. _Things You’d Better Not Mix Up_ é sua primeira animação independente.

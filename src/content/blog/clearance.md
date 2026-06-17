@@ -19,9 +19,10 @@ categories:
 - video
 - youtube
 draft: false
+director: "[Lee Daniels](http://www.leedanielsart.com/)"
+country: "Reino Unido"
+year: 2012
+website: "http://www.leedanielsart.com"
 ---
 
 Excelente animação sobre um grupo de agentes secretos muito atrapalhados... Criado usando o Adobe CS5 Master Collection: After Effects, Premiere Pro, Illustrator, Photoshop Extended. E também Apple Garageband '11.
-
-- Direção: [Lee Daniels](http://www.leedanielsart.com/)
-- Reino Unido, 2012

@@ -18,9 +18,10 @@ categories:
 - video
 - youtube
 draft: true
+production: "[Psyop](http://www.psyop.tv/)"
+country: "Reino Unido"
+year: 2011
+website: "http://www.psyop.tv"
 ---
 
 _Gets You Back To You_ é uma campanha para a fabricante de chá Twinings. São dois filmes, produzidos pelo estúdio Psyop, lindos e com um visual arrebatador. E a trilha sonora é simplesmente perfeita! A música do primeiro vídeo é "Wherever You Will Go" cantada por [Charlene Soraia](http://www.youtube.com/watch?v=t5THMr7YbEM). A segunda é "Go Your Own Way" cantada por [Lissie Maurus](http://www.youtube.com/watch?v=OltcXMV-9Vk). Diretor criativo: Kylie Matulick
-
-- Produção: [Psyop](http://www.psyop.tv/)
-- Reino Unido, 2011

@@ -17,13 +17,14 @@ categories:
 - video
 - vimeo
 draft: false
+director: "Kristofer Ström"
+production: "Bart Yates"
+country: "Reino Unido"
+year: 2010
+website: "http://ljudbilden.com"
 ---
 
 Clipe para a música do artista de dubstep [Benga](http://www.bengamusic.com).
 
-- Direção: Kristofer Ström
-- Produção: Bart Yates 
-- Reino Unido, 2010 
-- [http://ljudbilden.com/](http://ljudbilden.com/)
 
 ![Baltimore Clap](/images/baltimore_clap.jpg)

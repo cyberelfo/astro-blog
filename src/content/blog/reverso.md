@@ -18,9 +18,10 @@ categories:
 - vimeo
 - França
 draft: false
+director: "Kimberly Honma, Clément Lauricella, Arthur Seguin <http://www.artfx.fr"
+country: "França"
+year: 2012
+website: "http://www.artfx.fr"
 ---
 
 _Barney vive com seu pai, Walter, em uma pequena casa no suburbio. Ele tenta viver uma vida normal mesmo sendo diferente: Seu senso de gravidade é invertida..._ _Reverso_ é mais um impressionante curta de estudantes da leva de 2012.
-
-- Direção: Kimberly Honma, Clément Lauricella, Arthur Seguin <http://www.artfx.fr/>
-- França, 2012
