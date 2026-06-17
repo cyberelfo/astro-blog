@@ -23,8 +23,6 @@ O curta é realmente fascinante e me lembrou muito a animação francesa "La Pla
 
 Scavengers não oferece explicações fáceis. Em vez disso, convida o espectador a refletir sobre o papel do ser humano em mundos que não compreende, sobre adaptação e sobre a fina linha entre a curiosidade e a destruição.
 
-Este curta 
-
 - Direção: Joseph Bennett & Charles Huettner
 - Produção: Matt Harrigan & Dave Newberg
 - Animação: Joseph Bennett, Charles Huettner, Caleb Wood, Nelson Boles, Jonathan Djob Nkondo, Sean Buckelew
