@@ -10,21 +10,144 @@ const { relatedPosts } = Astro.props;
 ---
 
 {
-    relatedPosts.map((post) => {
-        const { title, author, date } = post.data;
-        const url = `/blog/${post.id}/`;
-        return (
-            <div class="post">
-                <h3 class="h4">
-                    <a href={url}>{title}</a>
-                </h3>
-                <small>
-                    <a href={`/author/${slugify(author)}/`}>
-                        {author}
-                    </a>{" "}
-                    • {formatDate(date)}
-                </small>
+    relatedPosts.length > 0 && (
+        <aside aria-label="Posts relacionados" class="related-posts-section">
+            <h2 class="h3 related-heading">Posts Relacionados</h2>
+            <div class="related-grid">
+                {relatedPosts.map((post) => {
+                    const { title, author, date, image } = post.data;
+                    const url = `/blog/${post.id}/`;
+                    return (
+                        <article class="post-card">
+                            {image?.src && (
+                                <a href={url} class="card-image-link" tabindex="-1">
+                                    <img 
+                                        src={image.src} 
+                                        alt={image.alt || ""} 
+                                        class="card-thumbnail"
+                                        loading="lazy"
+                                    />
+                                </a>
+                            )}
+                            <div class="card-content">
+                                <h3 class="h4 card-title">
+                                    <a href={url}>{title}</a>
+                                </h3>
+                                <small class="card-meta">
+                                    <a href={`/author/${slugify(author)}/`} class="author-link">
+                                        {author}
+                                    </a>{" "}
+                                    • {formatDate(date)}
+                                </small>
+                            </div>
+                        </article>
+                    );
+                })}
             </div>
-        );
-    })
+        </aside>
+    )
 }
+
+<style>
+    /* Scope styles for premium look */
+    .related-posts-section {
+        margin-top: var(--space-xl);
+        padding-top: var(--space-lg);
+        border-top: 1px solid hsla(var(--txt) / 0.1);
+        width: 100%;
+        /* Override global styles applied by [aria-label="Posts relacionados"] */
+        text-align: left !important;
+        display: block !important;
+    }
+    
+    .related-heading {
+        margin-bottom: var(--space-md);
+        text-align: left;
+        font-family: 'Libre Baskerville', Georgia, serif;
+        font-size: var(--fs-lg);
+        font-weight: 700;
+    }
+
+    .related-grid {
+        display: grid;
+        gap: var(--space-md);
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        width: 100%;
+    }
+
+    .post-card {
+        display: flex;
+        flex-direction: column;
+        background-color: hsl(var(--muted));
+        border-radius: var(--radius-md);
+        overflow: hidden;
+        box-shadow: var(--shadow-sm);
+        transition: transform var(--transition-squish-slow), box-shadow var(--transition-ease-slow);
+    }
+
+    .post-card:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-md);
+    }
+
+    .card-image-link {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        overflow: hidden;
+        display: block;
+    }
+
+    .card-thumbnail {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform var(--transition-ease-slow);
+    }
+
+    .post-card:hover .card-thumbnail {
+        transform: scale(1.05);
+    }
+
+    .card-content {
+        padding: var(--space-sm);
+        display: grid;
+        gap: var(--space-2xs);
+        flex-grow: 1;
+    }
+
+    .card-title {
+        font-size: var(--fs-md);
+        line-height: var(--lh-1-4);
+        margin: 0;
+    }
+
+    .card-title a {
+        text-decoration: none;
+        color: hsl(var(--txt));
+        font-family: 'Libre Baskerville', Georgia, serif;
+        font-weight: 700;
+        transition: color var(--transition-ease-fast);
+    }
+
+    .card-title a:hover {
+        color: hsl(var(--accent));
+    }
+
+    .card-meta {
+        font-family: 'Karla', sans-serif;
+        font-size: var(--fs-sm);
+        color: hsla(var(--txt) / 0.6);
+        margin-top: auto;
+    }
+
+    .author-link {
+        font-weight: 600;
+        text-decoration: none;
+        color: hsl(var(--txt));
+        transition: color var(--transition-ease-fast);
+    }
+
+    .author-link:hover {
+        color: hsl(var(--accent));
+    }
+</style>

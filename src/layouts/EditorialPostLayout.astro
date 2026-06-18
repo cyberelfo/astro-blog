@@ -3,14 +3,44 @@
 import MainLayout from "./MainLayout.astro";
 import VideoEmbed from "../components/VideoEmbed.astro";
 import CreditsBox from "../components/CreditsBox.astro";
+import RelatedPosts from "../components/RelatedPosts.astro";
 
-// Util imports
-import { slugify, formatDate } from "../lib/utils";
+// Content & Util imports
+import { getCollection } from "astro:content";
+import { slugify, formatDate, formatBlogPosts } from "../lib/utils";
 
 const { frontmatter } = Astro.props;
 const { title, description, date, category, author, image, youtube, vimeo } = frontmatter;
 
 const hasVideo = youtube || vimeo;
+
+// Fetch and filter related posts
+const allPosts = await getCollection("blog");
+const formattedPosts = formatBlogPosts(allPosts, {
+    sortByDate: true,
+    limit: 0,
+});
+
+// 1. Get posts from the same category (excluding current post)
+const categoryPosts = formattedPosts.filter(
+    (post) =>
+        post.data.category?.toLowerCase() === category?.toLowerCase() &&
+        post.data.title !== title
+);
+
+// 2. Fallback to other recent posts if less than 3 (excluding current post and category posts)
+let relatedPosts = [...categoryPosts];
+if (relatedPosts.length < 3) {
+    const fallbackPosts = formattedPosts.filter(
+        (post) =>
+            post.data.title !== title &&
+            !relatedPosts.some((p) => p.data.title === post.data.title)
+    );
+    relatedPosts = [...relatedPosts, ...fallbackPosts];
+}
+
+// 3. Limit to 3 posts
+relatedPosts = relatedPosts.slice(0, 3);
 ---
 
 <MainLayout
@@ -70,6 +100,7 @@ const hasVideo = youtube || vimeo;
                     <CreditsBox {...frontmatter} />
                 </div>
             </div>
+            <RelatedPosts {relatedPosts} />
         </div>
     </article>
 </MainLayout>
