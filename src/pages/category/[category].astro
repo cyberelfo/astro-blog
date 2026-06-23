@@ -5,7 +5,7 @@ import MainLayout from "../../layouts/MainLayout.astro";
 import PostCard from "../../components/PostCard.astro";
 
 // Astro content collections import
-import { getCollection, type CollectionEntry } from "astro:content";
+import { getCollection } from "astro:content";
 
 import { slugify, formatBlogPosts } from "../../lib/utils";
 
@@ -18,21 +18,18 @@ export async function getStaticPaths() {
         ),
     ];
     return allCategories.map((category: string) => {
+        const catPosts = formattedPosts.filter(
+            (post: CollectionEntry<"blog">) => slugify(post.data.category) === slugify(category)
+        );
         return {
             params: { category: slugify(category) },
-            props: { name: category },
+            props: { name: category, posts: catPosts },
         };
     });
 }
 
 const { category } = Astro.params;
-const { name } = Astro.props;
-
-const allPosts = await getCollection("blog");
-const formattedPosts = formatBlogPosts(allPosts);
-const catPosts = formattedPosts.filter(
-    (post: CollectionEntry<"blog">) => slugify(post.data.category) === category,
-);
+const { name, posts: catPosts } = Astro.props;
 
 const pageTitle = `${name} | Café & TV`;
 const pageDescription = `${catPosts.length} post${catPosts.length !== 1 ? 's' : ''} sobre ${name} no Café & TV.`;

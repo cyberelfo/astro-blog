@@ -7,7 +7,7 @@ import CategoryCloud from "../components/CategoryCloud.astro";
 
 // Astro assets and content collections import
 import { Image } from "astro:assets";
-import { getCollection, type CollectionEntry } from "astro:content";
+import { getCollection } from "astro:content";
 import logoImage from "../assets/images/CAFE_E_TV_crop_transparent_400.png";
 
 // utils imports
@@ -19,14 +19,11 @@ export async function getStaticPaths({ paginate }) {
 
     return paginate(formattedPosts, {
         pageSize: 15,
+        props: { allPosts },
     });
 }
 
-const { page } = Astro.props;
-
-// Fetch once at render time and pass down to CategoryCloud,
-// so it doesn't need to call getCollection independently.
-const allPosts = await getCollection("blog");
+const { page, allPosts } = Astro.props;
 ---
 
 <MainLayout

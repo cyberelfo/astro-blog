@@ -1,6 +1,5 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
-import { unified } from '@astrojs/markdown-remark';
 import icon from "astro-icon";
 import sitemap from "@astrojs/sitemap";
 
@@ -84,10 +83,8 @@ export default defineConfig({
     site: 'https://www.cafeetv.com.br',
     integrations: [icon(), sitemap()],
     markdown: {
-        processor: unified({
-            remarkPlugins: [remarkVideoEmbeds],
-            rehypePlugins: [rehypeExternalLinks],
-        }),
+        remarkPlugins: [remarkVideoEmbeds],
+        rehypePlugins: [rehypeExternalLinks],
     },
     i18n: {
         locales: ["pt-br"],

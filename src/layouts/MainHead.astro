@@ -1,5 +1,6 @@
 ---
 import Seo from "../components/Seo.astro";
+import siteData from "../data/siteData.json";
 
 const { title, description, image, frontmatter, robots } = Astro.props;
 ---
@@ -24,7 +25,7 @@ const { title, description, image, frontmatter, robots } = Astro.props;
         sizes="180x180"
         href="/apple-touch-icon-new.png"
     />
-    <meta name="apple-mobile-web-app-title" content="Café & TV" />
+    <meta name="apple-mobile-web-app-title" content={siteData.title} />
     <link rel="manifest" href="/site.webmanifest" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
