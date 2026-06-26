@@ -1,5 +1,5 @@
 ---
-import { YouTube } from "astro-embed";
+import { YouTube, Vimeo } from "astro-embed";
 
 interface Props {
     youtube?: string;
@@ -21,12 +21,10 @@ const { youtube, vimeo } = Astro.props;
     }
     {
         vimeo && (
-            <iframe
+            <Vimeo
+                id={vimeo}
                 class="responsive-video"
-                src={`https://player.vimeo.com/video/${vimeo}?color=f0603f&title=0&byline=0`}
-                frameborder="0"
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowfullscreen
+                params="color=f0603f&title=0&byline=0"
             />
         )
     }
@@ -75,6 +73,7 @@ const { youtube, vimeo } = Astro.props;
     }
 
     .video-embed-container :global(lite-youtube),
+    .video-embed-container :global(lite-vimeo),
     .video-embed-container :global(iframe) {
         position: absolute;
         top: 0;
@@ -83,6 +82,15 @@ const { youtube, vimeo } = Astro.props;
         height: 100% !important;
         max-width: 100% !important;
         border: none;
+    }
+
+    .video-embed-container :global(lite-vimeo) :global(.ltv-playbtn) {
+        width: 100% !important;
+        height: 100% !important;
+        background: transparent !important;
+        box-shadow: none !important;
+        border: none !important;
+        display: block !important;
     }
 
     .responsive-video {
