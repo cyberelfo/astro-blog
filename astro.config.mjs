@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import icon from "astro-icon";
 import sitemap from "@astrojs/sitemap";
+import { unified } from '@astrojs/markdown-remark';
 
 // Custom Remark plugin to convert [youtube:ID] and [vimeo:ID] into responsive iframes
 function remarkVideoEmbeds() {
@@ -83,8 +84,10 @@ export default defineConfig({
     site: 'https://www.cafeetv.com.br',
     integrations: [icon(), sitemap()],
     markdown: {
-        remarkPlugins: [remarkVideoEmbeds],
-        rehypePlugins: [rehypeExternalLinks],
+        processor: unified({
+            remarkPlugins: [remarkVideoEmbeds],
+            rehypePlugins: [rehypeExternalLinks],
+        }),
     },
     i18n: {
         locales: ["pt-br"],
