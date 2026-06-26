@@ -35,12 +35,12 @@ _"Um herói improvável embarca em uma jornada cruel por terra, mar e ar, em tod
 Se ainda não viu, aproveite para ver os episódios anteriores:
 
 **Bendito Machine I**
-[youtube:MZ0DmYyYgis]
+[youtube:wuUkkhwSXtQ]
 
 **Bendito Machine II**
-[youtube:ASQ-hpDZV3Y]
+[youtube:JqzcMVo6zWE]
 
 **Bendito Machine III**
-[youtube:h-4kfKH_2xs]
+[youtube:xiXOigfDb0U]
 
 E o autor está com uma campanha de crowdfunding para produzir os próximos episódios da série. Se quiser conhecer, e até mesmo contribuir, acesse o endereço <http://www.kickstarter.com/projects/zumbakamera/bendito-machine>.

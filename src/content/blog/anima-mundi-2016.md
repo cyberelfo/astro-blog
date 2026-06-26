@@ -29,7 +29,6 @@ _Um jovem boxeador luta para compreender as consequências perturbadoras de seu 
 
 _Nossos sonhos constituem o último refúgio seguro e sem anúncios, parece. O que acontece quando publicitários conseguem adentrar nossos sonhos?_ 
 [vimeo:150799305]
-  
 
 # Geist
 
@@ -41,7 +40,7 @@ _Um pescador naufragado descobre um segredo sombrio._
 
 _Filme inspirado nos eventos internacionais publicados nas páginas do jornal francês Libération._ 
 [vimeo:191631752]
-  
+
 
 # Ossa
 

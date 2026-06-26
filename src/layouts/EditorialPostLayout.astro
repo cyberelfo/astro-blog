@@ -5,6 +5,9 @@ import VideoEmbed from "../components/VideoEmbed.astro";
 import CreditsBox from "../components/CreditsBox.astro";
 import RelatedPosts from "../components/RelatedPosts.astro";
 
+// styles imports for body embeds
+import 'lite-youtube-embed/src/lite-yt-embed.css';
+
 // Content & Util imports
 import { getCollection } from "astro:content";
 import { slugify, formatDate, formatBlogPosts } from "../lib/utils";
@@ -261,3 +264,89 @@ relatedPosts = relatedPosts.slice(0, 3);
         color: hsla(var(--txt) / 0.7);
     }
 </style>
+
+<script>
+    import 'lite-youtube-embed';
+
+    class LiteVimeo extends HTMLElement {
+        videoId = encodeURIComponent(this.dataset.id!);
+        static preconnected = false;
+
+        connectedCallback() {
+            this.addEventListener('pointerover', LiteVimeo.warmConnections, {
+                once: true,
+            });
+
+            this.addEventListener('click', (e) => this.addIframe(e));
+
+            const playLink = this.querySelector('a');
+            if (playLink) {
+                const playBtn = document.createElement('button');
+                playBtn.classList.add(...playLink.classList.values());
+                playBtn.setAttribute(
+                    'aria-label',
+                    playLink.getAttribute('aria-label')!
+                );
+                playLink.replaceWith(playBtn);
+            }
+        }
+
+        static addPrefetch(rel: string, url: string): void {
+            const linkEl = document.createElement('link');
+            linkEl.rel = rel;
+            linkEl.href = url;
+            document.head.append(linkEl);
+        }
+
+        static warmConnections(): void {
+            if (LiteVimeo.preconnected) return;
+            LiteVimeo.addPrefetch('preconnect', 'https://player.vimeo.com');
+            LiteVimeo.addPrefetch('preconnect', 'https://i.vimeocdn.com');
+            LiteVimeo.addPrefetch('preconnect', 'https://f.vimeocdn.com');
+            LiteVimeo.addPrefetch('preconnect', 'https://fresnel.vimeocdn.com');
+            LiteVimeo.preconnected = true;
+        }
+
+        addIframe(e: MouseEvent): void {
+            if (this.classList.contains('ltv-activated')) return;
+            e.preventDefault();
+            this.classList.add('ltv-activated');
+
+            const t = encodeURIComponent(this.dataset.t || '0m');
+            const params = new URLSearchParams(this.dataset.params || []);
+
+            const iframeEl = document.createElement('iframe');
+            iframeEl.width = '640';
+            iframeEl.height = '360';
+            iframeEl.allow =
+                'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture';
+            iframeEl.allowFullscreen = true;
+            iframeEl.src = `https://player.vimeo.com/video/${
+                this.videoId
+            }?${params.toString()}#t=${t}`;
+            this.append(iframeEl);
+        }
+    }
+
+    if (!customElements.get('lite-vimeo')) {
+        customElements.define('lite-vimeo', LiteVimeo);
+    }
+
+    // Client-side oEmbed thumbnail loader for inline lite-vimeo elements
+    document.querySelectorAll('lite-vimeo').forEach(el => {
+        const htmlEl = el as HTMLElement;
+        if (!htmlEl.style.backgroundImage) {
+            const id = htmlEl.getAttribute('data-id');
+            if (id) {
+                fetch(`https://vimeo.com/api/oembed.json?url=https://vimeo.com/${id}`)
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.thumbnail_url) {
+                            htmlEl.style.backgroundImage = `url('${data.thumbnail_url}')`;
+                        }
+                    })
+                    .catch(err => console.error('Error fetching Vimeo thumbnail:', err));
+            }
+        }
+    });
+</script>

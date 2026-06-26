@@ -34,6 +34,7 @@ Making of:
 
 [vimeo:60860949] 
 
+
 **O Pássaro Eu** 
 
 _Chamo-me pássaro Pablo, ave de uma pena só, voador na escuridão clara e claridade confusa, minhas asas não são vistas, os ouvidos me retumbam quando passo entre as árvores ou por debaixo das tumbas qual funesto guarda-chuva ou como espada desnuda, estirado como um arco ou redondo como uma uva, voo e voo sem saber, ferido na noite escura, aqueles que vão me esperar, os que não querem meu canto, os que me querem ver morto, os que não sabem que chego e não virão para vencer-me, a sangrar-me, a retorcer-me ou beijar minha roupa rota pelo sibilante vento. Por isso eu volto e vou, voo mas não voo, mas canto: pássaro furioso sou da tempestade tranquila._ 

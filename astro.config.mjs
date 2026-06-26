@@ -28,9 +28,9 @@ function remarkVideoEmbeds() {
                             const id = match[2];
                             let htmlValue = '';
                             if (type === 'youtube') {
-                                htmlValue = `<div class="video-container"><iframe class="responsive-video" src="https://www.youtube.com/embed/${id}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>`;
+                                htmlValue = `<div class="video-container"><lite-youtube class="responsive-video" videoid="${id}" style="background-image: url('https://i.ytimg.com/vi/${id}/hqdefault.jpg');"><a href="https://youtube.com/watch?v=${id}" class="lyt-playbtn" aria-label="Play"><span class="lyt-visually-hidden">Play</span></a></lite-youtube></div>`;
                             } else {
-                                htmlValue = `<div class="video-container"><iframe class="responsive-video" src="https://player.vimeo.com/video/${id}?color=f0603f&title=0&byline=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>`;
+                                htmlValue = `<div class="video-container"><lite-vimeo class="responsive-video" data-id="${id}" data-params="autoplay=1&dnt=1&color=f0603f&title=0&byline=0"><a href="https://vimeo.com/${id}" class="ltv-playbtn" aria-label="Play"></a></lite-vimeo></div>`;
                             }
                             newChildren.push({ type: 'html', value: htmlValue });
                             lastIndex = regex.lastIndex;
