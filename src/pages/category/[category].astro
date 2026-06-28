@@ -5,7 +5,7 @@ import MainLayout from "../../layouts/MainLayout.astro";
 import PostCard from "../../components/PostCard.astro";
 
 // Astro content collections import
-import { getCollection } from "astro:content";
+import { getCollection, type CollectionEntry } from "astro:content";
 
 import { slugify, formatBlogPosts } from "../../lib/utils";
 
